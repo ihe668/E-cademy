@@ -411,7 +411,7 @@
                                     <ul class="submenu">
                                         <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
                                             <ul class="submenu">
-                                                <li><a href="instructor-dashboard.html">Dashboard</a></li>
+                                                <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
                                                 <li><a href="instructor-profile.html">Profile</a></li>
                                                 <li><a href="instructor-enrolled-courses.html">Enrolled Courses</a>
                                                 </li>
