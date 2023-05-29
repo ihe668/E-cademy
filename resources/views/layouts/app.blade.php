@@ -409,7 +409,7 @@
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
+                                        <li class="has-dropdown"><a href="#">Instructors Dashboard</a>
                                             <ul class="submenu">
                                                 <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
                                                 <li><a href="instructor-profile.html">Profile</a></li>
