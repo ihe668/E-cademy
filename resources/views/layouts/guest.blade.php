@@ -1785,7 +1785,7 @@
                             </li>
                             <li class="has-dropdown"><a href="#">Student Dashboard</a>
                                 <ul class="submenu">
-                                    <li><a href="student-dashboard.html">Dashboard</a></li>
+                                    <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
                                     <li><a href="student-profile.html">Profile</a></li>
                                     <li><a href="student-enrolled-courses.html">Enrolled Courses</a></li>
                                     <li><a href="student-wishlist.html">Wishlist</a></li>

@@ -111,7 +111,7 @@
                                                     <li><a href="instructor-settings.html"><i
                                                                 class="feather-settings"></i><span>Settings</span></a>
                                                     </li>
-                                                    <li><a href="index-2.html"><i
+                                                    <li><a href="{{ route('logout') }}"><i
                                                                 class="feather-log-out"></i><span>Logout</span></a></li>
                                                 </ul>
                                             </nav>
