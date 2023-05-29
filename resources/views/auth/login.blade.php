@@ -50,20 +50,23 @@
     <div class="rbt-elements-area bg-color-white rbt-section-gap">
         <div class="container">
             <div class="row gy-5 row--30">
-
+                <div class="col-lg-3"></div>
                 <div class="col-lg-6">
                     <div class="rbt-contact-form contact-form-style-1 max-width-auto">
                         <h3 class="title">Login</h3>
+
                         <form action="{{ route('login') }}" method="POST">@csrf
                             <div class="form-group">
                                 <input name="email" type="email" />
                                 <label>Username or email *</label>
                                 <span class="focus-border"></span>
+                                <x-input-error :messages="$errors->get('email')" class="mt-2" />
                             </div>
                             <div class="form-group">
                                 <input name="password" type="password">
                                 <label>Password *</label>
                                 <span class="focus-border"></span>
+                                <x-input-error :messages="$errors->get('password')" class="mt-2" />
                             </div>
 
                             <div class="row mb--30">
@@ -89,9 +92,11 @@
                                     </span>
                                 </button>
                             </div>
+                            <a href="{{route('register')}}" class="rbt-btn-link">Register here</a>
                         </form>
                     </div>
                 </div>
+                <div class="col-lg-3"></div>
                 </form>
             </div>
         </div>
