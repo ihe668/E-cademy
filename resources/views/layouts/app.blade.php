@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>E-cademy Dashboard - Online Courses & Education Bootstrap5 Template</title>
+    <title>Instructor Dashboard - Online Courses & Education Bootstrap5 Template</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -329,7 +329,416 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="{{ route('welcome') }}">Home <i class="feather-chevron-down"></i></a>
+                                    <a href="#">Home <i class="feather-chevron-down"></i></a>
+                                    <!-- Start Mega Menu  -->
+                                    <div class="rbt-megamenu menu-skin-dark">
+                                        <div class="wrapper">
+                                            <div
+                                                class="row row--15 home-plesentation-wrapper single-dropdown-menu-presentation">
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="01-main-demo.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h1.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a href="01-main-demo.html">Home
+                                                                        Demo
+                                                                        <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="12-marketplace.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h12.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="12-marketplace.html">Marketplace <span
+                                                                            class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="04-kindergarten.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h4.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="04-kindergarten.html">kindergarten <span
+                                                                            class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="13-university-classic.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h13.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="13-university-classic.html">University
+                                                                        Classic <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="14-home-elegant.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h14.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a href="14-home-elegant.html">Home
+                                                                        Elegant <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="09-gym-coaching.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h9.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a href="09-gym-coaching.html">Gym
+                                                                        Coaching <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="03-online-school.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h3.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="03-online-school.html">Online
+                                                                        School <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="06-university-status.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h6.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="06-university-status.html">University
+                                                                        Status <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="15-home-technology.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h15.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="15-home-technology.html">Home
+                                                                        Technology <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="07-instructor-portfolio.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h7.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="07-instructor-portfolio.html">Instructor
+                                                                        Portfolio <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="08-language-academy.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h8.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="08-language-academy.html">Language
+                                                                        Academy
+                                                                        <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="11-single-course.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h11.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="11-single-course.html">Single
+                                                                        Course <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="10-online-course.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h10.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="10-online-course.html">Online
+                                                                        Course <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="05-classic-lms.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h5.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="05-classic-lms.html">Classic
+                                                                        Lms <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="02-course-school.html"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/h2.jpg"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a
+                                                                        href="02-course-school.html">Course
+                                                                        School <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item coming-soon">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="#"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/coming-soon-1.png"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a href="#">Coming Soon <span
+                                                                            class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item coming-soon">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="#"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/coming-soon-2.png"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a href="#">Coming Soon 2
+                                                                        <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+
+                                                <!-- Start Single Demo  -->
+                                                <div
+                                                    class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item coming-soon">
+                                                    <div class="demo-single">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="#"><img
+                                                                        src="/e-cademy_assets/images/splash/demo/coming-soon-3.png"
+                                                                        alt="Demo Images"></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h4 class="title"><a href="#">Coming Soon 3
+                                                                        <span class="btn-icon"><i
+                                                                                class="feather-arrow-right"></i></span></a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Demo  -->
+                                            </div>
+
+                                            <div class="load-demo-btn text-center">
+                                                <a class="rbt-btn-link color-white" href="#">Scroll to view more
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                        height="16" fill="currentColor"
+                                                        class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z" />
+                                                    </svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Mega Menu  -->
                                 </li>
 
                                 <li class="with-megamenu has-menu-child-item">
@@ -409,9 +818,9 @@
                                         <i class="feather-chevron-down"></i>
                                     </a>
                                     <ul class="submenu">
-                                        <li class="has-dropdown"><a href="#">Instructors Dashboard</a>
+                                        <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
                                             <ul class="submenu">
-                                                <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+                                                <li><a href="instructor-dashboard.html">Dashboard</a></li>
                                                 <li><a href="instructor-profile.html">Profile</a></li>
                                                 <li><a href="instructor-enrolled-courses.html">Enrolled Courses</a>
                                                 </li>
@@ -717,14 +1126,14 @@
                                                 <img src="/e-cademy_assets/images/team/avatar.jpg" alt="User Images">
                                             </div>
                                             <div class="admin-info">
-                                                <span class="name">{{ Auth::user()->name }}</span>
+                                                <span class="name">Nipa Bali</span>
                                                 <a class="rbt-btn-link color-primary" href="profile.html">View
                                                     Profile</a>
                                             </div>
                                         </div>
                                         <ul class="user-list-wrapper">
                                             <li>
-                                                <a href="{{ route('dashboard') }}">
+                                                <a href="instructor-dashboard.html">
                                                     <i class="feather-home"></i>
                                                     <span>My Dashboard</span>
                                                 </a>
@@ -790,7 +1199,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="{{ route('logout') }}">
+                                                <a href="index-2.html">
                                                     <i class="feather-log-out"></i>
                                                     <span>Logout</span>
                                                 </a>
@@ -1246,8 +1655,8 @@
                                                             alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title"><a href="12-marketplace.html">Marketplace <span
-                                                                class="btn-icon"><i
+                                                    <h4 class="title"><a href="12-marketplace.html">Marketplace
+                                                            <span class="btn-icon"><i
                                                                     class="feather-arrow-right"></i></span></a></h4>
                                                 </div>
                                             </div>
@@ -1284,7 +1693,8 @@
                                                             alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title"><a href="13-university-classic.html">University
+                                                    <h4 class="title"><a
+                                                            href="13-university-classic.html">University
                                                             Classic <span class="btn-icon"><i
                                                                     class="feather-arrow-right"></i></span></a></h4>
                                                 </div>
@@ -1364,7 +1774,8 @@
                                                             alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title"><a href="06-university-status.html">University
+                                                    <h4 class="title"><a
+                                                            href="06-university-status.html">University
                                                             Status <span class="btn-icon"><i
                                                                     class="feather-arrow-right"></i></span></a></h4>
                                                 </div>
@@ -1486,8 +1897,8 @@
                                                             alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h4 class="title"><a href="05-classic-lms.html">Classic Lms <span
-                                                                class="btn-icon"><i
+                                                    <h4 class="title"><a href="05-classic-lms.html">Classic Lms
+                                                            <span class="btn-icon"><i
                                                                     class="feather-arrow-right"></i></span></a></h4>
                                                 </div>
                                             </div>
@@ -2077,7 +2488,147 @@
         </div>
     </div>
     <!-- End Side Vav -->
-    {{ $slot }}
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+    <div class="rbt-page-banner-wrapper">
+        <!-- Start Banner BG Image  -->
+        <div class="rbt-banner-image"></div>
+        <!-- End Banner BG Image  -->
+    </div>
+    <!-- Start Card Style -->
+    <div class="rbt-dashboard-area rbt-section-overlayping-top rbt-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Start Dashboard Top  -->
+                    <div class="rbt-dashboard-content-wrapper">
+                        <div class="tutor-bg-photo bg_image bg_image--22 height-350"></div>
+                        <!-- Start Tutor Information  -->
+                        <div class="rbt-tutor-information">
+                            <div class="rbt-tutor-information-left">
+                                <div class="thumbnail rbt-avatars size-lg">
+                                    <img src="/e-cademy_assets/images/team/avatar.jpg" alt="Instructor">
+                                </div>
+                                <div class="tutor-content">
+                                    <h5 class="title">{{ Auth::user()->name }}</h5>
+                                    <div class="rbt-review">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <span class="rating-count"> (15 Reviews)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rbt-tutor-information-right">
+                                <div class="tutor-btn">
+                                    <a class="rbt-btn btn-md hover-icon-reverse" href="create-course.html">
+                                        <span class="icon-reverse-wrapper">
+                                            <span class="btn-text">Create a New Course</span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Tutor Information  -->
+                    </div>
+                    <!-- End Dashboard Top  -->
+
+                    <div class="row g-5">
+                        <div class="col-lg-3">
+                            <!-- Start Dashboard Sidebar  -->
+                            <div class="rbt-default-sidebar sticky-top rbt-shadow-box rbt-gradient-border">
+                                <div class="inner">
+                                    <div class="content-item-content">
+
+                                        <div class="rbt-default-sidebar-wrapper">
+                                            <div class="section-title mb--20">
+                                                <h6 class="rbt-title-style-2">Welcome, {{ Auth::user()->name }}</h6>
+                                            </div>
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="instructor-dashboard.html"><i
+                                                                class="feather-home"></i><span>Dashboard</span></a>
+                                                    </li>
+                                                    <li><a href="instructor-profile.html"><i
+                                                                class="feather-user"></i><span>My Profile</span></a>
+                                                    </li>
+                                                    <li><a href="instructor-enrolled-courses.html"><i
+                                                                class="feather-book-open"></i><span>Enrolled
+                                                                Courses</span></a></li>
+                                                    <li><a href="instructor-wishlist.html"><i
+                                                                class="feather-bookmark"></i><span>Wishlist</span></a>
+                                                    </li>
+                                                    <li><a href="instructor-reviews.html"><i
+                                                                class="feather-star"></i><span>Reviews</span></a></li>
+                                                    <li><a href="instructor-my-quiz-attempts.html"><i
+                                                                class="feather-help-circle"></i><span>My Quiz
+                                                                Attempts</span></a></li>
+                                                    <li><a href="instructor-order-history.html"><i
+                                                                class="feather-shopping-bag"></i><span>Order
+                                                                History</span></a></li>
+                                                </ul>
+                                            </nav>
+
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">Instructor</h6>
+                                            </div>
+
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="instructor-course.html"><i
+                                                                class="feather-monitor"></i><span>My
+                                                                Courses</span></a>
+                                                    </li>
+                                                    <li><a href="instructor-announcements.html"><i
+                                                                class="feather-volume-2"></i><span>Announcements</span></a>
+                                                    </li>
+                                                    <li><a href="instructor-quiz-attempts.html"><i
+                                                                class="feather-message-square"></i><span>Quiz
+                                                                Attempts</span></a></li>
+                                                    <li><a href="instructor-assignments.html"><i
+                                                                class="feather-list"></i><span>Assignments</span></a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+
+                                            <div class="section-title mt--40 mb--20">
+                                                <h6 class="rbt-title-style-2">User</h6>
+                                            </div>
+
+                                            <nav class="mainmenu-nav">
+                                                <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                                    <li><a href="instructor-settings.html"><i
+                                                                class="feather-settings"></i><span>Settings</span></a>
+                                                    </li>
+                                                    <li><a href="index-2.html"><i
+                                                                class="feather-log-out"></i><span>Logout</span></a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Dashboard Sidebar  -->
+                        </div>
+                        {{ $slot }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Card Style -->
+    <div class="rbt-separator-mid">
+        <div class="container">
+            <hr class="rbt-separator m-0">
+        </div>
+    </div>
     <!-- Start Footer aera -->
     <footer class="rbt-footer footer-style-1 bg-color-white overflow-hidden">
         <div class="footer-top">
