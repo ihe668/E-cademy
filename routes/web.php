@@ -20,16 +20,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/dashboard', function () {
-    if (Auth::user()->code != '008') {
-        return redirect()->route('admin.dashboard');
-    } else{
-        return  redirect()->route('user.dashboard');
-    }
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     if (Auth::user()->code != '008') {
+//         return redirect()->route('admin.dashboard');
+//     } else{
+//         return  redirect()->route('user.dashboard');
+//     }
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::prefix('user')->middleware('auth')->group(function () {
+Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/', [UserController::class, 'index'])->name('user.dashboard');
 
 });
