@@ -71,7 +71,7 @@
                                         <div class="inner">
                                             <div class="content">
                                                 <span class="rbt-badge variation-02 bg-color-primary color-white radius-round">Hot</span>
-                                                <span class="news-text"><img src="assets/images/icons/hand-emojji.svg" alt="Hand Emojji Images"> Intro price. Get Histudy for Big Sale -95% off.</span>
+                                                <span class="news-text"><img src="/e-cademy_assets/images/icons/hand-emojji.svg" alt="Hand Emojji Images"> Intro price. Get Histudy for Big Sale -95% off.</span>
                                             </div>
                                         </div>
                                     </div>
@@ -103,20 +103,20 @@
                                     <ul class="rbt-dropdown-menu switcher-language">
                                         <li class="has-child-menu">
                                             <a href="#">
-                                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
+                                                <img class="left-image" src="/e-cademy_assets/images/icons/en-us.png" alt="Language Images">
                                                 <span class="menu-item">English</span>
                                                 <i class="right-icon feather-chevron-down"></i>
                                             </a>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <a href="#">
-                                                        <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
+                                                        <img class="left-image" src="/e-cademy_assets/images/icons/fr.png" alt="Language Images">
                                                         <span class="menu-item">Français</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <img class="left-image" src="assets/images/icons/de.png" alt="Language Images">
+                                                        <img class="left-image" src="/e-cademy_assets/images/icons/de.png" alt="Language Images">
                                                         <span class="menu-item">Deutsch</span>
                                                     </a>
                                                 </li>
@@ -166,7 +166,7 @@
                         <div class="header-info">
                             <div class="logo">
                                 <a href="index-2.html">
-                                    <img src="assets/images/logo/logo.png" alt="Education Logo Images">
+                                    <img src="/e-cademy_assets/images/logo/logo.png" alt="Education Logo Images">
                                 </a>
                             </div>
                         </div>
@@ -328,7 +328,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="01-main-demo.html"><img src="assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
+                                                                <a href="01-main-demo.html"><img src="/e-cademy_assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="01-main-demo.html">Home Demo <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -343,7 +343,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="12-marketplace.html"><img src="assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
+                                                                <a href="12-marketplace.html"><img src="/e-cademy_assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="12-marketplace.html">Marketplace <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -357,7 +357,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="04-kindergarten.html"><img src="assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
+                                                                <a href="04-kindergarten.html"><img src="/e-cademy_assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="04-kindergarten.html">kindergarten <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -371,7 +371,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="13-university-classic.html"><img src="assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
+                                                                <a href="13-university-classic.html"><img src="/e-cademy_assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="13-university-classic.html">University Classic <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -386,7 +386,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="14-home-elegant.html"><img src="assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
+                                                                <a href="14-home-elegant.html"><img src="/e-cademy_assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="14-home-elegant.html">Home Elegant <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -401,7 +401,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="09-gym-coaching.html"><img src="assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
+                                                                <a href="09-gym-coaching.html"><img src="/e-cademy_assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="09-gym-coaching.html">Gym Coaching <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -416,7 +416,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="03-online-school.html"><img src="assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
+                                                                <a href="03-online-school.html"><img src="/e-cademy_assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="03-online-school.html">Online School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -431,7 +431,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="06-university-status.html"><img src="assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
+                                                                <a href="06-university-status.html"><img src="/e-cademy_assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="06-university-status.html">University Status <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -446,7 +446,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="15-home-technology.html"><img src="assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
+                                                                <a href="15-home-technology.html"><img src="/e-cademy_assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="15-home-technology.html">Home Technology <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -461,7 +461,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="07-instructor-portfolio.html"><img src="assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
+                                                                <a href="07-instructor-portfolio.html"><img src="/e-cademy_assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="07-instructor-portfolio.html">Instructor Portfolio <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -476,7 +476,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="08-language-academy.html"><img src="assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
+                                                                <a href="08-language-academy.html"><img src="/e-cademy_assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="08-language-academy.html">Language Academy <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -491,7 +491,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="11-single-course.html"><img src="assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
+                                                                <a href="11-single-course.html"><img src="/e-cademy_assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="11-single-course.html">Single Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -506,7 +506,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="10-online-course.html"><img src="assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
+                                                                <a href="10-online-course.html"><img src="/e-cademy_assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="10-online-course.html">Online Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -521,7 +521,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="05-classic-lms.html"><img src="assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
+                                                                <a href="05-classic-lms.html"><img src="/e-cademy_assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="05-classic-lms.html">Classic Lms <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -536,7 +536,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="02-course-school.html"><img src="assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
+                                                                <a href="02-course-school.html"><img src="/e-cademy_assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="02-course-school.html">Course School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -551,7 +551,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="#"><img src="assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
+                                                                <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="#">Coming Soon <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -566,7 +566,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="#"><img src="assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
+                                                                <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="#">Coming Soon 2 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -581,7 +581,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="#"><img src="assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
+                                                                <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="#">Coming Soon 3 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -746,7 +746,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-2.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-2.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>Online Education</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -758,7 +758,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-1.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-1.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>Language Club</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -770,7 +770,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-4.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-4.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>University Status</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -793,7 +793,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-9.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-9.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>Academy</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -909,7 +909,7 @@
 
                                                 <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
                                                     <div class="rbt-ads-wrapper">
-                                                        <a class="d-block" href="#"><img src="assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
+                                                        <a class="d-block" href="#"><img src="/e-cademy_assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -944,7 +944,7 @@
                                     <div class="inner">
                                         <div class="rbt-admin-profile">
                                             <div class="admin-thumbnail">
-                                                <img src="assets/images/team/avatar.jpg" alt="User Images">
+                                                <img src="/e-cademy_assets/images/team/avatar.jpg" alt="User Images">
                                             </div>
                                             <div class="admin-info">
                                                 <span class="name">Nipa Bali</span>
@@ -1035,7 +1035,7 @@
                                     <div class="inner">
                                         <div class="rbt-admin-profile">
                                             <div class="admin-thumbnail">
-                                                <img src="assets/images/team/avatar.jpg" alt="User Images">
+                                                <img src="/e-cademy_assets/images/team/avatar.jpg" alt="User Images">
                                             </div>
                                             <div class="admin-info">
                                                 <span class="name">Nipa Bali</span>
@@ -1171,7 +1171,7 @@
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
                                     <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-01.jpg" alt="Card image">
+                                        <img src="/e-cademy_assets/images/course/course-online-01.jpg" alt="Card image">
                                     </a>
                                 </div>
                                 <div class="rbt-card-body">
@@ -1203,7 +1203,7 @@
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
                                     <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-02.jpg" alt="Card image">
+                                        <img src="/e-cademy_assets/images/course/course-online-02.jpg" alt="Card image">
                                     </a>
                                 </div>
                                 <div class="rbt-card-body">
@@ -1235,7 +1235,7 @@
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
                                     <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-03.jpg" alt="Card image">
+                                        <img src="/e-cademy_assets/images/course/course-online-03.jpg" alt="Card image">
                                     </a>
                                 </div>
                                 <div class="rbt-card-body">
@@ -1267,7 +1267,7 @@
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
                                     <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-04.jpg" alt="Card image">
+                                        <img src="/e-cademy_assets/images/course/course-online-04.jpg" alt="Card image">
                                     </a>
                                 </div>
                                 <div class="rbt-card-body">
@@ -1403,7 +1403,7 @@
         <!-- End Side Vav -->
         <a class="rbt-close_side_menu" href="javascript:void(0);"></a>
     </header>
-    
+
     <!-- Mobile Menu Section -->
     <div class="popup-mobile-menu">
         <div class="inner-wrapper">
@@ -1411,7 +1411,7 @@
                 <div class="content">
                     <div class="logo">
                         <a href="index-2.html">
-                            <img src="assets/images/logo/logo.png" alt="Education Logo Images">
+                            <img src="/e-cademy_assets/images/logo/logo.png" alt="Education Logo Images">
                         </a>
                     </div>
                     <div class="rbt-btn-close">
@@ -1443,7 +1443,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="01-main-demo.html"><img src="assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
+                                                    <a href="01-main-demo.html"><img src="/e-cademy_assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="01-main-demo.html">Home Demo <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1458,7 +1458,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="12-marketplace.html"><img src="assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
+                                                    <a href="12-marketplace.html"><img src="/e-cademy_assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="12-marketplace.html">Marketplace <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1472,7 +1472,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="04-kindergarten.html"><img src="assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
+                                                    <a href="04-kindergarten.html"><img src="/e-cademy_assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="04-kindergarten.html">kindergarten <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1486,7 +1486,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="13-university-classic.html"><img src="assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
+                                                    <a href="13-university-classic.html"><img src="/e-cademy_assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="13-university-classic.html">University Classic <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1501,7 +1501,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="14-home-elegant.html"><img src="assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
+                                                    <a href="14-home-elegant.html"><img src="/e-cademy_assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="14-home-elegant.html">Home Elegant <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1516,7 +1516,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="09-gym-coaching.html"><img src="assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
+                                                    <a href="09-gym-coaching.html"><img src="/e-cademy_assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="09-gym-coaching.html">Gym Coaching <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1531,7 +1531,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="03-online-school.html"><img src="assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
+                                                    <a href="03-online-school.html"><img src="/e-cademy_assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="03-online-school.html">Online School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1546,7 +1546,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="06-university-status.html"><img src="assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
+                                                    <a href="06-university-status.html"><img src="/e-cademy_assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="06-university-status.html">University Status <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1561,7 +1561,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="15-home-technology.html"><img src="assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
+                                                    <a href="15-home-technology.html"><img src="/e-cademy_assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="15-home-technology.html">Home Technology <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1576,7 +1576,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="07-instructor-portfolio.html"><img src="assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
+                                                    <a href="07-instructor-portfolio.html"><img src="/e-cademy_assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="07-instructor-portfolio.html">Instructor Portfolio <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1591,7 +1591,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="08-language-academy.html"><img src="assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
+                                                    <a href="08-language-academy.html"><img src="/e-cademy_assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="08-language-academy.html">Language Academy <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1606,7 +1606,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="11-single-course.html"><img src="assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
+                                                    <a href="11-single-course.html"><img src="/e-cademy_assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="11-single-course.html">Single Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1621,7 +1621,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="10-online-course.html"><img src="assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
+                                                    <a href="10-online-course.html"><img src="/e-cademy_assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="10-online-course.html">Online Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1636,7 +1636,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="05-classic-lms.html"><img src="assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
+                                                    <a href="05-classic-lms.html"><img src="/e-cademy_assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="05-classic-lms.html">Classic Lms <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1651,7 +1651,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="02-course-school.html"><img src="assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
+                                                    <a href="02-course-school.html"><img src="/e-cademy_assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="02-course-school.html">Course School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1666,7 +1666,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
+                                                    <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="#">Coming Soon <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1681,7 +1681,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
+                                                    <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="#">Coming Soon 2 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1696,7 +1696,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
+                                                    <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="#">Coming Soon 3 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1861,7 +1861,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-2.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-2.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>Online Education</span>
                                                         <i class="feather-chevron-right"></i>
@@ -1873,7 +1873,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-1.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-1.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>Language Club</span>
                                                         <i class="feather-chevron-right"></i>
@@ -1885,7 +1885,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-4.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-4.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>University Status</span>
                                                         <i class="feather-chevron-right"></i>
@@ -1908,7 +1908,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-9.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-9.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>Academy</span>
                                                         <i class="feather-chevron-right"></i>
@@ -2024,7 +2024,7 @@
 
                                     <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
                                         <div class="rbt-ads-wrapper">
-                                            <a class="d-block" href="#"><img src="assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
+                                            <a class="d-block" href="#"><img src="/e-cademy_assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
                                         </div>
                                     </div>
                                 </div>
