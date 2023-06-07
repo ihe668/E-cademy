@@ -45,8 +45,9 @@
         </div>
     </form>
 </x-guest-layout> --}}
-<x-guest-layout>
+@extends('layouts.guest')
 
+    @section('slot')
     <div class="rbt-elements-area bg-color-white rbt-section-gap">
         <div class="container">
             <div class="row gy-5 row--30">
@@ -101,4 +102,5 @@
             </div>
         </div>
     </div>
-</x-guest-layout>
+    @endsection
+

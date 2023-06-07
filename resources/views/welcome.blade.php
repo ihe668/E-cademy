@@ -1,5 +1,7 @@
-<x-guest-layout>
+@extends('layouts.guest')
 
+@section('slot')
+    <!-- Start Banner Area -->
     <div class="rbt-banner-area rbt-banner-1 variation-2 height-750">
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -9,7 +11,8 @@
                             <div class="rbt-new-badge rbt-new-badge-one">
                                 <span class="rbt-new-badge-icon">🏆</span> The Leader in Online Learning
                             </div>
-                            <h1 class="title">The Largest <span class="color-primary">Online Learning</span> Platform
+                            <h1 class="title">The Largest <span class="color-primary">Online Learning</span>
+                                Platform
                                 for Drive Your Career.</h1>
                             <p class="description">This template includes all the necessary pages of the onlineLorem.
                                 And you can be build a <strong>education template easily</strong>.
@@ -80,8 +83,7 @@
                                     <div class="rbt-card variation-01 rbt-hover">
                                         <div class="rbt-card-img">
                                             <a href="course-details.html">
-                                                <img src="/e-cademy_assets/images/course/course-01.jpg"
-                                                    alt="Card image">
+                                                <img src="/e-cademy_assets/images/course/course-01.jpg" alt="Card image">
                                                 <div class="rbt-badge-3 bg-white">
                                                     <span>-40%</span>
                                                     <span>Off</span>
@@ -215,8 +217,7 @@
                     <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
                         <div class="inner">
                             <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/graphic-design.jpg"
-                                    alt="Icons Images">
+                                <img src="/e-cademy_assets/images/category/image/graphic-design.jpg" alt="Icons Images">
                             </div>
                             <div class="content">
                                 <h5 class="title">Graphic Design</h5>
@@ -979,7 +980,7 @@
                 <div class="col-lg-12 mb--60">
                     <div class="section-title text-center">
                         <span class="subtitle bg-secondary-opacity">Instagram</span>
-                        <h2 class="title">Follow E-cademy On <span class="color-primary">Instagram</span></h2>
+                        <h2 class="title">Follow Histudy On <span class="color-primary">Instagram</span></h2>
                     </div>
                 </div>
             </div>
@@ -992,7 +993,7 @@
                             <img src="/e-cademy_assets/images/instagram/instagram-01.jpg" alt="instagram">
                             <span class="user-info">
                                 <span class="icon"><i class="icon-instagram"></i></span>
-                                <span class="user-name">@E_cademy</span>
+                                <span class="user-name">@Histudy</span>
                             </span>
                         </a>
                     </div>
@@ -1003,7 +1004,7 @@
                             <img src="/e-cademy_assets/images/instagram/instagram-02.jpg" alt="instagram">
                             <span class="user-info">
                                 <span class="icon"><i class="icon-instagram"></i></span>
-                                <span class="user-name">@E_cademy</span>
+                                <span class="user-name">@Histudy</span>
                             </span>
                         </a>
                     </div>
@@ -1014,7 +1015,7 @@
                             <img src="/e-cademy_assets/images/instagram/instagram-03.jpg" alt="instagram">
                             <span class="user-info">
                                 <span class="icon"><i class="icon-instagram"></i></span>
-                                <span class="user-name">@E_cademy</span>
+                                <span class="user-name">@Histudy</span>
                             </span>
                         </a>
                     </div>
@@ -1025,7 +1026,7 @@
                             <img src="/e-cademy_assets/images/instagram/instagram-04.jpg" alt="instagram">
                             <span class="user-info">
                                 <span class="icon"><i class="icon-instagram"></i></span>
-                                <span class="user-name">@E_cademy</span>
+                                <span class="user-name">@Histudy</span>
                             </span>
                         </a>
                     </div>
@@ -1036,7 +1037,7 @@
                             <img src="/e-cademy_assets/images/instagram/instagram-05.jpg" alt="instagram">
                             <span class="user-info">
                                 <span class="icon"><i class="icon-instagram"></i></span>
-                                <span class="user-name">@E_cademy</span>
+                                <span class="user-name">@Histudy</span>
                             </span>
                         </a>
                     </div>
@@ -1047,7 +1048,7 @@
                             <img src="/e-cademy_assets/images/instagram/instagram-06.jpg" alt="instagram">
                             <span class="user-info">
                                 <span class="icon"><i class="icon-instagram"></i></span>
-                                <span class="user-name">@E_cademy</span>
+                                <span class="user-name">@Histudy</span>
                             </span>
                         </a>
                     </div>
@@ -1055,4 +1056,4 @@
             </div>
         </div>
     </div>
-</x-guest-layout>
+@endsection

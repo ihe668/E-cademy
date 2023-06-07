@@ -51,8 +51,9 @@
     </form>
 </x-guest-layout> --}}
 
-<x-guest-layout>
+@extends('layouts.guest')
 
+@section('slot')
     <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6 py-5 ">
@@ -102,6 +103,4 @@
         </div>
         <div class="col-lg-3"></div>
     </div>
-
-
-</x-guest-layout>
+@endsection
