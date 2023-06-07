@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('slot')
-    <div class="col-lg-9">
+
         <div class="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
             <div class="content">
                 <div class="section-title">
@@ -208,7 +208,7 @@
 
             </div>
         </div>
-    </div>
+   
 @endsection
 
 
