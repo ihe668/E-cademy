@@ -3,11 +3,10 @@
 
 
 <!-- Mirrored from rainbowit.net/html/histudy/05-classic-lms.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 May 2023 13:59:16 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>E-cademy - Online Courses & Education Bootstrap5 Template</title>
+    <title>Home Classic Lms - Online Courses & Education Bootstrap5 Template</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/favicon.png">
 
     <!-- CSS
- ============================================ -->
+	============================================ -->
     <link rel="stylesheet" href="/e-cademy_assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="/e-cademy_assets/css/vendor/slick.css">
     <link rel="stylesheet" href="/e-cademy_assets/css/vendor/slick-theme.css">
@@ -38,135 +37,174 @@
 <body class="rbt-header-sticky">
 
     <!-- Start Header Area -->
-     <header class="rbt-header rbt-header-10">
+    <header class="rbt-header rbt-header-9">
         <div class="rbt-sticky-placeholder"></div>
-        <!-- Start Header Top  -->
-        <div class="rbt-header-top rbt-header-top-1 header-space-betwween bg-not-transparent bg-color-darker top-expended-activation">
-            <div class="container-fluid">
-                <div class="top-expended-wrapper">
-                    <div class="top-expended-inner rbt-header-sec align-items-center ">
-                        <div class="rbt-header-sec-col rbt-header-left d-none d-xl-block">
-                            <div class="rbt-header-content">
-                                <!-- Start Header Information List  -->
-                                <div class="header-info">
-                                    <ul class="rbt-information-list">
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i>100k <span class="d-none d-xxl-block">Followers</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-square"></i>500k <span class="d-none d-xxl-block">Followers</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="feather-phone"></i>+1-202-555-0174</a>
-                                        </li>
-                                    </ul>
+        <div class="rbt-header-campaign rbt-header-campaign-1 rbt-header-top-news bg-image1">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="inner justify-content-center">
+                                <div class="content">
+                                    <span class="rbt-badge variation-02 bg-color-primary color-white radius-round">Limited Time Offer</span>
+                                    <span class="news-text color-white-off"><img src="/e-cademy_assets/images/icons/hand-emojji.svg" alt="Hand Emojji Images"> Intro price. Get Histudy for Big Sale -95% off.</span>
                                 </div>
-                                <!-- End Header Information List  -->
-                            </div>
-                        </div>
-                        <div class="rbt-header-sec-col rbt-header-center">
-                            <div class="rbt-header-content justify-content-start justify-content-xl-center">
-                                <div class="header-info">
-                                    <div class="rbt-header-top-news">
-                                        <div class="inner">
-                                            <div class="content">
-                                                <span class="rbt-badge variation-02 bg-color-primary color-white radius-round">Hot</span>
-                                                <span class="news-text"><img src="assets/images/icons/hand-emojji.svg" alt="Hand Emojji Images"> Intro price. Get Histudy for Big Sale -95% off.</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="right-button">
+                                    <a class="rbt-btn-link color-white" href="https://themeforest.net/checkout/from_item/42846507?license=regular">
+                                        <span>Purchase Now <i class="feather-arrow-right"></i></span>
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="rbt-header-sec-col rbt-header-right mt_md--10 mt_sm--10">
-                            <div class="rbt-header-content justify-content-start justify-content-lg-end">
-                                <div class="header-info d-none d-xl-block">
-                                    <ul class="social-share-transparent">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="rbt-separator d-none d-xl-block"></div>
-
-                                <div class="header-info">
-                                    <ul class="rbt-dropdown-menu switcher-language">
-                                        <li class="has-child-menu">
-                                            <a href="#">
-                                                <img class="left-image" src="assets/images/icons/en-us.png" alt="Language Images">
-                                                <span class="menu-item">English</span>
-                                                <i class="right-icon feather-chevron-down"></i>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="#">
-                                                        <img class="left-image" src="assets/images/icons/fr.png" alt="Language Images">
-                                                        <span class="menu-item">Français</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <img class="left-image" src="assets/images/icons/de.png" alt="Language Images">
-                                                        <span class="menu-item">Deutsch</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="header-info">
-                                    <ul class="rbt-dropdown-menu currency-menu">
-                                        <li class="has-child-menu">
-                                            <a href="#">
-                                                <span class="menu-item">USD</span>
-                                                <i class="right-icon feather-chevron-down"></i>
-                                            </a>
-                                            <ul class="sub-menu hover-reverse">
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="menu-item">EUR</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="menu-item">GBP</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-info">
-                        <div class="top-bar-expended d-block d-lg-none">
-                            <button class="topbar-expend-button rbt-round-btn"><i class="feather-plus"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="icon-close position-right">
+                <button class="rbt-round-btn btn-white-off bgsection-activation">
+                    <i class="feather-x"></i>
+                </button>
+            </div>
         </div>
-        <!-- End Header Top  -->
-        <div class="rbt-header-wrapper header-space-betwween header-sticky">
-            <div class="container-fluid">
-                <div class="mainbar-row rbt-navigation-center align-items-center">
+
+        <!-- Start Header Top -->
+        <div class="rbt-header-middle position-relative rbt-header-mid-1  bg-color-white rbt-border-bottom">
+            <div class="container">
+                <div class="rbt-header-sec align-items-center ">
+
+                    <div class="rbt-header-sec-col rbt-header-left">
+                        <div class="rbt-header-content">
+                            <!-- Start Header Information List  -->
+                            <div class="header-info">
+                                <ul class="rbt-dropdown-menu switcher-language">
+                                    <li class="has-child-menu">
+                                        <a href="#">
+                                            <img class="left-image" src="/e-cademy_assets/images/icons/en-us.png" alt="Language Images">
+                                            <span class="menu-item">English</span>
+                                            <i class="right-icon feather-chevron-down"></i>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">
+                                                    <img class="left-image" src="/e-cademy_assets/images/icons/fr.png" alt="Language Images">
+                                                    <span class="menu-item">Français</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="left-image" src="/e-cademy_assets/images/icons/de.png" alt="Language Images">
+                                                    <span class="menu-item">Deutsch</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Header Information List  -->
+
+                            <!-- Start Header Information List  -->
+                            <div class="header-info">
+                                <ul class="rbt-dropdown-menu currency-menu">
+                                    <li class="has-child-menu">
+                                        <a href="#">
+                                            <span class="menu-item">USD</span>
+                                            <i class="right-icon feather-chevron-down"></i>
+                                        </a>
+                                        <ul class="sub-menu hover-reverse">
+                                            <li>
+                                                <a href="#">
+                                                    <span class="menu-item">EUR</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="menu-item">GBP</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Header Information List  -->
+                        </div>
+                    </div>
+
+                    <div class="rbt-header-sec-col rbt-header-center d-none d-md-block">
+                        <div class="rbt-header-content">
+                            <div class="header-info">
+                                <div class="rbt-search-field">
+                                    <div class="search-field">
+                                        <input type="text" placeholder="Search Course">
+                                        <button class="rbt-round-btn serach-btn" type="submit"><i class="feather-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rbt-header-sec-col rbt-header-right">
+                        <div class="rbt-header-content">
+                            <div class="header-info">
+                                <ul class="quick-access">
+                                    <li>
+                                        <a class="d-none d-xl-block rbt-cart-sidenav-activation" href="#"><i class="feather-shopping-cart"></i>Cart</a>
+                                        <a class="d-block d-xl-none rbt-cart-sidenav-activation" href="#"><i class="feather-shopping-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="header-info">
+                                <ul class="quick-access">
+                                    <li class="account-access rbt-user-wrapper right-align-dropdown d-none d-xl-block">
+                                        <a href="{{route('login')}}"><i class="feather-user"></i>Login</a>
+
+                                    </li>
+
+                                    <li class="access-icon rbt-user-wrapper right-align-dropdown d-block d-xl-none">
+                                        <a class="rbt-round-btn" href="{{route('login')}}"><i class="feather-user"></i></a>
+                                        <div class="rbt-user-menu-list-wrapper">
+                                            <div class="inner">
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="header-info">
+                                <ul class="quick-access">
+                                    <li class="account-access rbt-user-wrapper right-align-dropdown d-none d-xl-block">
+                                        <a href="{{route('register')}}"><i class="feather-user"></i>Register</a>
+
+                                    </li>
+
+                                    <li class="access-icon rbt-user-wrapper right-align-dropdown d-block d-xl-none">
+                                        <a class="rbt-round-btn" href="{{route('register')}}"><i class="feather-user"></i></a>
+                                        <div class="rbt-user-menu-list-wrapper">
+                                            <div class="inner">
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+        <div class="rbt-header-wrapper  header-not-transparent header-sticky">
+            <div class="container">
+                <div class="mainbar-row rbt-navigation-end align-items-center">
                     <div class="header-left rbt-header-content">
                         <div class="header-info">
                             <div class="logo">
                                 <a href="index-2.html">
-                                    <img src="assets/images/logo/logo.png" alt="Education Logo Images">
+                                    <img src="/e-cademy_assets/images/logo/logo.png" alt="Education Logo Images">
                                 </a>
                             </div>
                         </div>
@@ -328,7 +366,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="01-main-demo.html"><img src="assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
+                                                                <a href="01-main-demo.html"><img src="/e-cademy_assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="01-main-demo.html">Home Demo <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -343,7 +381,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="12-marketplace.html"><img src="assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
+                                                                <a href="12-marketplace.html"><img src="/e-cademy_assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="12-marketplace.html">Marketplace <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -357,7 +395,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="04-kindergarten.html"><img src="assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
+                                                                <a href="04-kindergarten.html"><img src="/e-cademy_assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="04-kindergarten.html">kindergarten <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -371,7 +409,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="13-university-classic.html"><img src="assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
+                                                                <a href="13-university-classic.html"><img src="/e-cademy_assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="13-university-classic.html">University Classic <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -386,7 +424,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="14-home-elegant.html"><img src="assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
+                                                                <a href="14-home-elegant.html"><img src="/e-cademy_assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="14-home-elegant.html">Home Elegant <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -401,7 +439,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="09-gym-coaching.html"><img src="assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
+                                                                <a href="09-gym-coaching.html"><img src="/e-cademy_assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="09-gym-coaching.html">Gym Coaching <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -416,7 +454,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="03-online-school.html"><img src="assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
+                                                                <a href="03-online-school.html"><img src="/e-cademy_assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="03-online-school.html">Online School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -431,7 +469,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="06-university-status.html"><img src="assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
+                                                                <a href="06-university-status.html"><img src="/e-cademy_assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="06-university-status.html">University Status <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -446,7 +484,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="15-home-technology.html"><img src="assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
+                                                                <a href="15-home-technology.html"><img src="/e-cademy_assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="15-home-technology.html">Home Technology <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -461,7 +499,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="07-instructor-portfolio.html"><img src="assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
+                                                                <a href="07-instructor-portfolio.html"><img src="/e-cademy_assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="07-instructor-portfolio.html">Instructor Portfolio <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -476,7 +514,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="08-language-academy.html"><img src="assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
+                                                                <a href="08-language-academy.html"><img src="/e-cademy_assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="08-language-academy.html">Language Academy <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -491,7 +529,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="11-single-course.html"><img src="assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
+                                                                <a href="11-single-course.html"><img src="/e-cademy_assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="11-single-course.html">Single Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -506,7 +544,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="10-online-course.html"><img src="assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
+                                                                <a href="10-online-course.html"><img src="/e-cademy_assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="10-online-course.html">Online Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -521,7 +559,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="05-classic-lms.html"><img src="assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
+                                                                <a href="05-classic-lms.html"><img src="/e-cademy_assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="05-classic-lms.html">Classic Lms <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -536,7 +574,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="02-course-school.html"><img src="assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
+                                                                <a href="02-course-school.html"><img src="/e-cademy_assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="02-course-school.html">Course School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -551,7 +589,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="#"><img src="assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
+                                                                <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="#">Coming Soon <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -566,7 +604,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="#"><img src="assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
+                                                                <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="#">Coming Soon 2 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -581,7 +619,7 @@
                                                     <div class="demo-single">
                                                         <div class="inner">
                                                             <div class="thumbnail">
-                                                                <a href="#"><img src="assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
+                                                                <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
                                                             </div>
                                                             <div class="content">
                                                                 <h4 class="title"><a href="#">Coming Soon 3 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -746,7 +784,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-2.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-2.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>Online Education</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -758,7 +796,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-1.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-1.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>Language Club</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -770,7 +808,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-4.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-4.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>University Status</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -793,7 +831,7 @@
                                                         <!-- Start Single Category  -->
                                                         <div class="nav-category-item">
                                                             <div class="thumbnail">
-                                                                <div class="image"><img src="assets/images/course/category-9.png" alt="Course images"></div>
+                                                                <div class="image"><img src="/e-cademy_assets/images/course/category-9.png" alt="Course images"></div>
                                                                 <a href="course-filter-one-toggle.html">
                                                                     <span>Academy</span>
                                                                     <i class="feather-chevron-right"></i>
@@ -909,7 +947,7 @@
 
                                                 <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
                                                     <div class="rbt-ads-wrapper">
-                                                        <a class="d-block" href="#"><img src="assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
+                                                        <a class="d-block" href="#"><img src="/e-cademy_assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -920,214 +958,12 @@
                             </ul>
                         </nav>
                     </div>
-
                     <div class="header-right">
-
-                        <!-- Navbar Icons -->
-                        <ul class="quick-access">
-                            <li class="access-icon">
-                                <a class="search-trigger-active rbt-round-btn" href="#">
-                                    <i class="feather-search"></i>
-                                </a>
-                            </li>
-
-                            <li class="access-icon rbt-mini-cart">
-                                <a class="rbt-cart-sidenav-activation rbt-round-btn" href="#">
-                                    <i class="feather-shopping-cart"></i>
-                                    <span class="rbt-cart-count">4</span>
-                                </a>
-                            </li>
-
-                            <li class="account-access rbt-user-wrapper d-none d-xl-block">
-                                <a href="#"><i class="feather-user"></i>Admin</a>
-                                <div class="rbt-user-menu-list-wrapper">
-                                    <div class="inner">
-                                        <div class="rbt-admin-profile">
-                                            <div class="admin-thumbnail">
-                                                <img src="assets/images/team/avatar.jpg" alt="User Images">
-                                            </div>
-                                            <div class="admin-info">
-                                                <span class="name">Nipa Bali</span>
-                                                <a class="rbt-btn-link color-primary" href="profile.html">View Profile</a>
-                                            </div>
-                                        </div>
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="instructor-dashboard.html">
-                                                    <i class="feather-home"></i>
-                                                    <span>My Dashboard</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="feather-bookmark"></i>
-                                                    <span>Bookmark</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-enrolled-courses.html">
-                                                    <i class="feather-shopping-bag"></i>
-                                                    <span>Enrolled Courses</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-wishlist.html">
-                                                    <i class="feather-heart"></i>
-                                                    <span>Wishlist</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-reviews.html">
-                                                    <i class="feather-star"></i>
-                                                    <span>Reviews</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-my-quiz-attempts.html">
-                                                    <i class="feather-list"></i>
-                                                    <span>My Quiz Attempts</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-order-history.html">
-                                                    <i class="feather-clock"></i>
-                                                    <span>Order History</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-quiz-attempts.html">
-                                                    <i class="feather-message-square"></i>
-                                                    <span>Question & Answer</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <hr class="mt--10 mb--10">
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="feather-book-open"></i>
-                                                    <span>Getting Started</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <hr class="mt--10 mb--10">
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="instructor-settings.html">
-                                                    <i class="feather-settings"></i>
-                                                    <span>Settings</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="index-2.html">
-                                                    <i class="feather-log-out"></i>
-                                                    <span>Logout</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="access-icon rbt-user-wrapper d-block d-xl-none">
-                                <a class="rbt-round-btn" href="#"><i class="feather-user"></i></a>
-                                <div class="rbt-user-menu-list-wrapper">
-                                    <div class="inner">
-                                        <div class="rbt-admin-profile">
-                                            <div class="admin-thumbnail">
-                                                <img src="assets/images/team/avatar.jpg" alt="User Images">
-                                            </div>
-                                            <div class="admin-info">
-                                                <span class="name">Nipa Bali</span>
-                                                <a class="rbt-btn-link color-primary" href="profile.html">View Profile</a>
-                                            </div>
-                                        </div>
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="instructor-dashboard.html">
-                                                    <i class="feather-home"></i>
-                                                    <span>My Dashboard</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="feather-bookmark"></i>
-                                                    <span>Bookmark</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-enrolled-courses.html">
-                                                    <i class="feather-shopping-bag"></i>
-                                                    <span>Enrolled Courses</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-wishlist.html">
-                                                    <i class="feather-heart"></i>
-                                                    <span>Wishlist</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-reviews.html">
-                                                    <i class="feather-star"></i>
-                                                    <span>Reviews</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-my-quiz-attempts.html">
-                                                    <i class="feather-list"></i>
-                                                    <span>My Quiz Attempts</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-order-history.html">
-                                                    <i class="feather-clock"></i>
-                                                    <span>Order History</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-quiz-attempts.html">
-                                                    <i class="feather-message-square"></i>
-                                                    <span>Question & Answer</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <hr class="mt--10 mb--10">
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="feather-book-open"></i>
-                                                    <span>Getting Started</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <hr class="mt--10 mb--10">
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="instructor-settings.html">
-                                                    <i class="feather-settings"></i>
-                                                    <span>Settings</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="index-2.html">
-                                                    <i class="feather-log-out"></i>
-                                                    <span>Logout</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
-                        </ul>
-
                         <div class="rbt-btn-wrapper d-none d-xl-block">
-                            <a class="rbt-btn rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none" href="#">
-                                <span data-text="Enroll Now">Enroll Now</span>
+                            <a class="rbt-btn rbt-switch-btn btn-gradient btn-sm hover-transform-none" href="#">
+                                <span data-text="Join Now">Join Now</span>
                             </a>
                         </div>
-
                         <!-- Start Mobile-Menu-Bar -->
                         <div class="mobile-menu-bar d-block d-xl-none">
                             <div class="hamberger">
@@ -1137,168 +973,11 @@
                             </div>
                         </div>
                         <!-- Start Mobile-Menu-Bar -->
-
                     </div>
                 </div>
             </div>
-            <!-- Start Search Dropdown  -->
-            <div class="rbt-search-dropdown">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form action="#">
-                                <input type="text" placeholder="What are you looking for?">
-                                <div class="submit-btn">
-                                    <a class="rbt-btn btn-gradient btn-md" href="#">Search</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="rbt-separator-mid">
-                        <hr class="rbt-separator m-0">
-                    </div>
-
-                    <div class="row g-4 pt--30 pb--60">
-                        <div class="col-lg-12">
-                            <div class="section-title">
-                                <h5 class="rbt-title-style-2">Our Top Course</h5>
-                            </div>
-                        </div>
-
-                        <!-- Start Single Card  -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                            <div class="rbt-card variation-01 rbt-hover">
-                                <div class="rbt-card-img">
-                                    <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-01.jpg" alt="Card image">
-                                    </a>
-                                </div>
-                                <div class="rbt-card-body">
-                                    <h5 class="rbt-card-title"><a href="course-details.html">React Js</a>
-                                    </h5>
-                                    <div class="rbt-review">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <span class="rating-count"> (15 Reviews)</span>
-                                    </div>
-                                    <div class="rbt-card-bottom">
-                                        <div class="rbt-price">
-                                            <span class="current-price">$15</span>
-                                            <span class="off-price">$25</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                            <div class="rbt-card variation-01 rbt-hover">
-                                <div class="rbt-card-img">
-                                    <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-02.jpg" alt="Card image">
-                                    </a>
-                                </div>
-                                <div class="rbt-card-body">
-                                    <h5 class="rbt-card-title"><a href="course-details.html">Java Program</a>
-                                    </h5>
-                                    <div class="rbt-review">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <span class="rating-count"> (15 Reviews)</span>
-                                    </div>
-                                    <div class="rbt-card-bottom">
-                                        <div class="rbt-price">
-                                            <span class="current-price">$10</span>
-                                            <span class="off-price">$40</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                            <div class="rbt-card variation-01 rbt-hover">
-                                <div class="rbt-card-img">
-                                    <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-03.jpg" alt="Card image">
-                                    </a>
-                                </div>
-                                <div class="rbt-card-body">
-                                    <h5 class="rbt-card-title"><a href="course-details.html">Web Design</a>
-                                    </h5>
-                                    <div class="rbt-review">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <span class="rating-count"> (15 Reviews)</span>
-                                    </div>
-                                    <div class="rbt-card-bottom">
-                                        <div class="rbt-price">
-                                            <span class="current-price">$10</span>
-                                            <span class="off-price">$20</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                            <div class="rbt-card variation-01 rbt-hover">
-                                <div class="rbt-card-img">
-                                    <a href="course-details.html">
-                                        <img src="assets/images/course/course-online-04.jpg" alt="Card image">
-                                    </a>
-                                </div>
-                                <div class="rbt-card-body">
-                                    <h5 class="rbt-card-title"><a href="course-details.html">Web Design</a>
-                                    </h5>
-                                    <div class="rbt-review">
-                                        <div class="rating">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <span class="rating-count"> (15 Reviews)</span>
-                                    </div>
-                                    <div class="rbt-card-bottom">
-                                        <div class="rbt-price">
-                                            <span class="current-price">$20</span>
-                                            <span class="off-price">$40</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Card  -->
-                    </div>
-
-                </div>
-            </div>
-            <!-- End Search Dropdown  -->
         </div>
+
         <!-- Start Side Vav -->
         <div class="rbt-offcanvas-side-menu rbt-category-sidemenu">
             <div class="inner-wrapper">
@@ -1403,7 +1082,6 @@
         <!-- End Side Vav -->
         <a class="rbt-close_side_menu" href="javascript:void(0);"></a>
     </header>
-    
     <!-- Mobile Menu Section -->
     <div class="popup-mobile-menu">
         <div class="inner-wrapper">
@@ -1411,7 +1089,7 @@
                 <div class="content">
                     <div class="logo">
                         <a href="index-2.html">
-                            <img src="assets/images/logo/logo.png" alt="Education Logo Images">
+                            <img src="/e-cademy_assets/images/logo/logo.png" alt="Education Logo Images">
                         </a>
                     </div>
                     <div class="rbt-btn-close">
@@ -1443,7 +1121,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="01-main-demo.html"><img src="assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
+                                                    <a href="01-main-demo.html"><img src="/e-cademy_assets/images/splash/demo/h1.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="01-main-demo.html">Home Demo <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1458,7 +1136,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="12-marketplace.html"><img src="assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
+                                                    <a href="12-marketplace.html"><img src="/e-cademy_assets/images/splash/demo/h12.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="12-marketplace.html">Marketplace <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1472,7 +1150,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="04-kindergarten.html"><img src="assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
+                                                    <a href="04-kindergarten.html"><img src="/e-cademy_assets/images/splash/demo/h4.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="04-kindergarten.html">kindergarten <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1486,7 +1164,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="13-university-classic.html"><img src="assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
+                                                    <a href="13-university-classic.html"><img src="/e-cademy_assets/images/splash/demo/h13.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="13-university-classic.html">University Classic <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1501,7 +1179,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="14-home-elegant.html"><img src="assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
+                                                    <a href="14-home-elegant.html"><img src="/e-cademy_assets/images/splash/demo/h14.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="14-home-elegant.html">Home Elegant <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1516,7 +1194,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="09-gym-coaching.html"><img src="assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
+                                                    <a href="09-gym-coaching.html"><img src="/e-cademy_assets/images/splash/demo/h9.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="09-gym-coaching.html">Gym Coaching <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1531,7 +1209,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="03-online-school.html"><img src="assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
+                                                    <a href="03-online-school.html"><img src="/e-cademy_assets/images/splash/demo/h3.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="03-online-school.html">Online School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1546,7 +1224,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="06-university-status.html"><img src="assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
+                                                    <a href="06-university-status.html"><img src="/e-cademy_assets/images/splash/demo/h6.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="06-university-status.html">University Status <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1561,7 +1239,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="15-home-technology.html"><img src="assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
+                                                    <a href="15-home-technology.html"><img src="/e-cademy_assets/images/splash/demo/h15.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="15-home-technology.html">Home Technology <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1576,7 +1254,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="07-instructor-portfolio.html"><img src="assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
+                                                    <a href="07-instructor-portfolio.html"><img src="/e-cademy_assets/images/splash/demo/h7.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="07-instructor-portfolio.html">Instructor Portfolio <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1591,7 +1269,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="08-language-academy.html"><img src="assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
+                                                    <a href="08-language-academy.html"><img src="/e-cademy_assets/images/splash/demo/h8.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="08-language-academy.html">Language Academy <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1606,7 +1284,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="11-single-course.html"><img src="assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
+                                                    <a href="11-single-course.html"><img src="/e-cademy_assets/images/splash/demo/h11.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="11-single-course.html">Single Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1621,7 +1299,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="10-online-course.html"><img src="assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
+                                                    <a href="10-online-course.html"><img src="/e-cademy_assets/images/splash/demo/h10.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="10-online-course.html">Online Course <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1636,7 +1314,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="05-classic-lms.html"><img src="assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
+                                                    <a href="05-classic-lms.html"><img src="/e-cademy_assets/images/splash/demo/h5.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="05-classic-lms.html">Classic Lms <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1651,7 +1329,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="02-course-school.html"><img src="assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
+                                                    <a href="02-course-school.html"><img src="/e-cademy_assets/images/splash/demo/h2.jpg" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="02-course-school.html">Course School <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1666,7 +1344,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
+                                                    <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-1.png" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="#">Coming Soon <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1681,7 +1359,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
+                                                    <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-2.png" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="#">Coming Soon 2 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1696,7 +1374,7 @@
                                         <div class="demo-single">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
+                                                    <a href="#"><img src="/e-cademy_assets/images/splash/demo/coming-soon-3.png" alt="Demo Images"></a>
                                                 </div>
                                                 <div class="content">
                                                     <h4 class="title"><a href="#">Coming Soon 3 <span class="btn-icon"><i class="feather-arrow-right"></i></span></a></h4>
@@ -1861,7 +1539,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-2.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-2.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>Online Education</span>
                                                         <i class="feather-chevron-right"></i>
@@ -1873,7 +1551,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-1.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-1.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>Language Club</span>
                                                         <i class="feather-chevron-right"></i>
@@ -1885,7 +1563,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-4.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-4.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>University Status</span>
                                                         <i class="feather-chevron-right"></i>
@@ -1908,7 +1586,7 @@
                                             <!-- Start Single Category  -->
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
-                                                    <div class="image"><img src="assets/images/course/category-9.png" alt="Course images"></div>
+                                                    <div class="image"><img src="/e-cademy_assets/images/course/category-9.png" alt="Course images"></div>
                                                     <a href="course-filter-one-toggle.html">
                                                         <span>Academy</span>
                                                         <i class="feather-chevron-right"></i>
@@ -2024,7 +1702,7 @@
 
                                     <div class="col-lg-12 col-xl-4 col-xxl-4 single-mega-item">
                                         <div class="rbt-ads-wrapper">
-                                            <a class="d-block" href="#"><img src="assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
+                                            <a class="d-block" href="#"><img src="/e-cademy_assets/images/service/mobile-cat.jpg" alt="Education Images"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -2175,9 +1853,8 @@
     </div>
     <!-- End Side Vav -->
     <a class="close_side_menu" href="javascript:void(0);"></a>
+@yield('slot')
 
-    <!-- Start Banner Area -->
-    {{ $slot }}
     <!-- Start Footer aera -->
     <footer class="rbt-footer footer-style-1 bg-color-white overflow-hidden">
         <div class="footer-top">
@@ -2215,8 +1892,7 @@
                             </ul>
 
                             <div class="contact-btn mt--30">
-                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
-                                    href="#">
+                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="#">
                                     <div class="icon-reverse-wrapper">
                                         <span class="btn-text">Contact With Us</span>
                                         <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -2295,8 +1971,7 @@
 
                             <form class="newsletter-form mt--20" action="#">
                                 <h6 class="w-600">Newsletter</h6>
-                                <p class="description">2000+ Our students are subscribe Around the World.<br> Don’t be
-                                    shy introduce yourself!</p>
+                                <p class="description">2000+ Our students are subscribe Around the World.<br> Don’t be shy introduce yourself!</p>
 
                                 <div class="form-group right-icon icon-email mb--20">
                                     <label for="email">Enter Your Email Here</label>
@@ -2304,8 +1979,7 @@
                                 </div>
 
                                 <div class="form-group mb--0">
-                                    <button class="rbt-btn rbt-switch-btn btn-gradient radius-round btn-sm"
-                                        type="submit">
+                                    <button class="rbt-btn rbt-switch-btn btn-gradient radius-round btn-sm" type="submit">
                                         <span data-text="Submit Now">Submit Now</span>
                                     </button>
                                 </div>
@@ -2325,13 +1999,10 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
-                        <p class="rbt-link-hover text-center text-lg-start">Copyright © 2023 <a
-                                href="https://themeforest.net/user/rbt-themes">Rainbow-Themes.</a> All Rights Reserved
-                        </p>
+                        <p class="rbt-link-hover text-center text-lg-start">Copyright © 2023 <a href="https://themeforest.net/user/rbt-themes">Rainbow-Themes.</a> All Rights Reserved</p>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
-                        <ul
-                            class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
+                        <ul class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
                             <li><a href="#">Terms of service</a></li>
                             <li><a href="privacy-policy.html">Privacy policy</a></li>
                             <li><a href="subscription.html">Subscription</a></li>
@@ -2386,5 +2057,4 @@
 
 
 <!-- Mirrored from rainbowit.net/html/histudy/05-classic-lms.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 May 2023 13:59:24 GMT -->
-
 </html>
