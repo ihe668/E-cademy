@@ -1,5 +1,6 @@
-<x-app-layout>
-    <div class="col-lg-9">
+@extends('layouts.app')
+@section('slot')
+
         <div class="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
             <div class="content">
                 <div class="section-title">
@@ -48,17 +49,17 @@
 
                     <!-- Start Single Card  -->
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <div
-                            class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-violet-opacity">
+                        <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-violet-opacity">
                             <div class="inner">
                                 <div class="rbt-round-icon bg-violet-opacity">
                                     <i class="feather-award"></i>
                                 </div>
                                 <div class="content">
-                                    <h3 class="counter without-icon color-violet"><span
-                                            class="odometer" data-count="7">00</span>
+                                    <h3 class="counter without-icon color-violet"><span class="odometer"
+                                            data-count="7">00</span>
                                     </h3>
-                                    <span class="rbt-title-style-2 d-block">Completed Courses</span>
+                                    <span class="rbt-title-style-2 d-block">Completed
+                                        Courses</span>
                                 </div>
                             </div>
                         </div>
@@ -67,15 +68,14 @@
 
                     <!-- Start Single Card  -->
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <div
-                            class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-pink-opacity">
+                        <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-pink-opacity">
                             <div class="inner">
                                 <div class="rbt-round-icon bg-pink-opacity">
                                     <i class="feather-users"></i>
                                 </div>
                                 <div class="content">
-                                    <h3 class="counter without-icon color-pink"><span
-                                            class="odometer" data-count="160">00</span>
+                                    <h3 class="counter without-icon color-pink"><span class="odometer"
+                                            data-count="160">00</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">Total Students</span>
                                 </div>
@@ -86,15 +86,14 @@
 
                     <!-- Start Single Card  -->
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <div
-                            class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-coral-opacity">
+                        <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-coral-opacity">
                             <div class="inner">
                                 <div class="rbt-round-icon bg-coral-opacity">
                                     <i class="feather-gift"></i>
                                 </div>
                                 <div class="content">
-                                    <h3 class="counter without-icon color-coral"><span
-                                            class="odometer" data-count="20">00</span>
+                                    <h3 class="counter without-icon color-coral"><span class="odometer"
+                                            data-count="20">00</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">Total Courses</span>
                                 </div>
@@ -105,15 +104,13 @@
 
                     <!-- Start Single Card  -->
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <div
-                            class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-warning-opacity">
+                        <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-warning-opacity">
                             <div class="inner">
                                 <div class="rbt-round-icon bg-warning-opacity">
                                     <i class="feather-dollar-sign"></i>
                                 </div>
                                 <div class="content">
-                                    <h3 class="counter color-warning"><span class="odometer"
-                                            data-count="25000">00</span>
+                                    <h3 class="counter color-warning"><span class="odometer" data-count="25000">00</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">Total Earnings</span>
                                 </div>
@@ -211,5 +208,7 @@
 
             </div>
         </div>
-    </div>
-</x-app-layout>
+   
+@endsection
+
+

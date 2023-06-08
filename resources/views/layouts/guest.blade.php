@@ -3,11 +3,10 @@
 
 
 <!-- Mirrored from rainbowit.net/html/histudy/05-classic-lms.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 May 2023 13:59:16 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>E-cademy - Online Courses & Education Bootstrap5 Template</title>
+    <title>Home Classic Lms - Online Courses & Education Bootstrap5 Template</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/favicon.png">
 
     <!-- CSS
- ============================================ -->
+	============================================ -->
     <link rel="stylesheet" href="/e-cademy_assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="/e-cademy_assets/css/vendor/slick.css">
     <link rel="stylesheet" href="/e-cademy_assets/css/vendor/slick-theme.css">
@@ -47,6 +46,7 @@
                         <div class="col-lg-12">
                             <div class="inner justify-content-center">
                                 <div class="content">
+<<<<<<< HEAD
                                     <span
                                         class="rbt-badge variation-02 bg-color-primary color-white radius-round">Limited
                                         Time Offer</span>
@@ -58,6 +58,13 @@
                                 <div class="right-button">
                                     <a class="rbt-btn-link color-white"
                                         href="https://themeforest.net/checkout/from_item/42846507?license=regular">
+=======
+                                    <span class="rbt-badge variation-02 bg-color-primary color-white radius-round">Limited Time Offer</span>
+                                    <span class="news-text color-white-off"><img src="/e-cademy_assets/images/icons/hand-emojji.svg" alt="Hand Emojji Images"> Intro price. Get Histudy for Big Sale -95% off.</span>
+                                </div>
+                                <div class="right-button">
+                                    <a class="rbt-btn-link color-white" href="https://themeforest.net/checkout/from_item/42846507?license=regular">
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                         <span>Purchase Now <i class="feather-arrow-right"></i></span>
                                     </a>
                                 </div>
@@ -85,23 +92,35 @@
                                 <ul class="rbt-dropdown-menu switcher-language">
                                     <li class="has-child-menu">
                                         <a href="#">
+<<<<<<< HEAD
                                             <img class="left-image" src="/e-cademy_assets/images/icons/en-us.png"
                                                 alt="Language Images">
+=======
+                                            <img class="left-image" src="/e-cademy_assets/images/icons/en-us.png" alt="Language Images">
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                             <span class="menu-item">English</span>
                                             <i class="right-icon feather-chevron-down"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
                                                 <a href="#">
+<<<<<<< HEAD
                                                     <img class="left-image" src="/e-cademy_assets/images/icons/fr.png"
                                                         alt="Language Images">
+=======
+                                                    <img class="left-image" src="/e-cademy_assets/images/icons/fr.png" alt="Language Images">
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                                     <span class="menu-item">Français</span>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
+<<<<<<< HEAD
                                                     <img class="left-image" src="/e-cademy_assets/images/icons/de.png"
                                                         alt="Language Images">
+=======
+                                                    <img class="left-image" src="/e-cademy_assets/images/icons/de.png" alt="Language Images">
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                                     <span class="menu-item">Deutsch</span>
                                                 </a>
                                             </li>
@@ -144,8 +163,12 @@
                                 <div class="rbt-search-field">
                                     <div class="search-field">
                                         <input type="text" placeholder="Search Course">
+<<<<<<< HEAD
                                         <button class="rbt-round-btn serach-btn" type="submit"><i
                                                 class="feather-search"></i></button>
+=======
+                                        <button class="rbt-round-btn serach-btn" type="submit"><i class="feather-search"></i></button>
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                     </div>
                                 </div>
                             </div>
@@ -157,10 +180,15 @@
                             <div class="header-info">
                                 <ul class="quick-access">
                                     <li>
+<<<<<<< HEAD
                                         <a class="d-none d-xl-block rbt-cart-sidenav-activation" href="#"><i
                                                 class="feather-shopping-cart"></i>Cart</a>
                                         <a class="d-block d-xl-none rbt-cart-sidenav-activation" href="#"><i
                                                 class="feather-shopping-cart"></i></a>
+=======
+                                        <a class="d-none d-xl-block rbt-cart-sidenav-activation" href="#"><i class="feather-shopping-cart"></i>Cart</a>
+                                        <a class="d-block d-xl-none rbt-cart-sidenav-activation" href="#"><i class="feather-shopping-cart"></i></a>
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                     </li>
                                 </ul>
                             </div>
@@ -168,11 +196,16 @@
                             <div class="header-info">
                                 <ul class="quick-access">
                                     <li class="account-access rbt-user-wrapper right-align-dropdown d-none d-xl-block">
+<<<<<<< HEAD
                                         <a href="{{ route('login') }}"><i class="feather-user"></i>Login</a>
+=======
+                                        <a href="{{route('login')}}"><i class="feather-user"></i>Login</a>
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
 
                                     </li>
 
                                     <li class="access-icon rbt-user-wrapper right-align-dropdown d-block d-xl-none">
+<<<<<<< HEAD
                                         <a class="rbt-round-btn" href="#"><i class="feather-user"></i></a>
                                         <div class="rbt-user-menu-list-wrapper">
                                             <div class="inner">
@@ -264,16 +297,31 @@
                                             </div>
                                         </div>
                                     </li>
+=======
+                                        <a class="rbt-round-btn" href="{{route('login')}}"><i class="feather-user"></i></a>
+                                        <div class="rbt-user-menu-list-wrapper">
+                                            <div class="inner">
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                 </ul>
                             </div>
                             <div class="header-info">
                                 <ul class="quick-access">
                                     <li class="account-access rbt-user-wrapper right-align-dropdown d-none d-xl-block">
+<<<<<<< HEAD
                                         <a href="{{ route('register') }}"><i class="feather-user"></i>Register</a>
+=======
+                                        <a href="{{route('register')}}"><i class="feather-user"></i>Register</a>
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
 
                                     </li>
 
                                     <li class="access-icon rbt-user-wrapper right-align-dropdown d-block d-xl-none">
+<<<<<<< HEAD
                                         <a class="rbt-round-btn" href="#"><i class="feather-user"></i></a>
                                         <div class="rbt-user-menu-list-wrapper">
                                             <div class="inner">
@@ -365,6 +413,16 @@
                                             </div>
                                         </div>
                                     </li>
+=======
+                                        <a class="rbt-round-btn" href="{{route('register')}}"><i class="feather-user"></i></a>
+                                        <div class="rbt-user-menu-list-wrapper">
+                                            <div class="inner">
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                                 </ul>
                             </div>
 
@@ -1592,8 +1650,14 @@
         </div>
     </div>
     <!-- End Side Vav -->
+<<<<<<< HEAD
     {{-- <a class="close_side_menu" href="javascript:void(0);"></a> --}}
     @yield('slot')
+=======
+    <a class="close_side_menu" href="javascript:void(0);"></a>
+@yield('slot')
+
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
     <!-- Start Footer aera -->
     <footer class="rbt-footer footer-style-1 bg-color-white overflow-hidden">
         <div class="footer-top">
@@ -1631,8 +1695,7 @@
                             </ul>
 
                             <div class="contact-btn mt--30">
-                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
-                                    href="#">
+                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="#">
                                     <div class="icon-reverse-wrapper">
                                         <span class="btn-text">Contact With Us</span>
                                         <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -1711,8 +1774,7 @@
 
                             <form class="newsletter-form mt--20" action="#">
                                 <h6 class="w-600">Newsletter</h6>
-                                <p class="description">2000+ Our students are subscribe Around the World.<br> Don’t be
-                                    shy introduce yourself!</p>
+                                <p class="description">2000+ Our students are subscribe Around the World.<br> Don’t be shy introduce yourself!</p>
 
                                 <div class="form-group right-icon icon-email mb--20">
                                     <label for="email">Enter Your Email Here</label>
@@ -1720,8 +1782,7 @@
                                 </div>
 
                                 <div class="form-group mb--0">
-                                    <button class="rbt-btn rbt-switch-btn btn-gradient radius-round btn-sm"
-                                        type="submit">
+                                    <button class="rbt-btn rbt-switch-btn btn-gradient radius-round btn-sm" type="submit">
                                         <span data-text="Submit Now">Submit Now</span>
                                     </button>
                                 </div>
@@ -1741,13 +1802,10 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
-                        <p class="rbt-link-hover text-center text-lg-start">Copyright © 2023 <a
-                                href="https://themeforest.net/user/rbt-themes">Rainbow-Themes.</a> All Rights Reserved
-                        </p>
+                        <p class="rbt-link-hover text-center text-lg-start">Copyright © 2023 <a href="https://themeforest.net/user/rbt-themes">Rainbow-Themes.</a> All Rights Reserved</p>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
-                        <ul
-                            class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
+                        <ul class="copyright-link rbt-link-hover justify-content-center justify-content-lg-end mt_sm--10 mt_md--10">
                             <li><a href="#">Terms of service</a></li>
                             <li><a href="privacy-policy.html">Privacy policy</a></li>
                             <li><a href="subscription.html">Subscription</a></li>
@@ -1802,5 +1860,4 @@
 
 
 <!-- Mirrored from rainbowit.net/html/histudy/05-classic-lms.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 May 2023 13:59:24 GMT -->
-
 </html>

@@ -1319,10 +1319,10 @@
                                                 </div>
                                                 <nav class="mainmenu-nav">
                                                     <ul class="dashboard-mainmenu rbt-default-sidebar-list">
-                                                        <li><a href=""><i
+                                                        <li><a href="{{route('user.dashboard')}}"><i
                                                                     class="feather-home"></i><span>Dashboard</span></a>
                                                         </li>
-                                                        <li><a href="student-profile.html"><i
+                                                        <li><a href="{{route('user.profile')}}"><i
                                                                     class="feather-user"></i><span>My
                                                                     Profile</span></a></li>
                                                         <li><a href="student-enrolled-courses.html"><i

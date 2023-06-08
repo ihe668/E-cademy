@@ -339,7 +339,8 @@
                                     {{-- <ul class="submenu">
                                         <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
                                             <ul class="submenu">
-                                                <li><a href="instructor-dashboard.html">Dashboard</a></li>
+                                                <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
+
                                                 <li><a href="instructor-profile.html">Profile</a></li>
                                                 <li><a href="instructor-enrolled-courses.html">Enrolled Courses</a>
                                                 </li>
@@ -406,7 +407,7 @@
                                         </div>
                                         <ul class="user-list-wrapper">
                                             <li>
-                                                <a href="instructor-dashboard.html">
+                                                <a href="{{ route('admin.dashboard') }}">
                                                     <i class="feather-home"></i>
                                                     <span>My Dashboard</span>
                                                 </a>
@@ -1742,21 +1743,19 @@
         </div>
     </div>
     <!-- End Side Vav -->
+
     <a class="close_side_menu" href="javascript:void(0);"></a>
     <div class="rbt-page-banner-wrapper">
         <!-- Start Banner BG Image  -->
         <div class="rbt-banner-image"></div>
         <!-- End Banner BG Image  -->
     </div>
-    <!-- Start Card Style -->
     <div class="rbt-dashboard-area rbt-section-overlayping-top rbt-section-gapBottom">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Start Dashboard Top  -->
                     <div class="rbt-dashboard-content-wrapper">
                         <div class="tutor-bg-photo bg_image bg_image--22 height-350"></div>
-                        <!-- Start Tutor Information  -->
                         <div class="rbt-tutor-information">
                             <div class="rbt-tutor-information-left">
                                 <div class="thumbnail rbt-avatars size-lg">
@@ -1811,6 +1810,9 @@
                                                     </li>
                                                     <li><a href="instructor-profile.html"><i
                                                                 class="feather-user"></i><span>My Profile</span></a>
+                                                    </li>
+                                                    <li><a href="{{ route('admin.addcategory.view') }}"><i
+                                                                class="feather-user"></i><span>Add Category</span></a>
                                                     </li>
                                                     <li><a href="instructor-enrolled-courses.html"><i
                                                                 class="feather-book-open"></i><span>Enrolled
@@ -1872,8 +1874,13 @@
                             </div>
                             <!-- End Dashboard Sidebar  -->
                         </div>
+<<<<<<< HEAD
                         <div class="col-lg-9 ">
                             {{ $slot }}
+=======
+                        <div class="col-lg-9">
+                            @yield('slot')
+>>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                         </div>
 
                     </div>
@@ -1887,6 +1894,7 @@
             <hr class="rbt-separator m-0">
         </div>
     </div>
+
     <!-- Start Footer aera -->
     <footer class="rbt-footer footer-style-1 bg-color-white overflow-hidden">
         <div class="footer-top">
@@ -2091,6 +2099,8 @@
     <script src="/e-cademy_assets/js/vendor/plyr.js"></script>
     <!-- Main JS -->
     <script src="/e-cademy_assets/js/main.js"></script>
+
+    @include('sweetalert::alert')
 </body>
 
 
