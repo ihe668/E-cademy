@@ -75,49 +75,50 @@
                             </div>
                             <!-- End Single Card  -->
 
-                            <!-- Start Single Card  -->
-                            <div class="swiper-slide">
-                                <div class="rbt-card variation-01 rbt-hover">
-                                    <div class="rbt-card-img">
-                                        <a href="course-details.html">
-                                            <img src="/e-cademy_assets/images/course/course-01.jpg" alt="Card image">
-                                            <div class="rbt-badge-3 bg-white">
-                                                <span>-40%</span>
-                                                <span>Off</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="rbt-card-body">
-                                        <ul class="rbt-meta">
-                                            <li><i class="feather-book"></i>12 Lessons</li>
-                                            <li><i class="feather-users"></i>50 Students</li>
-                                        </ul>
-                                        <h4 class="rbt-card-title"><a href="course-details.html">React</a>
-                                        </h4>
-                                        <p class="rbt-card-text">It is a long established fact that a reader
-                                            will be distracted.</p>
-                                        <div class="rbt-review">
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span class="rating-count"> (15 Reviews)</span>
+                                <!-- Start Single Card  -->
+                                <div class="swiper-slide">
+                                    <div class="rbt-card variation-01 rbt-hover">
+                                        <div class="rbt-card-img">
+                                            <a href="course-details.html">
+                                                <img src="/e-cademy_assets/images/course/course-01.jpg"
+                                                    alt="Card image">
+                                                <div class="rbt-badge-3 bg-white">
+                                                    <span>-40%</span>
+                                                    <span>Off</span>
+                                                </div>
+                                            </a>
                                         </div>
-                                        <div class="rbt-card-bottom">
-                                            <div class="rbt-price">
-                                                <span class="current-price">$70</span>
-                                                <span class="off-price">$120</span>
+                                        <div class="rbt-card-body">
+                                            <ul class="rbt-meta">
+                                                <li><i class="feather-book"></i>12 Lessons</li>
+                                                <li><i class="feather-users"></i>50 Students</li>
+                                            </ul>
+                                            <h4 class="rbt-card-title"><a href="course-details.html">React</a>
+                                            </h4>
+                                            <p class="rbt-card-text">It is a long established fact that a reader
+                                                will be distracted.</p>
+                                            <div class="rbt-review">
+                                                <div class="rating">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="rating-count"> (15 Reviews)</span>
                                             </div>
-                                            <a class="rbt-btn-link" href="course-details.html">Learn More<i
-                                                    class="feather-arrow-right"></i></a>
+                                            <div class="rbt-card-bottom">
+                                                <div class="rbt-price">
+                                                    <span class="current-price">$70</span>
+                                                    <span class="off-price">$120</span>
+                                                </div>
+                                                <a class="rbt-btn-link" href="course-details.html">Learn More<i
+                                                        class="feather-arrow-right"></i></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- End Single Card  -->
+                                <!-- End Single Card  -->
 
                             <!-- Start Single Card  -->
                             <div class="swiper-slide">
@@ -947,87 +948,86 @@
 </div>
 <!-- End Blog Style -->
 
-<div class="rbt-instagram-area bg-color-white rbt-section-gapTop">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 mb--60">
-                <div class="section-title text-center">
-                    <span class="subtitle bg-secondary-opacity">Instagram</span>
-                    <h2 class="title">Follow Histudy On <span class="color-primary">Instagram</span></h2>
+    <div class="rbt-instagram-area bg-color-white rbt-section-gapTop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb--60">
+                    <div class="section-title text-center">
+                        <span class="subtitle bg-secondary-opacity">Instagram</span>
+                        <h2 class="title">Follow E-cademy On <span class="color-primary">Instagram</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row g-3">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="instagram-grid">
+                        <a href="#">
+                            <img src="/e-cademy_assets/images/instagram/instagram-01.jpg" alt="instagram">
+                            <span class="user-info">
+                                <span class="icon"><i class="icon-instagram"></i></span>
+                                <span class="user-name">@E_cademy</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="instagram-grid">
+                        <a href="#">
+                            <img src="/e-cademy_assets/images/instagram/instagram-02.jpg" alt="instagram">
+                            <span class="user-info">
+                                <span class="icon"><i class="icon-instagram"></i></span>
+                                <span class="user-name">@E_cademy</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="instagram-grid">
+                        <a href="#">
+                            <img src="/e-cademy_assets/images/instagram/instagram-03.jpg" alt="instagram">
+                            <span class="user-info">
+                                <span class="icon"><i class="icon-instagram"></i></span>
+                                <span class="user-name">@E_cademy</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="instagram-grid">
+                        <a href="#">
+                            <img src="/e-cademy_assets/images/instagram/instagram-04.jpg" alt="instagram">
+                            <span class="user-info">
+                                <span class="icon"><i class="icon-instagram"></i></span>
+                                <span class="user-name">@E_cademy</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="instagram-grid">
+                        <a href="#">
+                            <img src="/e-cademy_assets/images/instagram/instagram-05.jpg" alt="instagram">
+                            <span class="user-info">
+                                <span class="icon"><i class="icon-instagram"></i></span>
+                                <span class="user-name">@E_cademy</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="instagram-grid">
+                        <a href="#">
+                            <img src="/e-cademy_assets/images/instagram/instagram-06.jpg" alt="instagram">
+                            <span class="user-info">
+                                <span class="icon"><i class="icon-instagram"></i></span>
+                                <span class="user-name"></span>
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row g-3">
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                <div class="instagram-grid">
-                    <a href="#">
-                        <img src="/e-cademy_assets/images/instagram/instagram-01.jpg" alt="instagram">
-                        <span class="user-info">
-                    <span class="icon"><i class="icon-instagram"></i></span>
-                        <span class="user-name">@Histudy</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                <div class="instagram-grid">
-                    <a href="#">
-                        <img src="/e-cademy_assets/images/instagram/instagram-02.jpg" alt="instagram">
-                        <span class="user-info">
-                    <span class="icon"><i class="icon-instagram"></i></span>
-                        <span class="user-name">@Histudy</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                <div class="instagram-grid">
-                    <a href="#">
-                        <img src="/e-cademy_assets/images/instagram/instagram-03.jpg" alt="instagram">
-                        <span class="user-info">
-                    <span class="icon"><i class="icon-instagram"></i></span>
-                        <span class="user-name">@Histudy</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                <div class="instagram-grid">
-                    <a href="#">
-                        <img src="/e-cademy_assets/images/instagram/instagram-04.jpg" alt="instagram">
-                        <span class="user-info">
-                    <span class="icon"><i class="icon-instagram"></i></span>
-                        <span class="user-name">@Histudy</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                <div class="instagram-grid">
-                    <a href="#">
-                        <img src="/e-cademy_assets/images/instagram/instagram-05.jpg" alt="instagram">
-                        <span class="user-info">
-                    <span class="icon"><i class="icon-instagram"></i></span>
-                        <span class="user-name">@Histudy</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-                <div class="instagram-grid">
-                    <a href="#">
-                        <img src="/e-cademy_assets/images/instagram/instagram-06.jpg" alt="instagram">
-                        <span class="user-info">
-                    <span class="icon"><i class="icon-instagram"></i></span>
-                        <span class="user-name">@Histudy</span>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 @endsection
