@@ -2559,7 +2559,9 @@
                                                     <li><a href="{{ route('admin.addcategory.view') }}"><i
                                                                 class="feather-user"></i><span>Add Category</span></a>
                                                     </li>
-                                                    <li><a href="instructor-enrolled-courses.html"><i
+                                                    <li><a href="{{route('admin.addcoursecontent.view')}}"><i
+                                                                class="feather-book-open"></i><span>Add Course Content </span></a></li>
+                                                    <li><a href=""><i
                                                                 class="feather-book-open"></i><span>Enrolled
                                                                 Courses</span></a></li>
                                                     <li><a href="instructor-wishlist.html"><i
