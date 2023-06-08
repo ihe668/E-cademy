@@ -19,7 +19,7 @@
                                         aria-labelledby="accOne" data-bs-parent="#tutionaccordionExamplea1">
                                         <div class="accordion-body card-body">
                                             <!-- Start Course Field Wrapper  -->
-                                            <form action="{{ route('course.store') }}" method="post">@csrf
+                                            <form action="{{ route('course.store') }}" enctype="multipart/form-data" method="post">@csrf
                                                 <div class="rbt-course-field-wrapper rbt-default-form">
                                                     <div class="course-field mb--15">
                                                         <label for="">Course Title</label>

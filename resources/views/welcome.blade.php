@@ -1022,7 +1022,7 @@
                             <img src="/e-cademy_assets/images/instagram/instagram-06.jpg" alt="instagram">
                             <span class="user-info">
                                 <span class="icon"><i class="icon-instagram"></i></span>
-                                <span class="user-name">@E_cademy</span>
+                                <span class="user-name"></span>
                             </span>
                         </a>
                     </div>
@@ -1030,4 +1030,4 @@
             </div>
         </div>
     </div>
-</x-guest-layout>
+@endsection

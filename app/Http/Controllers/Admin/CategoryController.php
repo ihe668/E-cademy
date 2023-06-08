@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Category;
+namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Category;
-use Illuminate\Console\View\Components\Alert as ComponentsAlert;
+use Illuminate\Console\View\Components\Alert;
 use Illuminate\Http\Request;
-use RealRashid\SweetAlert\Facades\Alert;
+
 class CategoryController extends Controller
 {
     public function addcategoryview(){

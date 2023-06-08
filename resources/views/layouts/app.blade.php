@@ -1874,13 +1874,8 @@
                             </div>
                             <!-- End Dashboard Sidebar  -->
                         </div>
-<<<<<<< HEAD
-                        <div class="col-lg-9 ">
-                            {{ $slot }}
-=======
                         <div class="col-lg-9">
                             @yield('slot')
->>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
                         </div>
 
                     </div>

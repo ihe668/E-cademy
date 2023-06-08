@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CourseController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
@@ -43,6 +44,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/welcome', [HomeController::class, 'index'])->name('welcome');
     Route::get('/create_course', [CourseController::class, 'course'])->name('create_course');
     Route::get('/course.store', [CourseController::class, 'store'])->name('course.store');
+    Route::post('/course.store', [CourseController::class, 'store'])->name('course.store');
+    Route::post('/addcategory', [CategoryController::class, 'addcategoryview'])->name('addcategory');
 });
 
 require __DIR__.'/auth.php';
