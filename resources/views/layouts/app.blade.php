@@ -620,8 +620,6 @@
                                 <h5 class="rbt-title-style-2">Our Top Course</h5>
                             </div>
                         </div>
-
-                        <!-- Start Single Card  -->
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
@@ -652,9 +650,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
@@ -685,9 +680,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
@@ -718,9 +710,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Card  -->
-
-                        <!-- Start Single Card  -->
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="rbt-card variation-01 rbt-hover">
                                 <div class="rbt-card-img">
@@ -892,12 +881,10 @@
                 <ul class="mainmenu">
                     <li class="with-megamenu has-menu-child-item position-static">
                         <a href="#">Home <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
+
                         <div class="rbt-megamenu menu-skin-dark">
                             <div class="wrapper">
                                 <div class="row row--15 home-plesentation-wrapper single-dropdown-menu-presentation">
-
-                                    <!-- Start Single Demo  -->
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -917,7 +904,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -936,7 +923,7 @@
                                         </div>
                                     </div>
                                     <!-- End Single Demo  -->
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -955,7 +942,7 @@
                                         </div>
                                     </div>
                                     <!-- End Single Demo  -->
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -975,7 +962,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -995,7 +982,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1015,7 +1002,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1035,7 +1022,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1055,7 +1042,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1076,7 +1063,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1097,7 +1084,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1117,7 +1104,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1137,7 +1124,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1157,7 +1144,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1177,7 +1164,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item">
                                         <div class="demo-single">
@@ -1197,7 +1184,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item coming-soon">
                                         <div class="demo-single">
@@ -1217,7 +1204,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item coming-soon">
                                         <div class="demo-single">
@@ -1237,7 +1224,7 @@
                                     </div>
                                     <!-- End Single Demo  -->
 
-                                    <!-- Start Single Demo  -->
+
                                     <div
                                         class="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item coming-soon">
                                         <div class="demo-single">
@@ -1268,12 +1255,12 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Mega Menu  -->
+
                     </li>
 
                     <li class="with-megamenu has-menu-child-item">
                         <a href="#">Courses <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
+
                         <div class="rbt-megamenu grid-item-2">
                             <div class="wrapper">
                                 <div class="row">
@@ -1333,7 +1320,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Mega Menu  -->
                     </li>
 
                     <li class="has-dropdown has-menu-child-item">
@@ -1374,7 +1360,7 @@
 
                     <li class="with-megamenu has-menu-child-item position-static">
                         <a href="#">Pages <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
+
                         <div class="rbt-megamenu grid-item-4">
                             <div class="wrapper">
                                 <div class="row row--15">
@@ -1422,7 +1408,7 @@
                                     </div>
                                     <div class="col-lg-12 col-xl-3 col-xxl-3 single-mega-item">
                                         <div class="mega-category-item">
-                                            <!-- Start Single Category  -->
+
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
                                                     <div class="image"><img
@@ -1434,9 +1420,9 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <!-- End Single Category  -->
 
-                                            <!-- Start Single Category  -->
+
+
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
                                                     <div class="image"><img
@@ -1448,9 +1434,9 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <!-- End Single Category  -->
 
-                                            <!-- Start Single Category  -->
+
+
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
                                                     <div class="image"><img
@@ -1462,9 +1448,9 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <!-- End Single Category  -->
 
-                                            <!-- Start Single Category  -->
+
+
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
                                                     <a href="course-filter-one-toggle.html">
@@ -1473,9 +1459,9 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <!-- End Single Category  -->
 
-                                            <!-- Start Single Category  -->
+
+
                                             <div class="nav-category-item">
                                                 <div class="thumbnail">
                                                     <div class="image"><img
@@ -1487,19 +1473,18 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <!-- End Single Category  -->
 
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End Mega Menu  -->
+
                     </li>
 
                     <li class="with-megamenu has-menu-child-item position-static">
                         <a href="#">Elements <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
+
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15 single-dropdown-menu-presentation">
@@ -1561,12 +1546,12 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Mega Menu  -->
+
                     </li>
 
                     <li class="with-megamenu has-menu-child-item position-static">
                         <a href="#">Blog <i class="feather-chevron-down"></i></a>
-                        <!-- Start Mega Menu  -->
+
                         <div class="rbt-megamenu grid-item-3">
                             <div class="wrapper">
                                 <div class="row row--15">
@@ -1612,7 +1597,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Mega Menu  -->
+
                     </li>
                 </ul>
             </nav>
@@ -1793,7 +1778,8 @@
                             </div>
                             <div class="rbt-tutor-information-right">
                                 <div class="tutor-btn">
-                                    <a class="rbt-btn btn-md hover-icon-reverse" href="create-course.html">
+                                    <a class="rbt-btn btn-md hover-icon-reverse"
+                                        href="{{ route('create_course') }}">
                                         <span class="icon-reverse-wrapper">
                                             <span class="btn-text">Create a New Course</span>
                                             <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -1820,7 +1806,7 @@
                                             </div>
                                             <nav class="mainmenu-nav">
                                                 <ul class="dashboard-mainmenu rbt-default-sidebar-list">
-                                                    <li><a href="instructor-dashboard.html"><i
+                                                    <li><a href="{{ route('admin.dashboard') }}"><i
                                                                 class="feather-home"></i><span>Dashboard</span></a>
                                                     </li>
                                                     <li><a href="instructor-profile.html"><i
@@ -1886,7 +1872,10 @@
                             </div>
                             <!-- End Dashboard Sidebar  -->
                         </div>
-                        {{ $slot }}
+                        <div class="col-lg-9 ">
+                            {{ $slot }}
+                        </div>
+
                     </div>
                 </div>
             </div>

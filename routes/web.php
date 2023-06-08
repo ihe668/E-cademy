@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CourseController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\User\UserController;
@@ -39,6 +40,8 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/welcome', [HomeController::class, 'index'])->name('welcome');
+    Route::get('/create_course', [CourseController::class, 'course'])->name('create_course');
+    Route::get('/course.store', [CourseController::class, 'store'])->name('course.store');
 });
 
 require __DIR__.'/auth.php';
