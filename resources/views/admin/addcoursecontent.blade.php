@@ -17,6 +17,15 @@
                                 <div class="col-lg-12">
                                     <h5 class="modal-title mb--20" id="exampleModalLabel">Add Topic</h5>
                                     <div class="course-field mb--20">
+                                        <h6>Choose Course</h6>
+                                        <div class="rbt-modern-select bg-transparent height-45 w-100 mb--10">
+                                            <select class="w-100" data-live-search="true" title="Search Course Category. ex. Design, Development, Business" multiple data-size="7" data-actions-box="true" data-selected-text-format="count > 2">
+                                                <option>Web Developer</option>
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="course-field mb--20">
                                         <label for="modal-field-1"> Name</label>
                                         <input id="modal-field-1" type="text" name="name">
                                         <small><i class="feather-info"></i> Topic titles are displayed publicly wherever
