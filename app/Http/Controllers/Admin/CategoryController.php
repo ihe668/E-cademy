@@ -3,9 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Console\View\Components\Alert;
+use App\Models\Category;
+use Illuminate\Console\View\Components\Alert as ComponentsAlert;
 use Illuminate\Http\Request;
-
+use RealRashid\SweetAlert\Facades\Alert;
 class CategoryController extends Controller
 {
     public function addcategoryview(){

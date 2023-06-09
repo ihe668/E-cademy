@@ -46,17 +46,6 @@
     </form>
 </x-guest-layout> --}}
 @extends('layouts.guest')
-<<<<<<< HEAD
-
-    @section('slot')
-    <div class="rbt-elements-area bg-color-white rbt-section-gap">
-        <div class="container">
-            <div class="row gy-5 row--30">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6">
-                    <div class="rbt-contact-form contact-form-style-1 max-width-auto">
-                        <h3 class="title">Login</h3>
-=======
 @section('slot')
 <div class="rbt-elements-area bg-color-white rbt-section-gap">
     <div class="container">
@@ -79,7 +68,6 @@
                             <span class="focus-border"></span>
                             <x-input-error :messages="$errors->get('password')" class="mt-2" />
                         </div>
->>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
 
                         <div class="row mb--30">
                             <div class="col-lg-6">
@@ -112,12 +100,8 @@
             </form>
         </div>
     </div>
-<<<<<<< HEAD
-    @endsection
-=======
 </div>
 @endsection
 
 
->>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
 

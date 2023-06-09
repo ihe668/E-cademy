@@ -45,10 +45,10 @@
                         </div>
                     </div>
 
-                    {{-- <div class="mt--10 row g-5">
+                    <div class="mt--10 row g-5">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-8 px-5" >
-                           <button class="btn">
+                           <button class="btn" type="submit">
                             <a class="rbt-btn btn-gradient hover-icon-reverse w-100 text-center" href="">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text text-white">Create Category</span>
@@ -59,7 +59,7 @@
                            </button>
                         </div>
                         <div class="col-lg-2"></div>
-                    </div> --}}
+                    </div>
 
                 </form>
 
