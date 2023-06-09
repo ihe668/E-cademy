@@ -9,18 +9,21 @@ use Illuminate\Http\Request;
 use RealRashid\SweetAlert\Facades\Alert;
 class CategoryController extends Controller
 {
-    public function addcategoryview(){
+    public function addcategoryview()
+    {
         return view('admin.addcategory');
     }
 
-    public function addcategory(Request $request){
-         $slug = \Str::slug($request->name);
+
+    public function addcategory(Request $request)
+    {
+        $slug = \Str::slug($request->name);
 
         $category = new Category();
         $category->name = $request->name;
         $category->slug = $slug;
         $category->save();
         Alert::success('Success', 'Category Added Successfully');
-return back();
+        return back();
     }
 }

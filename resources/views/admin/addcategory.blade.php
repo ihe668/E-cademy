@@ -38,7 +38,11 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <button type="submit" value="create"
+                                class="rbt-btn btn-gradient hover-icon-reverse w-100 text-center">
+                                <i>Add category</i>
+                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                            </button>
 
 
 
