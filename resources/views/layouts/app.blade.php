@@ -329,7 +329,7 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="go-live">
-                                    <a href="{{route('admin.golive')}}" title="Go Live" data-toggle="tooltip">
+                                    <a href="" title="Go Live" data-toggle="tooltip">
                                         <i>
                                             <svg fill="#f00" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18px"
                                                 height="18px">
