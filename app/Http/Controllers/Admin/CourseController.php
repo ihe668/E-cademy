@@ -21,6 +21,7 @@ class CourseController extends Controller
     {
 
         $request->validate([
+            'name' => 'required',
             'category_id' => 'required',
             'description' => 'required',
             'price' => 'required',
@@ -30,6 +31,7 @@ class CourseController extends Controller
         $slug = \Str::random(7).uniqid().Auth::user()->id;
 
         $course = Course::create([
+            'name' => $request->name,
             'category_id' => $request->category_id,
             'slug' => $slug,
             'description' => $request->description,

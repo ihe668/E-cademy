@@ -13,15 +13,14 @@ class CoursecontentController extends Controller
 {
     public function addcoursecontentview(){
         $course = Course::get()->all();
-        dd($course);
-        return view('admin.addcoursecontent');
+        return view('admin.addcoursecontent', compact('course'));
     }
 
     public function addcoursecontent(Request $request){
 
         $coursecontent = new Coursecontent();
         $coursecontent->name = $request->name;
-        $coursecontent->course_id = '1';
+        $coursecontent->course_id = $request->course_id;
         $coursecontent->summary = $request->summary;
         $coursecontent->content = $request->content;
         $coursecontent->link = $request->link;

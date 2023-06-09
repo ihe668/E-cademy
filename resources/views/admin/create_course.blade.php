@@ -31,17 +31,11 @@
                                                 <div class="rbt-course-field-wrapper rbt-default-form">
                                                     <div class="course-field mb--15">
                                                         <label for="">Course Title</label>
-                                                        <input type="text" name="" placeholder="New Course">
+                                                        <input type="text" name="name" placeholder="New Course">
                                                         <small class="d-block mt_dec--5"><i class="feather-info"></i>
                                                             Title should be 30 charecter.</small>
                                                     </div>
-                                                    {{-- <div class="course-field mb--15">
-                                                        <label for="">Course Slug</label>
-                                                        <input type="text" name="slug" placeholder="new-course">
-                                                        <small class="d-block mt_dec--5"><i class="feather-info"></i>
-                                                            Permalink: <a
-                                                                href="https://yourdomain.com/new-course">https://yourdomain.com/new-course</a></small>
-                                                    </div> --}}
+
 
                                                     <div class="course-field mb--15">
                                                         <label for="aboutCourse">About Course</label>

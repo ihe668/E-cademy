@@ -9,7 +9,7 @@
                         <i class="feather-x"></i>
                     </button>
                 </div>
-                <form action="{{route('admin.addcoursecontent')}}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('admin.addcoursecontent') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="modal-body">
                         <div class="inner rbt-default-form">
@@ -19,9 +19,15 @@
                                     <div class="course-field mb--20">
                                         <h6>Choose Course</h6>
                                         <div class="rbt-modern-select bg-transparent height-45 w-100 mb--10">
-                                            <select class="w-100" data-live-search="true" title="Search Course Category. ex. Design, Development, Business" multiple data-size="7" data-actions-box="true" data-selected-text-format="count > 2">
-                                                <option>Web Developer</option>
-                                                
+                                            <select class="w-100" data-live-search="true" name="course_id"
+                                                title="Search Course Category. ex. Design, Development, Business" multiple
+                                                data-size="7" data-actions-box="true"
+                                                data-selected-text-format="count > 2">
+                                                @foreach ($course as $cou)
+                                                    <option value="{{ $cou->id }}">
+                                                        {{ $cou->name }}</option>
+                                                @endforeach
+
                                             </select>
                                         </div>
                                     </div>
@@ -29,19 +35,22 @@
                                         <label for="modal-field-1"> Name</label>
                                         <input id="modal-field-1" type="text" name="name">
                                         <small><i class="feather-info"></i> Topic titles are displayed publicly wherever
-                                            required. Each topic may contain one or more lessons, quiz and assignments.</small>
+                                            required. Each topic may contain one or more lessons, quiz and
+                                            assignments.</small>
                                     </div>
                                     <div class="course-field mb--20">
                                         <label for="modal-field-2"> Summary</label>
                                         <textarea id="modal-field-2" name="summary"></textarea>
-                                        <small><i class="feather-info"></i> Add a summary of short text to prepare students for
+                                        <small><i class="feather-info"></i> Add a summary of short text to prepare students
+                                            for
                                             the activities for the topic. The text is shown on the course page beside the
                                             tooltip beside the topic name.</small>
                                     </div>
                                     <div class="course-field mb--20">
                                         <label for="modal-field-2"> Content</label>
                                         <textarea id="modal-field-2" name="content"></textarea>
-                                        <small><i class="feather-info"></i> Add a more detailed text to emphasize and butress
+                                        <small><i class="feather-info"></i> Add a more detailed text to emphasize and
+                                            butress
                                             your summary.</small>
                                     </div>
                                     <div class="course-field mb--20">
