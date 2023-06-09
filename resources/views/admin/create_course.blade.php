@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row g-5">
 
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
                         <div class="rbt-accordion-style rbt-accordion-01 rbt-accordion-06 accordion">
                             <div class="accordion" id="tutionaccordionExamplea1">
                                 <div class="accordion-item card">
