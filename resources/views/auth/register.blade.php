@@ -52,7 +52,6 @@
 </x-guest-layout> --}}
 
 @extends('layouts.guest')
-<<<<<<< HEAD
 
 @section('slot')
     <div class="row">
@@ -76,36 +75,12 @@
                         <label>Email address *</label>
                         <span class="focus-border"></span>
                     </div>
-=======
-@section('slot')
-<div class="row">
-    <div class="col-lg-3"></div>
-    <div class="col-lg-6 py-5 ">
-        <div class="rbt-contact-form contact-form-style-1 max-width-auto">
-            <h3 class="title">Register</h3>
-            <form action="{{ route('register') }}" method="POST">@csrf
-                @foreach ($errors->all() as $err)
-                    <p class="alert alert-danger">
-                        {{ $err }}
-                    </p>
-                @endforeach
-                <div class="form-group">
-                    <input name="name" type="name" />
-                    <label>Name *</label>
-                    <span class="focus-border"></span>
-                </div>
-                <div class="form-group">
-                    <input name="email" type="email" />
-                    <label>Email address *</label>
-                    <span class="focus-border"></span>
-                </div>
 
-                <div class="form-group">
-                    <input name="password" type="password">
-                    <label>Password *</label>
-                    <span class="focus-border"></span>
-                </div>
->>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828
+                    <div class="form-group">
+                        <input name="password" type="password" />
+                        <label>Password *</label>
+                        <span class="focus-border"></span>
+                    </div>
 
                 <div class="form-group">
                     <input name="password_confirmation" type="password" required autocomplete="new-password">
@@ -126,15 +101,4 @@
             </form>
         </div>
     </div>
-<<<<<<< HEAD
 @endsection
-=======
-    <div class="col-lg-3"></div>
-</div>
-@endsection
-
-
-
-
-
->>>>>>> e7f2b047c9f1154b679f3afe4b3649d56646c828

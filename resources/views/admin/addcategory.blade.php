@@ -38,29 +38,16 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <button type="submit" value="create"
+                                class="rbt-btn btn-gradient hover-icon-reverse w-100 text-center">
+                                <i>Add category</i>
+                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                            </button>
 
 
 
                         </div>
                     </div>
-
-                    {{-- <div class="mt--10 row g-5">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-8 px-5" >
-                           <button class="btn">
-                            <a class="rbt-btn btn-gradient hover-icon-reverse w-100 text-center" href="">
-                                <span class="icon-reverse-wrapper">
-                                    <span class="btn-text text-white">Create Category</span>
-                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                </span>
-                            </a>
-                           </button>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div> --}}
-
                 </form>
 
 
