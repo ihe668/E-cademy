@@ -35,13 +35,13 @@
                                                         <small class="d-block mt_dec--5"><i class="feather-info"></i>
                                                             Title should be 30 charecter.</small>
                                                     </div>
-                                                    <div class="course-field mb--15">
+                                                    {{-- <div class="course-field mb--15">
                                                         <label for="">Course Slug</label>
                                                         <input type="text" name="slug" placeholder="new-course">
                                                         <small class="d-block mt_dec--5"><i class="feather-info"></i>
                                                             Permalink: <a
                                                                 href="https://yourdomain.com/new-course">https://yourdomain.com/new-course</a></small>
-                                                    </div>
+                                                    </div> --}}
 
                                                     <div class="course-field mb--15">
                                                         <label for="aboutCourse">About Course</label>
@@ -56,23 +56,14 @@
                                                             <div class="row">
                                                                 <div class="col-lg-4">
                                                                     <div class="advance-tab-button advance-tab-button-1">
-                                                                        <ul class="rbt-default-tab-button nav nav-tabs"
-                                                                            id="coursePrice" role="tablist">
+                                                                        <ul class="rbt-default-tab-button nav nav-tabs" id="coursePrice" role="tablist">
                                                                             <li class="nav-item w-100" role="presentation">
-                                                                                <a href="#" class="active"
-                                                                                    id="paid-tab" data-bs-toggle="tab"
-                                                                                    data-bs-target="#paid" role="tab"
-                                                                                    aria-controls="paid"
-                                                                                    aria-selected="true">
+                                                                                <a href="#" class="active" id="paid-tab" data-bs-toggle="tab" data-bs-target="#paid" role="tab" aria-controls="paid" aria-selected="true">
                                                                                     <span>Paid</span>
                                                                                 </a>
                                                                             </li>
                                                                             <li class="nav-item w-100" role="presentation">
-                                                                                <a href="#" id="free-tab"
-                                                                                    data-bs-toggle="tab"
-                                                                                    data-bs-target="#free" role="tab"
-                                                                                    aria-controls="free"
-                                                                                    aria-selected="false">
+                                                                                <a href="#" id="free-tab" data-bs-toggle="tab" data-bs-target="#free" role="tab" aria-controls="free" aria-selected="false">
                                                                                     <span>Free</span>
                                                                                 </a>
                                                                             </li>
@@ -81,12 +72,30 @@
                                                                 </div>
                                                                 <div class="col-lg-8">
                                                                     <div class="tab-content">
-                                                                        <div class="mb-3">
-                                                                            <label for="">Price</label>
-                                                                            <input type="price" name="price"
-                                                                                class="form-control" required
-                                                                                placeholder="Price">
+
+                                                                        <div class="tab-pane fade advance-tab-content-1 active show" id="paid" role="tabpanel" aria-labelledby="paid-tab">
+
+                                                                            <div class="course-field mb--15">
+                                                                                <label for="regularPrice-1">Regular Price (₦)</label>
+                                                                                <input id="regularPrice-1" type="number" placeholder="₦ Regular Price" name="price">
+                                                                                <small class="d-block mt_dec--5"><i class="feather-info"></i> The Course Price Includes Your Author Fee.</small>
+                                                                            </div>
+
+                                                                            <div class="course-field mb--15">
+                                                                                <label for="discountedPrice-1">Discounted Price (₦)</label>
+                                                                                <input id="discountedPrice-1" type="number" placeholder="₦ Discounted Price" name="discounted_price">
+                                                                                <small class="d-block mt_dec--5"><i class="feather-info"></i> The Course Price Includes Your Author Fee.</small>
+                                                                            </div>
+
                                                                         </div>
+
+
+                                                                        <div class="tab-pane fade advance-tab-content-1" id="free" role="tabpanel" aria-labelledby="free-tab">
+                                                                            <div class="course-field">
+                                                                                <p class="b3">This Course is free for everyone.</p>
+                                                                            </div>
+                                                                        </div>
+
                                                                     </div>
                                                                 </div>
                                                             </div>

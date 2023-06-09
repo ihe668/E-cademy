@@ -24,20 +24,22 @@ class CourseController extends Controller
             'category_id' => 'required',
             'description' => 'required',
             'price' => 'required',
+            'discounted_price' => 'required',
             'image' => 'required|image'
         ]);
-        $slug = \Str::random(7) . uniqid() . Auth::user()->id;
+        $slug = \Str::random(7).uniqid().Auth::user()->id;
 
         $course = Course::create([
             'category_id' => $request->category_id,
             'slug' => $slug,
             'description' => $request->description,
             'price' => $request->price,
+            'discounted_price' => $request->discounted_price,
         ]);
         $file = $request->image;
         $ext = $file->getClientOriginalExtension();
         $filename = \Str::slug($request->name) . time() . '.' . $ext;
-        $file->storePubliclyAs('public/images', $filename);
+        $file->storePubliclyAs('public/Course-image', $filename);
 
         $course->image = $filename;
         $course->save();

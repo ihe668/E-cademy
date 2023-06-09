@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Course;
 use Illuminate\Console\View\Components\Alert as ComponentsAlert;
 use RealRashid\SweetAlert\Facades\Alert;
 use App\Models\Coursecontent;
@@ -11,6 +12,8 @@ use Illuminate\Http\Request;
 class CoursecontentController extends Controller
 {
     public function addcoursecontentview(){
+        $course = Course::get()->all();
+        dd($course);
         return view('admin.addcoursecontent');
     }
 
