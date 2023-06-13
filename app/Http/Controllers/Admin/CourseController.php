@@ -48,4 +48,10 @@ class CourseController extends Controller
         Alert::success('Success', 'Course Created Successfully');
         return back();
     }
+
+    public function admincoursesview(Course $course){
+        $courses = $course->get()->all();
+
+        return view('admin.courses', \compact('courses'));
+    }
 }

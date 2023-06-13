@@ -1818,7 +1818,7 @@
                                                     <li><a href="{{ route('admin.dashboard') }}"><i
                                                                 class="feather-home"></i><span>Dashboard</span></a>
                                                     </li>
-                                                    <li><a href="instructor-profile.html"><i
+                                                    <li><a href="{{route('admin.profile')}}"><i
                                                                 class="feather-user"></i><span>My Profile</span></a>
                                                     </li>
                                                     <li><a href="{{ route('admin.addcategory.view') }}"><i
@@ -1826,8 +1826,8 @@
                                                     </li>
                                                     <li><a href="{{route('admin.addcoursecontent.view')}}"><i
                                                                 class="feather-book-open"></i><span>Add Course Content </span></a></li>
-                                                    <li><a href=""><i
-                                                                class="feather-book-open"></i><span>Enrolled
+                                                    <li><a href="{{route('admin.courses.view')}}"><i
+                                                                class="feather-book-open"></i><span>
                                                                 Courses</span></a></li>
                                                     <li><a href="instructor-wishlist.html"><i
                                                                 class="feather-bookmark"></i><span>Wishlist</span></a>
@@ -1871,7 +1871,7 @@
 
                                             <nav class="mainmenu-nav">
                                                 <ul class="dashboard-mainmenu rbt-default-sidebar-list">
-                                                    <li><a href="instructor-settings.html"><i
+                                                    <li><a href="{{route('admin.settings.view')}}"><i
                                                                 class="feather-settings"></i><span>Settings</span></a>
                                                     </li>
                                                     <li><a href="{{ route('logout') }}"><i

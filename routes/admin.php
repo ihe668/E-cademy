@@ -3,6 +3,9 @@
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CoursecontentController;
+use App\Http\Controllers\Admin\CourseController;
+use App\Http\Controllers\Admin\SettingsController;
+use App\Http\Controllers\User\UserController;
 
 Route::prefix('admin')->middleware(['auth','admin'])->group(function () {
     Route::get('/', [AdminController::class, 'index'])->name('admin.dashboard');
@@ -13,6 +16,13 @@ Route::prefix('admin')->middleware(['auth','admin'])->group(function () {
     Route::get('/addcoursecontent/view', [CoursecontentController::class, 'addcoursecontentview'])->name('admin.addcoursecontent.view');
     Route::post('/addcoursecontent', [CoursecontentController::class, 'addcoursecontent'])->name('admin.addcoursecontent');
 
+    Route::get('/create_course', [CourseController::class, 'course'])->name('create_course');
+    Route::post('/course.store', [CourseController::class, 'store'])->name('course.store');
+    Route::get('/courses/view', [CourseController::class, 'admincoursesview'])->name('admin.courses.view');
+
+    Route::get('/profile', [UserController::class, 'adminprofile'])->name('admin.profile');
+
+    Route::get('/settings', [SettingsController::class, 'settingsview'])->name('admin.settings.view');
 });
 
 

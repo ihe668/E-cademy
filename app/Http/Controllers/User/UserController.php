@@ -20,4 +20,11 @@ class UserController extends Controller
 
         return view('user.profile', \compact('profile'));
     }
+
+    public function adminprofile(){
+        $id = Auth::user()->id;
+        $profile = User::find($id);
+
+        return view('admin.profile', \compact('profile'));
+    }
 }
