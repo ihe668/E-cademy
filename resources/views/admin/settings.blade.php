@@ -58,31 +58,31 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="rbt-form-group">
                             <label for="firstname">Name</label>
-                            <input id="firstname" name="name" type="text" value="John">
+                            <input id="firstname" name="name" type="text" value="{{$user->name}}">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="rbt-form-group">
                             <label for="firstname">Email</label>
-                            <input id="firstname" name="email" type="email" value="John">
+                            <input id="firstname" name="email" type="email" value="{{$user->email}}">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="rbt-form-group">
                             <label for="phonenumber">Phone Number</label>
-                            <input id="phonenumber" name="phone_number" type="tel" value="+1-202-555-0174">
+                            <input id="phonenumber" name="phone_number" type="tel" value="{{$user->phone_number}}">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                         <div class="rbt-form-group">
                             <label for="skill">Skill/Occupation</label>
-                            <input id="skill" type="text" name="skill" value="Full Stack Developer">
+                            <input id="skill" type="text" name="skill" value="{{$user->skill}}">
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="rbt-form-group">
                             <label for="bio">Bio</label>
-                            <textarea id="bio" cols="20" name="bio" rows="5">I'm the Front-End Developer for #Rainbow IT in Bangladesh, OR. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</textarea>
+                            <textarea id="bio" cols="20" name="bio" rows="5">{{$user->bio}}</textarea>
                         </div>
                     </div>
                     <div class="col-12 mt--20">
