@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class SettingsController extends Controller
 {
     public function settingsview(){
-        $user = 
+        $user = Auth::user();
         return view('admin.settings');
     }
 }
