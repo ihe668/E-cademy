@@ -16,7 +16,9 @@ class Admin
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (Auth::user()->code == '008') {
+        $user = Auth::user();
+        
+        if ($user && $user->code == '008') {
             return $next($request);
         }
         return back();

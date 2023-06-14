@@ -34,6 +34,9 @@ Route::get('/', function () {
 Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/', [UserController::class, 'index'])->name('user.dashboard');
     Route::get('/profile', [UserController::class, 'profile'])->name('user.profile');
+
+    Route::get('/courses/view', [CourseController::class, 'usercoursesview'])->name('user.courses.view');
+
 });
 
 Route::middleware('auth')->group(function () {

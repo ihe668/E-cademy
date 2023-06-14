@@ -1325,8 +1325,8 @@
                                                         <li><a href="{{route('user.profile')}}"><i
                                                                     class="feather-user"></i><span>My
                                                                     Profile</span></a></li>
-                                                        <li><a href="student-enrolled-courses.html"><i
-                                                                    class="feather-book-open"></i><span>Enrolled
+                                                        <li><a href="{{route('user.courses.view')}}"><i
+                                                                    class="feather-book-open"></i><span>
                                                                     Courses</span></a></li>
                                                         <li><a href="student-wishlist.html"><i
                                                                     class="feather-bookmark"></i><span>Wishlist</span></a>

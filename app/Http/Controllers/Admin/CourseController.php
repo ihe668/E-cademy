@@ -54,4 +54,10 @@ class CourseController extends Controller
 
         return view('admin.courses', \compact('courses'));
     }
+
+    public function usercoursesview(Course $course){
+        $courses = $course->get()->all();
+
+        return view('user.course', \compact('courses'));
+    }
 }
