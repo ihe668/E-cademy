@@ -12,7 +12,7 @@
                 <div class="rbt-profile-content b2">Registration Date</div>
             </div>
             <div class="col-lg-8 col-md-8">
-                <div class="rbt-profile-content b2">{{$profile->created_at}}</div>
+                <div class="rbt-profile-content b2">{{$profile->created_at->format('d M y h:ia')}}</div>
             </div>
         </div>
         <!-- End Profile Row  -->
@@ -45,7 +45,7 @@
                 <div class="rbt-profile-content b2">Phone Number</div>
             </div>
             <div class="col-lg-8 col-md-8">
-                <div class="rbt-profile-content b2">+1-202-555-0174</div>
+                <div class="rbt-profile-content b2">{{ $profile->phone_number }}</div>
             </div>
         </div>
         <!-- End Profile Row  -->

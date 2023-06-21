@@ -60,4 +60,9 @@ class CourseController extends Controller
 
         return view('user.course', \compact('courses'));
     }
+
+     public function details(Course $course){
+        $courses = $course->latest()->get();
+        return view('admin.course_details', compact('courses'));
+     }
 }
