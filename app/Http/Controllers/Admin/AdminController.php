@@ -33,7 +33,7 @@ class AdminController extends Controller
         $user->skill = $request->skill;
         $user->bio = $request->bio;
 
-        // $user->save();
+        $user->save();
         Alert::success('Success', 'Profile Updated');
         return back();
     }
