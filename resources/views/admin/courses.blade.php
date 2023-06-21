@@ -10,18 +10,22 @@
 
             <div class="advance-tab-button mb--30">
                 <ul class="nav nav-tabs tab-button-style-2 justify-content-start" id="myTab-4" role="tablist">
-                    <li role="presentation">
-                        <a href="#" class="tab-button active" id="home-tab-4" data-bs-toggle="tab"
-                            data-bs-target="#home-4" role="tab" aria-controls="home-4" aria-selected="true">
-                            <span class="title">Enrolled Courses</span>
-                        </a>
-                    </li>
+
                     <li role="presentation">
                         <a href="#" class="tab-button" id="profile-tab-4" data-bs-toggle="tab"
                             data-bs-target="#profile-4" role="tab" aria-controls="profile-4" aria-selected="false">
                             <span class="title">Available Courses</span>
                         </a>
                     </li>
+
+
+                    <li role="presentation">
+                        <a href="#" class="tab-button active" id="home-tab-4" data-bs-toggle="tab"
+                            data-bs-target="#home-4" role="tab" aria-controls="" aria-selected="true">
+                            <span class="title">Enrolled Courses</span>
+                        </a>
+                    </li>
+
                     <li role="presentation">
                         <a href="#" class="tab-button" id="contact-tab-4" data-bs-toggle="tab"
                             data-bs-target="#contact-4" role="tab" aria-controls="contact-4" aria-selected="false">
@@ -120,7 +124,8 @@
                                                         class="feather-bookmark"></i></a>
                                             </div>
                                         </div>
-                                        <h4 class="rbt-card-title"><a href="course-details.html">{{ $c->name }}</a>
+                                        <h4 class="rbt-card-title"><a
+                                                href="{{ route('course_details') }}">{{ $c->name }}</a>
                                         </h4>
                                         <ul class="rbt-meta">
                                             <li><i class="feather-book"></i>20 Lessons</li>

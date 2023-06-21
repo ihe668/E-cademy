@@ -328,16 +328,6 @@
                     <div class="rbt-main-navigation d-none d-xl-block">
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
-                                <li class="go-live">
-                                    <a href="" title="Go Live" data-toggle="tooltip">
-                                        <i>
-                                            <svg fill="#f00" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="18px"
-                                                height="18px">
-                                                <path
-                                                    d="M 6.1015625 6.1015625 C 3.5675625 8.6345625 2 12.134 2 16 C 2 19.866 3.5675625 23.365437 6.1015625 25.898438 L 7.5195312 24.480469 C 5.3465312 22.307469 4 19.308 4 16 C 4 12.692 5.3465312 9.6925313 7.5195312 7.5195312 L 6.1015625 6.1015625 z M 25.898438 6.1015625 L 24.480469 7.5195312 C 26.653469 9.6925312 28 12.692 28 16 C 28 19.308 26.653469 22.307469 24.480469 24.480469 L 25.898438 25.898438 C 28.432437 23.365437 30 19.866 30 16 C 30 12.134 28.432437 8.6345625 25.898438 6.1015625 z M 9.6367188 9.6367188 C 8.0077188 11.265719 7 13.515 7 16 C 7 18.485 8.0077187 20.734281 9.6367188 22.363281 L 11.052734 20.947266 C 9.7847344 19.680266 9 17.93 9 16 C 9 14.07 9.7847344 12.319734 11.052734 11.052734 L 9.6367188 9.6367188 z M 22.363281 9.6367188 L 20.947266 11.052734 C 22.215266 12.319734 23 14.07 23 16 C 23 17.93 22.215266 19.680266 20.947266 20.947266 L 22.363281 22.363281 C 23.992281 20.734281 25 18.485 25 16 C 25 13.515 23.992281 11.265719 22.363281 9.6367188 z M 16 12 A 4 4 0 0 0 16 20 A 4 4 0 0 0 16 12 z" />
-                                            </svg></i>
-                                    </a>
-                                </li>
                                 <li class="with-megamenu has-menu-child-item position-static">
                                     <a href="{{ route('welcome') }}">Home <i class="feather-chevron-down"></i></a>
                                 </li>
@@ -612,10 +602,11 @@
                 <div class="wrapper">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form action="#">
-                                <input type="text" placeholder="What are you looking for?">
+                            <form action="{{ route('admin.search.course') }}" method="post">@csrf
+                                <input type="text" placeholder="What are you looking for?" required
+                                    name="q">
                                 <div class="submit-btn">
-                                    <a class="rbt-btn btn-gradient btn-md" href="#">Search</a>
+                                    <button class="rbt-btn btn-gradient btn-md" type="submit">Search</button>
                                 </div>
                             </form>
                         </div>
@@ -625,7 +616,7 @@
                         <hr class="rbt-separator m-0">
                     </div>
 
-                    <div class="row g-4 pt--30 pb--60">
+                    {{-- <div class="row g-4 pt--30 pb--60">
                         <div class="col-lg-12">
                             <div class="section-title">
                                 <h5 class="rbt-title-style-2">Our Top Course</h5>
@@ -752,7 +743,7 @@
                             </div>
                         </div>
                         <!-- End Single Card  -->
-                    </div>
+                    </div> --}}
 
                 </div>
             </div>
@@ -1818,15 +1809,16 @@
                                                     <li><a href="{{ route('admin.dashboard') }}"><i
                                                                 class="feather-home"></i><span>Dashboard</span></a>
                                                     </li>
-                                                    <li><a href="{{route('admin.profile')}}"><i
+                                                    <li><a href="{{ route('admin.profile') }}"><i
                                                                 class="feather-user"></i><span>My Profile</span></a>
                                                     </li>
                                                     <li><a href="{{ route('admin.addcategory.view') }}"><i
                                                                 class="feather-user"></i><span>Add Category</span></a>
                                                     </li>
-                                                    <li><a href="{{route('admin.addcoursecontent.view')}}"><i
-                                                                class="feather-book-open"></i><span>Add Course Content </span></a></li>
-                                                    <li><a href="{{route('admin.courses.view')}}"><i
+                                                    <li><a href="{{ route('admin.addcoursecontent.view') }}"><i
+                                                                class="feather-book-open"></i><span>Add Course Content
+                                                            </span></a></li>
+                                                    <li><a href="{{ route('admin.courses.view') }}"><i
                                                                 class="feather-book-open"></i><span>
                                                                 Courses</span></a></li>
                                                     <li><a href="instructor-wishlist.html"><i
@@ -1871,7 +1863,7 @@
 
                                             <nav class="mainmenu-nav">
                                                 <ul class="dashboard-mainmenu rbt-default-sidebar-list">
-                                                    <li><a href="{{route('admin.settings.view')}}"><i
+                                                    <li><a href="{{ route('admin.settings.view') }}"><i
                                                                 class="feather-settings"></i><span>Settings</span></a>
                                                     </li>
                                                     <li><a href="{{ route('logout') }}"><i

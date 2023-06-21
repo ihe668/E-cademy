@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Course;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -36,5 +37,16 @@ class AdminController extends Controller
         $user->save();
         Alert::success('Success', 'Profile Updated');
         return back();
+    }
+    public function search(Request $request){
+        
+        $searchTerm = $request->input('q');
+         $courses = Course::where('name', 'like', '%' . $searchTerm . '%' )
+         ->orwhere('description', 'like', '%' . $searchTerm . '%')
+         ->orwhere('discounted_price', 'like', '%' . $searchTerm . '%')
+         ->orwhere('price', 'like', '%' . $searchTerm . '%')
+         ->latest()
+         ->paginate(4);
+        return view('admin.courses', compact('courses',));
     }
 }
