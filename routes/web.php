@@ -36,6 +36,7 @@ Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/profile', [UserController::class, 'profile'])->name('user.profile');
 
     Route::get('/courses/view', [CourseController::class, 'usercoursesview'])->name('user.courses.view');
+    Route::get('/coursesdetails/view/{course}', [CourseController::class, 'usercoursedetailsview'])->name('user.coursedetails.view');
 
 });
 

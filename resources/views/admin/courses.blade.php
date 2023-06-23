@@ -4,15 +4,15 @@
     <div class="rbt-dashboard-content bg-color-white rbt-shadow-box">
         <div class="content">
 
-            <div class="section-title">
+            {{-- <div class="section-title">
                 <h4 class="rbt-title-style-3">Enrolled Courses</h4>
-            </div>
+            </div> --}}
 
             <div class="advance-tab-button mb--30">
                 <ul class="nav nav-tabs tab-button-style-2 justify-content-start" id="myTab-4" role="tablist">
 
                     <li role="presentation">
-                        <a href="#" class="tab-button" id="profile-tab-4" data-bs-toggle="tab"
+                        <a href="#" class="tab-button active" id="profile-tab-4" data-bs-toggle="tab"
                             data-bs-target="#profile-4" role="tab" aria-controls="profile-4" aria-selected="false">
                             <span class="title">Available Courses</span>
                         </a>
@@ -20,7 +20,7 @@
 
 
                     <li role="presentation">
-                        <a href="#" class="tab-button active" id="home-tab-4" data-bs-toggle="tab"
+                        <a href="#" class="tab-button " id="home-tab-4" data-bs-toggle="tab"
                             data-bs-target="#home-4" role="tab" aria-controls="" aria-selected="true">
                             <span class="title">Enrolled Courses</span>
                         </a>
@@ -36,7 +36,7 @@
             </div>
 
             <div class="tab-content">
-                <div class="tab-pane fade active show" id="home-4" role="tabpanel" aria-labelledby="home-tab-4">
+                <div class="tab-pane fade " id="home-4" role="tabpanel" aria-labelledby="home-tab-4">
                     <div class="row g-5">
                         <!-- Start Single Course  -->
                         <div class="col-lg-4 col-md-6 col-12">
@@ -96,14 +96,14 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="profile-4" role="tabpanel" aria-labelledby="profile-tab-4">
+                <div class="tab-pane fade active show" id="profile-4" role="tabpanel" aria-labelledby="profile-tab-4">
                     <div class="row g-5">
                         @foreach ($courses as $c)
                             <!-- Start Single Course  -->
                             <div class="col-lg-4 col-md-6 col-12">
                                 <div class="rbt-card variation-01 rbt-hover">
                                     <div class="rbt-card-img">
-                                        <a href="course-details.html">
+                                        <a href="{{ route('course_details', $c) }}">
                                             <img src="/e-cademy_assets/images/course/course-online-04.jpg" alt="Card image">
                                         </a>
                                     </div>
@@ -125,7 +125,7 @@
                                             </div>
                                         </div>
                                         <h4 class="rbt-card-title"><a
-                                                href="{{ route('course_details') }}">{{ $c->name }}</a>
+                                                href="{{ route('course_details', $c) }}">{{ $c->name }}</a>
                                         </h4>
                                         <ul class="rbt-meta">
                                             <li><i class="feather-book"></i>20 Lessons</li>
@@ -142,7 +142,7 @@
 
                                             </div>
                                             <br>
-                                            <a class="rbt-btn-link" href="course-details.html">Learn
+                                            <a class="rbt-btn-link" href="{{ route('course_details', $c) }}">Learn
                                                 More<i class="feather-arrow-right"></i></a>
 
                                             <a class="rbt-btn-link " href="course-details.html">Delete<i

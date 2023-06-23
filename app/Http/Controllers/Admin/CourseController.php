@@ -28,7 +28,7 @@ class CourseController extends Controller
             'discounted_price' => 'required',
             'image' => 'required|image'
         ]);
-        $slug = \Str::random(7).uniqid().Auth::user()->id;
+        $slug = \Str::random(7) . uniqid() . Auth::user()->id;
 
         $course = Course::create([
             'name' => $request->name,
@@ -49,20 +49,32 @@ class CourseController extends Controller
         return back();
     }
 
-    public function admincoursesview(Course $course){
+    public function admincoursesview(Course $course)
+    {
         $courses = $course->get()->all();
 
         return view('admin.courses', \compact('courses'));
     }
 
-    public function usercoursesview(Course $course){
+    public function usercoursesview(Course $course)
+    {
         $courses = $course->get()->all();
 
         return view('user.course', \compact('courses'));
     }
 
-     public function details(Course $course){
-        $courses = $course->latest()->get();
-        return view('admin.course_details', compact('courses'));
-     }
+        public function details(Course $course)
+        {
+            $cou = $course->id;
+            $content = Course::with('contents')->find($course->id);
+            $courses = Course::with('category')->find($course->id);
+            return view('admin.course_details', compact('courses', 'content'));
+        }
+
+    public function usercoursedetailsview(Course $course)
+    {
+
+        $courses = Course::with('category')->find($course->id);
+        return view('user.coursedetails', \compact('courses'));
+    }
 }

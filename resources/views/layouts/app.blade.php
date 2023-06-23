@@ -336,39 +336,7 @@
                                     <a href="{{ route('admin.dashboard') }}">Dashboard
                                         <i class="feather-chevron-down"></i>
                                     </a>
-                                    {{-- <ul class="submenu">
-                                        <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
-                                            <ul class="submenu">
-                                                <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
 
-                                                <li><a href="instructor-profile.html">Profile</a></li>
-                                                <li><a href="instructor-enrolled-courses.html">Enrolled Courses</a>
-                                                </li>
-                                                <li><a href="instructor-wishlist.html">Wishlist</a></li>
-                                                <li><a href="instructor-reviews.html">Reviews</a></li>
-                                                <li><a href="instructor-my-quiz-attempts.html">My Quiz Attempts</a>
-                                                </li>
-                                                <li><a href="instructor-order-history.html">Order History</a></li>
-                                                <li><a href="instructor-course.html">My Course</a></li>
-                                                <li><a href="instructor-announcements.html">Announcements</a></li>
-                                                <li><a href="instructor-quiz-attempts.html">Quiz Attempts</a></li>
-                                                <li><a href="instructor-assignments.html">Assignments</a></li>
-                                                <li><a href="instructor-settings.html">Settings</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown"><a href="#">Student Dashboard</a>
-                                            <ul class="submenu">
-                                                <li><a href="student-dashboard.html">Dashboard</a></li>
-                                                <li><a href="student-profile.html">Profile</a></li>
-                                                <li><a href="student-enrolled-courses.html">Enrolled Courses</a></li>
-                                                <li><a href="student-wishlist.html">Wishlist</a></li>
-                                                <li><a href="student-reviews.html">Reviews</a></li>
-                                                <li><a href="student-my-quiz-attempts.html">My Quiz Attempts</a></li>
-                                                <li><a href="student-order-history.html">Order History</a></li>
-                                                <li><a href="student-settings.html">Settings</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul> --}}
                                 </li>
                             </ul>
                         </nav>
@@ -1845,7 +1813,7 @@
                                                                 class="feather-monitor"></i><span>My
                                                                 Courses</span></a>
                                                     </li>
-                                                    <li><a href="instructor-announcements.html"><i
+                                                    <li><a href="{{route('admin.announcement')}}"><i
                                                                 class="feather-volume-2"></i><span>Announcements</span></a>
                                                     </li>
                                                     <li><a href="instructor-quiz-attempts.html"><i
