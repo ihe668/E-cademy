@@ -74,7 +74,8 @@ class CourseController extends Controller
     public function usercoursedetailsview(Course $course)
     {
 
+        $content = Course::with('contents')->find($course->id);
         $courses = Course::with('category')->find($course->id);
-        return view('user.coursedetails', \compact('courses'));
+        return view('user.coursedetails', \compact('courses', 'content'));
     }
 }

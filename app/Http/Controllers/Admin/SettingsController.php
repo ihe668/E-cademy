@@ -12,4 +12,8 @@ class SettingsController extends Controller
         $user = Auth::user();
         return view('admin.settings', \compact('user'));
     }
+    public function usersettingsview(){
+        $user = Auth::user();
+        return view('user.settings', \compact('user'));
+    }
 }

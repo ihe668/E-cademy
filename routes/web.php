@@ -2,9 +2,13 @@
 
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CourseController;
+use App\Http\Controllers\Admin\SettingsController;
+use App\Http\Controllers\EnrollmentController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\User\UserController;
+use App\Models\Enrollment;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,10 +38,18 @@ Route::get('/', function () {
 Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/', [UserController::class, 'index'])->name('user.dashboard');
     Route::get('/profile', [UserController::class, 'profile'])->name('user.profile');
+    Route::post('/updateprofile', [UserController::class, 'updateprofile'])->name('user.update.profile');
 
     Route::get('/courses/view', [CourseController::class, 'usercoursesview'])->name('user.courses.view');
     Route::get('/coursesdetails/view/{course}', [CourseController::class, 'usercoursedetailsview'])->name('user.coursedetails.view');
 
+    Route::get('/settings', [SettingsController::class, 'usersettingsview'])->name('user.settings');
+
+    Route::get('/checkout/{course}', [PaymentController::class, 'checkoutview'])->name('user.checkout');
+    Route::post('/pay/{properties}', [PaymentController::class, 'redirectToGateway'])->name('pay');
+    Route::get('/payment/callback/{properties}', [PaymentController::class, 'handleGatewayCallback'])->name('payfor');
+
+    Route::get('/enrollmenthistory', [EnrollmentController::class, 'userenrollmenthistory'])->name('user.enrollmenthistory');
 });
 
 Route::middleware('auth')->group(function () {
