@@ -39,7 +39,7 @@ class AdminController extends Controller
         return back();
     }
     public function search(Request $request){
-        
+
         $searchTerm = $request->input('q');
          $courses = Course::where('name', 'like', '%' . $searchTerm . '%' )
          ->orwhere('description', 'like', '%' . $searchTerm . '%')
@@ -49,4 +49,6 @@ class AdminController extends Controller
          ->paginate(4);
         return view('admin.courses', compact('courses',));
     }
+
+    
 }

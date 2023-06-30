@@ -144,8 +144,8 @@
                                 <div class="rbt-search-field">
                                     <div class="search-field">
                                         <input type="text" placeholder="Search Course">
-                                        <button class="rbt-round-btn serach-btn" type="submit"><i
-                                                class="feather-search"></i></button>
+                                            <button class="rbt-round-btn serach-btn" type="submit"><i
+                                                    class="feather-search"></i></button>
                                     </div>
                                 </div>
                             </div>
@@ -1656,8 +1656,5 @@
     <!-- Main JS -->
     <script src="/e-cademy_assets/js/main.js"></script>
 </body>
-
-
-<!-- Mirrored from rainbowit.net/html/histudy/05-classic-lms.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 May 2023 13:59:24 GMT -->
 
 </html>

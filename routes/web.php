@@ -5,6 +5,7 @@ use App\Http\Controllers\Admin\CourseController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\User\UserController;
+use App\Models\Course;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,7 +20,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $courses = Course::get()->all();
+    return view('welcome', compact('courses'));
 });
 
 // Route::get('/dashboard', function () {
@@ -45,6 +47,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/welcome', [HomeController::class, 'index'])->name('welcome');
+    Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
 });
 
 require __DIR__ . '/auth.php';

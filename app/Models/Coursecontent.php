@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Coursecontent extends Model
 {
     use HasFactory;
+    protected $safeguard = [];
 }
