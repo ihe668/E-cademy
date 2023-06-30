@@ -60,6 +60,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/welcome', [HomeController::class, 'index'])->name('welcome');
     Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
+    Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
 });
 
 require __DIR__ . '/auth.php';
