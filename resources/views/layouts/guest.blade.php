@@ -383,7 +383,19 @@
                         <div class="header-info">
                             <div class="logo">
                                 <a href="index-2.html">
-                                    <img src="/e-cademy_assets/images/logo/logo.png" alt="Education Logo Images">
+                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;">
+                                    {{-- <h4>Whitehat</h4> --}}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-left rbt-header-content">
+                        <div class="header-info">
+                            <div class="logo">
+                                <a href="index-2.html">
+                                    {{-- <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;"> --}}
+                                    <a>Whitehat</a>
+                                    <a>Innovatives</a>
                                 </a>
                             </div>
                         </div>
