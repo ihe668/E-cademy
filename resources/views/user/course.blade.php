@@ -20,8 +20,8 @@
 
 
                     <li role="presentation">
-                        <a href="#" class="tab-button " id="home-tab-4" data-bs-toggle="tab"
-                            data-bs-target="#home-4" role="tab" aria-controls="" aria-selected="true">
+                        <a href="#" class="tab-button " id="home-tab-4" data-bs-toggle="tab" data-bs-target="#home-4"
+                            role="tab" aria-controls="" aria-selected="true">
                             <span class="title">Enrolled Courses</span>
                         </a>
                     </li>
@@ -134,15 +134,21 @@
 
                                         <div class="rbt-card-bottom">
                                             <div class="rbt-price">
-                                                <span class="current-price ">₦{{ number_format($c->price, 2) }}</span>
-                                                @if ($c->discounted_price >= 0)
-                                                    <span
-                                                        class="off-price">₦{{ number_format($c->discounted_price, 2) }}</span>
+                                                @if ($c->discounted_price > 0)
+                                                    @if ($c->discounted_price > 0)
+                                                        <span
+                                                            class="current-price">₦{{ number_format($c->discounted_price, 2) }}</span>
+                                                    @endif
+                                                    <span class="off-price ">₦{{ number_format($c->price, 2) }}</span>
+                                                @else
+                                                    <span class="current-price ">₦{{ number_format($c->price, 2) }}</span>
                                                 @endif
+
 
                                             </div>
                                             <br>
-                                            <a class="rbt-btn-link" href="{{ route('user.coursedetails.view', $c) }}">Learn
+                                            <a class="rbt-btn-link"
+                                                href="{{ route('user.coursedetails.view', $c) }}">Learn
                                                 More<i class="feather-arrow-right"></i></a>
                                         </div>
                                     </div>

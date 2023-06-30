@@ -1328,17 +1328,15 @@
                                                         <li><a href="{{route('user.courses.view')}}"><i
                                                                     class="feather-book-open"></i><span>
                                                                     Courses</span></a></li>
-                                                        <li><a href="student-wishlist.html"><i
-                                                                    class="feather-bookmark"></i><span>Wishlist</span></a>
-                                                        </li>
+
                                                         <li><a href="student-reviews.html"><i
                                                                     class="feather-star"></i><span>Reviews</span></a>
                                                         </li>
                                                         <li><a href="student-my-quiz-attempts.html"><i
                                                                     class="feather-help-circle"></i><span>My Quiz
                                                                     Attempts</span></a></li>
-                                                        <li><a href="student-order-history.html"><i
-                                                                    class="feather-shopping-bag"></i><span>Order
+                                                        <li><a href="{{route('user.enrollmenthistory')}}"><i
+                                                                    class="feather-shopping-bag"></i><span>My Enrollment
                                                                     History</span></a></li>
                                                     </ul>
                                                 </nav>
@@ -1349,7 +1347,7 @@
 
                                                 <nav class="mainmenu-nav">
                                                     <ul class="dashboard-mainmenu rbt-default-sidebar-list">
-                                                        <li><a href="student-settings.html"><i
+                                                        <li><a href="{{route('user.settings')}}"><i
                                                                     class="feather-settings"></i><span>Settings</span></a>
                                                         </li>
                                                         <li><a href="{{ route('logout') }}"><i

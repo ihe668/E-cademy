@@ -329,13 +329,13 @@
                                                 <div class="accordion-body card-body pr--0">
                                                     <ul class="rbt-course-main-content liststyle">
                                                         <li>
-                                                            <a href="lesson.html">
+                                                            <a href="#">
                                                                 <div class="course-content-left">
                                                                     <i class="feather-play-circle"></i> <span
-                                                                        class="text">Course Intro</span>
+                                                                        class="text">Course summary:  {{$cont->summary}}</span>
                                                                 </div>
                                                                 <div class="course-content-right">
-                                                                    <span class="min-lable">30 min</span>
+                                                                    <span class="min-lable"></span>
                                                                     <span
                                                                         class="rbt-badge variation-03 bg-primary-opacity"><i
                                                                             class="feather-eye"></i> Preview</span>
@@ -344,13 +344,13 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="lesson.html">
+                                                            <a href="{{$cont->link}}">
                                                                 <div class="course-content-left">
                                                                     <i class="feather-play-circle"></i> <span
-                                                                        class="text">watch video</span>
+                                                                        class="text">Watch video:  {{$cont->link}}</span>
                                                                 </div>
                                                                 <div class="course-content-right">
-                                                                    <span class="min-lable">0.5 min</span>
+                                                                    <span class="min-lable"></span>
                                                                     <span
                                                                         class="rbt-badge variation-03 bg-primary-opacity"><i
                                                                             class="feather-eye"></i> Preview</span>
@@ -359,10 +359,10 @@
                                                         </li>
 
                                                         <li>
-                                                            <a href="lesson.html">
+                                                            <a href="#">
                                                                 <div class="course-content-left">
                                                                     <i class="feather-file-text"></i> <span
-                                                                        class="text">Read Before You Start</span>
+                                                                        class="text">Course content: {{$cont->content}}</span>
                                                                 </div>
                                                                 <div class="course-content-right">
                                                                     <span class="course-lock"><i
