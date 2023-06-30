@@ -8,6 +8,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\User\UserController;
+use App\Models\Course;
 use App\Models\Enrollment;
 use Illuminate\Support\Facades\Route;
 
@@ -59,6 +60,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/welcome', [HomeController::class, 'index'])->name('welcome');
     Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
+    Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
 });
 
 require __DIR__ . '/auth.php';

@@ -143,9 +143,11 @@
                             <div class="header-info">
                                 <div class="rbt-search-field">
                                     <div class="search-field">
-                                        <input type="text" placeholder="Search Course">
+                                        <form action="{{ route('home.search') }}" method="post">@csrf
+                                            <input type="text" placeholder="Search Course" required name="q">
                                             <button class="rbt-round-btn serach-btn" type="submit"><i
                                                     class="feather-search"></i></button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

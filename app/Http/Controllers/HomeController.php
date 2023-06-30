@@ -18,5 +18,15 @@ class HomeController extends Controller
         return view('view_course', compact('courses'));
     }
 
-
+    function search(Request $request)
+    {
+        $searchTerm = $request->input('q');
+        $courses = Course::where('name', 'like', '%' . $searchTerm . '%')
+            ->orwhere('description', 'like', '%' . $searchTerm . '%')
+            ->orwhere('discounted_price', 'like', '%' . $searchTerm . '%')
+            ->orwhere('price', 'like', '%' . $searchTerm . '%')
+            ->latest()
+            ->paginate(4);
+        return view('view_course', compact('courses'));
+    }
 }
