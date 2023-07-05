@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/logo/whitehat2.jpg">
 
     <!-- CSS
  ============================================ -->
@@ -177,7 +177,7 @@
                         {{-- <div class="header-info">
                             <div class="logo">
                                 <a href="index-2.html">
-                                    <img src="/e-cademy_assets/images/logo/logo.png" alt="Education Logo Images">
+                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images">
                                 </a>
                             </div>
                         </div> --}}
@@ -204,14 +204,14 @@
                             </div>
                         </div>
 
-                        
+
                     </div>
 
                     <div class="rbt-main-navigation d-none d-xl-block">
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="{{ route('welcome') }}">Home <i class="feather-chevron-down"></i></a>
+                                    <a href="{{ route('welcome') }}">Home</a>
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">

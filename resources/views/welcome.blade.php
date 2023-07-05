@@ -183,7 +183,7 @@
                         data-sal-duration="800">
                         <div class="rbt-card variation-01 rbt-hover">
                             <div class="rbt-card-img">
-                                <a href="course-details.html">
+                                <a href="{{ route('course_details', $c) }}">
                                     <img src="/storage/Course-image/{{ $c->image }}" alt="Card image"
                                         style="width: 100px">
                                     <div class="rbt-badge-3 bg-white">

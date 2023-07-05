@@ -7,13 +7,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home Classic Lms - Online Courses & Education Bootstrap5 Template</title>
+    <title>E-cademy - Online Courses & Education</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/logo/whitehat2.jpg">
 
     <!-- CSS
  ============================================ -->
@@ -396,7 +396,7 @@
                     <div class="header-left rbt-header-content">
                         <div class="header-info">
                             <div class="logo">
-                                <a href="index-2.html">
+                                <a href="{{ route('welcome') }}">
                                     {{-- <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;"> --}}
                                     <a>Whitehat</a>
                                     <a>E-cademy</a>
@@ -414,7 +414,7 @@
 
                                 <li class="has-dropdown has-menu-child-item">
                                     <a href="{{ route('dashboard') }}">Dashboard
-                                      
+
                                     </a>
                                     {{-- <ul class="submenu">
                                         <li class="has-dropdown"><a href="#">Instructor Dashboard</a>

@@ -104,7 +104,7 @@
                                 <div class="rbt-card variation-01 rbt-hover">
                                     <div class="rbt-card-img">
                                         <a href="{{ route('course_details', $c) }}">
-                                            <img src="/e-cademy_assets/images/course/course-online-04.jpg" alt="Card image">
+                                            <img src="/storage/Course-image/{{ $c->image }}" alt="Card image">
                                         </a>
                                     </div>
                                     <div class="rbt-card-body">

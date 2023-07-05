@@ -112,7 +112,7 @@
                                         <input type="hidden" placeholder="currency*" name="currency" value="NGN">
                                     </div>
                                     <div class="col-md-12 my-3">
-                                        <input type="hidden" placeholder="reference*" value="{{ Paystack::genTranxRef() }}"
+                                        <input type="hidden" placeholder="reference*" value="{{' Paystack::genTranxRef()' }}"
                                             name="reference">
                                     </div>
                                     <div class="col-md-12 my-3">

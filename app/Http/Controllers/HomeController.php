@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Course;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -49,5 +50,12 @@ class HomeController extends Controller
             ->latest()
             ->paginate(4);
         return view('view_course', compact('courses'));
+    }
+
+    function contact()
+    {
+        $id = Auth::user()->id;
+        $profile = User::find($id);
+        return view('contact_us', \compact('profile'));
     }
 }
