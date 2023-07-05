@@ -7,13 +7,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home Classic Lms - Online Courses & Education Bootstrap5 Template</title>
+    <title>E-cademy - Online Courses & Education</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/e-cademy_assets/images/logo/whitehat2.jpg">
 
     <!-- CSS
  ============================================ -->
@@ -144,7 +144,8 @@
                                 <div class="rbt-search-field">
                                     <div class="search-field">
                                         <form action="{{ route('home.search') }}" method="post">@csrf
-                                            <input type="text" placeholder="Search Course" required name="q">
+                                            <input type="text" placeholder="Search Course" required
+                                                name="q">
                                             <button class="rbt-round-btn serach-btn" type="submit"><i
                                                     class="feather-search"></i></button>
                                         </form>
@@ -385,7 +386,8 @@
                         <div class="header-info">
                             <div class="logo">
                                 <a href="index-2.html">
-                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;">
+                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images"
+                                        style="width: 100px;">
                                     {{-- <h4>Whitehat</h4> --}}
                                 </a>
                             </div>
@@ -394,10 +396,10 @@
                     <div class="header-left rbt-header-content">
                         <div class="header-info">
                             <div class="logo">
-                                <a href="index-2.html">
+                                <a href="{{ route('welcome') }}">
                                     {{-- <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;"> --}}
                                     <a>Whitehat</a>
-                                    <a>Innovatives</a>
+                                    <a>E-cademy</a>
                                 </a>
                             </div>
                         </div>
@@ -407,12 +409,11 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="{{ route('welcome') }}">Home <i class="feather-chevron-down"></i></a>
+                                    <a href="{{ route('welcome') }}">Home</a>
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
                                     <a href="{{ route('admin.dashboard') }}">Dashboard
-                                        <i class="feather-chevron-down"></i>
                                     </a>
                                     {{-- <ul class="submenu">
                                         <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
@@ -1475,7 +1476,7 @@
                         <div class="footer-widget">
                             <div class="logo">
                                 <a href="index-2.html">
-                                    <img src="/e-cademy_assets/images/logo/logo.png" alt="Edu-cause">
+                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Edu-cause">
                                 </a>
                             </div>
 

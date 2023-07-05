@@ -54,13 +54,16 @@ Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/enrollmenthistory', [EnrollmentController::class, 'userenrollmenthistory'])->name('user.enrollmenthistory');
 });
 
+    Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
+    Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
+    Route::get('/contact_us', [HomeController::class, 'contact'])->name('contact_us');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/welcome', [HomeController::class, 'index'])->name('welcome');
-    Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
-    Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
+
 });
 
 require __DIR__ . '/auth.php';

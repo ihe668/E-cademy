@@ -379,7 +379,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="load-more-btn text-start text-md-end">
-                        <a class="rbt-btn rbt-switch-btn bg-primary-opacity" href="course.html">
+                        <a class="rbt-btn rbt-switch-btn bg-primary-opacity" href="{{ route('view_course') }}">
                             <span data-text="View All Course">View All Course</span>
                         </a>
                     </div>
@@ -391,7 +391,7 @@
                         data-sal-duration="800">
                         <div class="rbt-card variation-01 rbt-hover">
                             <div class="rbt-card-img">
-                                <a href="course-details.html">
+                                <a href="{{ route('course_details', $c) }}">
                                     <img src="/storage/Course-image/{{ $c->image }}" alt="Card image"
                                         style="width: 100px">
                                     <div class="rbt-badge-3 bg-white">

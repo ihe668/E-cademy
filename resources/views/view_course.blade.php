@@ -1,6 +1,6 @@
 @extends('layouts.guest')
 @section('slot')
-    <div class="container mt-5">
+    <div class="container mt-5 fluid-float">
         <div class="row g-5">
             @foreach ($courses as $c)
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12" data-sal-delay="150" data-sal="slide-up"
