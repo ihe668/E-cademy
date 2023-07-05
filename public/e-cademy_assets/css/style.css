@@ -12132,6 +12132,24 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
     font-weight: 500;
 }
 
+.rbt-cart-coun {
+    position: absolute;
+    top: 23px;
+    z-index: 2;
+    min-width: 16px;
+    height: 20px;
+    background: #7d10a8;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    padding: 0 4px 0 4px;
+    line-height: 16px;
+    left: 73%;
+    font-weight: 500;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .rbt-mini-cart .rbt-cart-count {
         top: 0px;

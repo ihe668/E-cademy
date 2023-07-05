@@ -11,10 +11,10 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 class AdminController extends Controller
 {
-    public function index()
-    {
-        return view('admin.dashboard');
-    }
+    // public function index()
+    // {
+    //     return view('admin.dashboard');
+    // }
 
     public function adminprofile()
     {
@@ -50,5 +50,5 @@ class AdminController extends Controller
         return view('admin.courses', compact('courses',));
     }
 
-    
+
 }

@@ -2,15 +2,36 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use App\Models\Course;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
+    public function dashboard()
+    {
+        if (Auth::id()) {
+            $role = Auth::user()->code;
+            if ($role == '007') {
+                return view('user.dashboard');
+            }
+            elseif ($role == '008') {
+                return view('admin.dashboard');
+            }
+        }
+        // if (Auth::id()) {
+
+        // } else {
+        //     # code...
+        // }
+    }
     public function index(Course $course)
     {
         $courses = Course::get()->all();
-        return view('welcome', compact('courses'));
+
+        $category = Category::with('courses')->get()->all();
+        return view('welcome', compact('courses', 'category'));
     }
     function view(Course $courses)
     {

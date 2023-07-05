@@ -12,7 +12,12 @@ class AnnouncementController extends Controller
     public function announcementsview(Announcements $announcements)
     {
         $an = $announcements->get()->all();
-        return view('admin.announcement', \compact('an'));
+        return view('admin.announcement', \compact('an', 'announcements'));
+    }
+    public function userannouncementsview(Announcements $announcements)
+    {
+        $an = $announcements->get()->all();
+        return view('user.announcement', \compact('an', 'announcements'));
     }
 
     public function addannouncementview()

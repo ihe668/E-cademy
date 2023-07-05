@@ -174,155 +174,37 @@
             <div class="container-fluid">
                 <div class="mainbar-row rbt-navigation-center align-items-center">
                     <div class="header-left rbt-header-content">
-                        <div class="header-info">
+                        {{-- <div class="header-info">
                             <div class="logo">
                                 <a href="index-2.html">
                                     <img src="/e-cademy_assets/images/logo/logo.png" alt="Education Logo Images">
                                 </a>
                             </div>
-                        </div>
-                        <div class="header-info">
-                            <div class="rbt-category-menu-wrapper">
-                                <div class="rbt-category-btn rbt-side-offcanvas-activation">
-                                    <div class="rbt-offcanvas-trigger md-size icon">
-                                        <span class="d-none d-xl-block">
-                                            <i class="feather-grid"></i>
-                                        </span>
-                                        <i title="Category" class="feather-grid d-block d-xl-none"></i>
-                                    </div>
-                                    <span class="category-text d-none d-xl-block">Category</span>
-                                </div>
-
-                                <div class="category-dropdown-menu d-none d-xl-block">
-                                    <div class="category-menu-item">
-                                        <div class="rbt-vertical-nav">
-                                            <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
-                                                <li class="vertical-nav-item active">
-                                                    <a href="#tab1">Course School</a>
-                                                </li>
-                                                <li class="vertical-nav-item">
-                                                    <a href="#tab2">Online School</a>
-                                                </li>
-                                                <li class="vertical-nav-item">
-                                                    <a href="#tab3">kindergarten</a>
-                                                </li>
-                                                <li class="vertical-nav-item">
-                                                    <a href="#tab4">Classic LMS</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="rbt-vertical-nav-content">
-                                            <!-- Start One Item  -->
-                                            <div class="rbt-vertical-inner tab-content" id="tab1"
-                                                style="display: block">
-                                                <div class="rbt-vertical-single">
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-sm-6 col-6">
-                                                            <div class="vartical-nav-content-menu">
-                                                                <h3 class="rbt-short-title">Course Title</h3>
-                                                                <ul class="rbt-vertical-nav-list-wrapper">
-                                                                    <li><a href="#">Web Design</a></li>
-                                                                    <li><a href="#">Art</a></li>
-                                                                    <li><a href="#">Figma</a></li>
-                                                                    <li><a href="#">Adobe</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-sm-6 col-6">
-                                                            <div class="vartical-nav-content-menu">
-                                                                <h3 class="rbt-short-title">Course Title</h3>
-                                                                <ul class="rbt-vertical-nav-list-wrapper">
-                                                                    <li><a href="#">Photo</a></li>
-                                                                    <li><a href="#">English</a></li>
-                                                                    <li><a href="#">Math</a></li>
-                                                                    <li><a href="#">Read</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End One Item  -->
-
-                                            <!-- Start One Item  -->
-                                            <div class="rbt-vertical-inner tab-content" id="tab2">
-                                                <div class="rbt-vertical-single">
-                                                    <div class="row">
-                                                        <div class="col-lg-6">
-                                                            <div class="vartical-nav-content-menu">
-                                                                <h3 class="rbt-short-title">Course Title</h3>
-                                                                <ul class="rbt-vertical-nav-list-wrapper">
-                                                                    <li><a href="#">Photo</a></li>
-                                                                    <li><a href="#">English</a></li>
-                                                                    <li><a href="#">Math</a></li>
-                                                                    <li><a href="#">Read</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-6">
-                                                            <div class="vartical-nav-content-menu">
-                                                                <h3 class="rbt-short-title">Course Title</h3>
-                                                                <ul class="rbt-vertical-nav-list-wrapper">
-                                                                    <li><a href="#">Web Design</a></li>
-                                                                    <li><a href="#">Art</a></li>
-                                                                    <li><a href="#">Figma</a></li>
-                                                                    <li><a href="#">Adobe</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End One Item  -->
-
-                                            <!-- Start One Item  -->
-                                            <div class="rbt-vertical-inner tab-content" id="tab3">
-                                                <div class="rbt-vertical-single">
-                                                    <div class="row">
-                                                        <div class="col-lg-12">
-                                                            <div class="vartical-nav-content-menu">
-                                                                <h3 class="rbt-short-title">Course Title</h3>
-                                                                <ul class="rbt-vertical-nav-list-wrapper">
-                                                                    <li><a href="#">Photo</a></li>
-                                                                    <li><a href="#">English</a></li>
-                                                                    <li><a href="#">Math</a></li>
-                                                                </ul>
-                                                                <div class="read-more-btn">
-                                                                    <a class="rbt-btn-link" href="#">Learn
-                                                                        More<i class="feather-arrow-right"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End One Item  -->
-
-                                            <!-- Start One Item  -->
-                                            <div class="rbt-vertical-inner tab-content" id="tab4">
-                                                <div class="rbt-vertical-single">
-                                                    <div class="row">
-                                                        <div class="col-lg-12">
-                                                            <div class="vartical-nav-content-menu">
-                                                                <h3 class="rbt-short-title">Course Title</h3>
-                                                                <ul class="rbt-vertical-nav-list-wrapper">
-                                                                    <li><a href="#">Photo</a></li>
-                                                                    <li><a href="#">English</a></li>
-                                                                    <li><a href="#">Math</a></li>
-                                                                    <li><a href="#">Read</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End One Item  -->
-
-                                        </div>
-                                    </div>
+                        </div> --}}
+                        <div class="header-left rbt-header-content">
+                            <div class="header-info">
+                                <div class="logo">
+                                    <a href="index-2.html">
+                                        <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images"
+                                            style="width: 100px;">
+                                        {{-- <h4>Whitehat</h4> --}}
+                                    </a>
                                 </div>
                             </div>
                         </div>
+                        <div class="header-left rbt-header-content">
+                            <div class="header-info">
+                                <div class="logo">
+                                    <a href="index-2.html">
+                                        {{-- <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;"> --}}
+                                        <a>Whitehat</a>
+                                        <a>E-cademy</a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
                     </div>
 
                     <div class="rbt-main-navigation d-none d-xl-block">
@@ -333,7 +215,7 @@
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="{{ route('admin.dashboard') }}">Dashboard
+                                    <a href="{{ route('dashboard') }}">Dashboard
                                         <i class="feather-chevron-down"></i>
                                     </a>
 
@@ -375,7 +257,7 @@
                                         </div>
                                         <ul class="user-list-wrapper">
                                             <li>
-                                                <a href="{{ route('admin.dashboard') }}">
+                                                <a href="{{ route('dashboard') }}">
                                                     <i class="feather-home"></i>
                                                     <span>My Dashboard</span>
                                                 </a>
@@ -1774,7 +1656,7 @@
                                             </div>
                                             <nav class="mainmenu-nav">
                                                 <ul class="dashboard-mainmenu rbt-default-sidebar-list">
-                                                    <li><a href="{{ route('admin.dashboard') }}"><i
+                                                    <li><a href="{{ route('dashboard') }}"><i
                                                                 class="feather-home"></i><span>Dashboard</span></a>
                                                     </li>
                                                     <li><a href="{{ route('admin.profile') }}"><i
@@ -1811,8 +1693,17 @@
                                                                 class="feather-monitor"></i><span>My
                                                                 Courses</span></a>
                                                     </li>
-                                                    <li><a href="{{route('admin.announcement')}}"><i
-                                                                class="feather-volume-2"></i><span>Announcements</span></a>
+                                                    {{-- <li class="access-icon rbt-mini-cart">
+                                                        <a class="rbt-cart-sidenav-activation rbt-round-btn" href="#">
+                                                            <i class="feather-shopping-cart"></i>
+                                                            <span class="rbt-cart-count">4</span>
+                                                        </a>
+                                                    </li> --}}
+                                                    <li class="access-icon rbt-mini-cart"><a
+                                                            href="{{route('admin.announcement')}}"
+                                                            class="rbt-cart-sidenav-activation rbt-round-btn">
+                                                            <i class="feather-volume-2"></i><span>Announcements</span>
+                                                            </a><span class="rbt-cart-count">4</span>
                                                     </li>
                                                     <li><a href="instructor-quiz-attempts.html"><i
                                                                 class="feather-message-square"></i><span>Quiz
@@ -1867,11 +1758,34 @@
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="footer-widget">
-                            <div class="logo">
-                                <a href="index-2.html">
-                                    <img src="/e-cademy_assets/images/logo/logo.png" alt="Edu-cause">
-                                </a>
+                            <!-- Start Footer logo -->
+                            <div class="container">
+                                <div class="mainbar-row rbt-navigation-end align-items-center">
+                                    <div class="header-left rbt-header-content">
+                                        <div class="header-info">
+                                            <div class="logo">
+                                                <a href="index-2.html">
+                                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg"
+                                                        alt="Education Logo Images" style="width: 100px;">
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-left rbt-header-content pr--135">
+                                        <div class="header-info pr--30">
+                                            <div class="logo">
+                                                <a href="index-2.html">
+                                                    {{-- <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;"> --}}
+                                                    <a>Whitehat</a>
+                                                    <a>E-cademy</a>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- End Footer logo -->
 
                             <p class="description mt--20">We’re always in search for talented
                                 and motivated people. Don’t be shy introduce yourself!

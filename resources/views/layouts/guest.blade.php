@@ -144,7 +144,8 @@
                                 <div class="rbt-search-field">
                                     <div class="search-field">
                                         <form action="{{ route('home.search') }}" method="post">@csrf
-                                            <input type="text" placeholder="Search Course" required name="q">
+                                            <input type="text" placeholder="Search Course" required
+                                                name="q">
                                             <button class="rbt-round-btn serach-btn" type="submit"><i
                                                     class="feather-search"></i></button>
                                         </form>
@@ -378,14 +379,15 @@
         </div>
         <!-- End Header Top -->
 
-        <div class="rbt-header-wrapper  header-not-transparent header-sticky">
+        <div class="rbt-header-wrapper  header-not-transparent header-sticky sticky-top">
             <div class="container">
                 <div class="mainbar-row rbt-navigation-end align-items-center">
                     <div class="header-left rbt-header-content">
                         <div class="header-info">
                             <div class="logo">
                                 <a href="index-2.html">
-                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;">
+                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images"
+                                        style="width: 100px;">
                                     {{-- <h4>Whitehat</h4> --}}
                                 </a>
                             </div>
@@ -397,7 +399,7 @@
                                 <a href="index-2.html">
                                     {{-- <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;"> --}}
                                     <a>Whitehat</a>
-                                    <a>Innovatives</a>
+                                    <a>E-cademy</a>
                                 </a>
                             </div>
                         </div>
@@ -407,12 +409,12 @@
                         <nav class="mainmenu-nav">
                             <ul class="mainmenu">
                                 <li class="with-megamenu has-menu-child-item position-static">
-                                    <a href="{{ route('welcome') }}">Home <i class="feather-chevron-down"></i></a>
+                                    <a href="{{ route('welcome') }}">Home</a>
                                 </li>
 
                                 <li class="has-dropdown has-menu-child-item">
-                                    <a href="{{ route('admin.dashboard') }}">Dashboard
-                                        <i class="feather-chevron-down"></i>
+                                    <a href="{{ route('dashboard') }}">Dashboard
+                                      
                                     </a>
                                     {{-- <ul class="submenu">
                                         <li class="has-dropdown"><a href="#">Instructor Dashboard</a>
@@ -1473,11 +1475,35 @@
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="footer-widget">
-                            <div class="logo">
-                                <a href="index-2.html">
-                                    <img src="/e-cademy_assets/images/logo/logo.png" alt="Edu-cause">
-                                </a>
+
+                            <!-- Start Footer logo -->
+                            <div class="container">
+                                <div class="mainbar-row rbt-navigation-end align-items-center">
+                                    <div class="header-left rbt-header-content">
+                                        <div class="header-info">
+                                            <div class="logo">
+                                                <a href="index-2.html">
+                                                    <img src="/e-cademy_assets/images/logo/whitehat2.jpg"
+                                                        alt="Education Logo Images" style="width: 100px;">
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-left rbt-header-content pr--135">
+                                        <div class="header-info pr--30">
+                                            <div class="logo">
+                                                <a href="index-2.html">
+                                                    {{-- <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images" style="width: 100px;"> --}}
+                                                    <a>Whitehat</a>
+                                                    <a>E-cademy</a>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- End Footer logo -->
 
                             <p class="description mt--20">We’re always in search for talented
                                 and motivated people. Don’t be shy introduce yourself!

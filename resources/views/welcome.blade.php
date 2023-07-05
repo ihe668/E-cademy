@@ -31,139 +31,54 @@
                     <div class="content">
                         <div class="banner-card pb--60 swiper rbt-dot-bottom-center banner-swiper-active">
                             <div class="swiper-wrapper">
-                                <!-- Start Single Card  -->
-                                <div class="swiper-slide">
-                                    <div class="rbt-card variation-01 rbt-hover">
-                                        <div class="rbt-card-img">
-                                            <a href="course-details.html">
-                                                <img src="/e-cademy_assets/images/course/classic-lms-01.jpg"
-                                                    alt="Card image">
-                                                <div class="rbt-badge-3 bg-white">
-                                                    <span>-40%</span>
-                                                    <span>Off</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="rbt-card-body">
-                                            <ul class="rbt-meta">
-                                                <li><i class="feather-book"></i>12 Lessons</li>
-                                                <li><i class="feather-users"></i>50 Students</li>
-                                            </ul>
-                                            <h4 class="rbt-card-title"><a href="course-details.html">React</a>
-                                            </h4>
-                                            <p class="rbt-card-text">It is a long established fact that a reader
-                                                will be distracted.</p>
-                                            <div class="rbt-review">
-                                                <div class="rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <span class="rating-count"> (15 Reviews)</span>
+                                @foreach ($courses as $c)
+                                    <!-- Start Single Card  -->
+                                    <div class="swiper-slide">
+                                        <div class="rbt-card variation-01 rbt-hover">
+                                            <div class="rbt-card-img">
+                                                <a href="course-details.html">
+                                                    <img src="/e-cademy_assets/images/course/classic-lms-01.jpg"
+                                                        alt="Card image">
+                                                    <div class="rbt-badge-3 bg-white">
+                                                        <span>-40%</span>
+                                                        <span>Off</span>
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="rbt-card-bottom">
-                                                <div class="rbt-price">
-                                                    <span class="current-price">$70</span>
-                                                    <span class="off-price">$120</span>
+                                            <div class="rbt-card-body">
+                                                <ul class="rbt-meta">
+                                                    <li><i class="feather-book"></i>12 Lessons</li>
+                                                    <li><i class="feather-users"></i>50 Students</li>
+                                                </ul>
+                                                <h4 class="rbt-card-title"><a href="course-details.html">{{$c->name}}</a>
+                                                </h4>
+                                                <p class="rbt-card-text">It is a long established fact that a reader
+                                                    will be distracted.</p>
+                                                <div class="rbt-review">
+                                                    <div class="rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <span class="rating-count"> (15 Reviews)</span>
                                                 </div>
-                                                <a class="rbt-btn-link" href="course-details.html">Learn More<i
-                                                        class="feather-arrow-right"></i></a>
+                                                <div class="rbt-card-bottom">
+                                                    <div class="rbt-price">
+                                                        <span class="current-price">$70</span>
+                                                        <span class="off-price">$120</span>
+                                                    </div>
+                                                    <a class="rbt-btn-link" href="course-details.html">Learn More<i
+                                                            class="feather-arrow-right"></i></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- End Single Card  -->
+                                    <!-- End Single Card  -->
+                                @endforeach
 
-                                <!-- Start Single Card  -->
-                                <div class="swiper-slide">
-                                    <div class="rbt-card variation-01 rbt-hover">
-                                        <div class="rbt-card-img">
-                                            <a href="course-details.html">
-                                                <img src="/e-cademy_assets/images/course/course-01.jpg" alt="Card image">
-                                                <div class="rbt-badge-3 bg-white">
-                                                    <span>-40%</span>
-                                                    <span>Off</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="rbt-card-body">
-                                            <ul class="rbt-meta">
-                                                <li><i class="feather-book"></i>12 Lessons</li>
-                                                <li><i class="feather-users"></i>50 Students</li>
-                                            </ul>
-                                            <h4 class="rbt-card-title"><a href="course-details.html">React</a>
-                                            </h4>
-                                            <p class="rbt-card-text">It is a long established fact that a reader
-                                                will be distracted.</p>
-                                            <div class="rbt-review">
-                                                <div class="rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <span class="rating-count"> (15 Reviews)</span>
-                                            </div>
-                                            <div class="rbt-card-bottom">
-                                                <div class="rbt-price">
-                                                    <span class="current-price">$70</span>
-                                                    <span class="off-price">$120</span>
-                                                </div>
-                                                <a class="rbt-btn-link" href="course-details.html">Learn More<i
-                                                        class="feather-arrow-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Card  -->
-
-                                <!-- Start Single Card  -->
-                                <div class="swiper-slide">
-                                    <div class="rbt-card variation-01 rbt-hover">
-                                        <div class="rbt-card-img">
-                                            <a href="course-details.html">
-                                                <img src="/e-cademy_assets/images/course/course-online-01.jpg"
-                                                    alt="Card image">
-                                                <div class="rbt-badge-3 bg-white">
-                                                    <span>-40%</span>
-                                                    <span>Off</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="rbt-card-body">
-                                            <ul class="rbt-meta">
-                                                <li><i class="feather-book"></i>12 Lessons</li>
-                                                <li><i class="feather-users"></i>50 Students</li>
-                                            </ul>
-                                            <h4 class="rbt-card-title"><a href="course-details.html">React</a>
-                                            </h4>
-                                            <p class="rbt-card-text">It is a long established fact that a reader
-                                                will be distracted.</p>
-                                            <div class="rbt-review">
-                                                <div class="rating">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <span class="rating-count"> (15 Reviews)</span>
-                                            </div>
-                                            <div class="rbt-card-bottom">
-                                                <div class="rbt-price">
-                                                    <span class="current-price">$70</span>
-                                                    <span class="off-price">$120</span>
-                                                </div>
-                                                <a class="rbt-btn-link" href="course-details.html">Learn More<i
-                                                        class="feather-arrow-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Card  -->
+                       
                             </div>
                             <div class="rbt-swiper-pagination"></div>
                         </div>
@@ -193,149 +108,26 @@
                 </div>
             </div>
             <div class="row g-5">
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/web-design.jpg" alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Web Design</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">15 Courses<i class="feather-arrow-right"></i></span>
+                @foreach ($category as $cat)
+                    <!-- Start Category Box Layout  -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <img src="/e-cademy_assets/images/category/image/web-design.jpg" alt="Icons Images">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title">{{ $cat->name }}</h5>
+                                    <div class="read-more-btn">
+                                        <span class="rbt-btn-link">{{ $cat->courses->count() }} Course(s)<i
+                                                class="feather-arrow-right"></i></span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- End Category Box Layout  -->
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/graphic-design.jpg" alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Graphic Design</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">25 Courses<i class="feather-arrow-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- End Category Box Layout  -->
-
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="rbt-cat-box rbt-cat-box-1 list-style">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/personal-development.jpg"
-                                    alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Personal Development</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">14 Courses<i class="feather-arrow-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
-                <!-- End Category Box Layout  -->
-
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/software.jpg" alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">IT and Software</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">12 Courses<i class="feather-arrow-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- End Category Box Layout  -->
-
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/sales.jpg" alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Sales Marketing</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">30 Courses<i class="feather-arrow-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- End Category Box Layout  -->
-
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/arts.jpg" alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Art & Humanities</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">15 Courses<i class="feather-arrow-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- End Category Box Layout  -->
-
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/mobile.jpg" alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Mobile Application</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">40 Courses<i class="feather-arrow-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- End Category Box Layout  -->
-
-                <!-- Start Category Box Layout  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
-                        <div class="inner">
-                            <div class="thumbnail">
-                                <img src="/e-cademy_assets/images/category/image/finance.jpg" alt="Icons Images">
-                            </div>
-                            <div class="content">
-                                <h5 class="title">Finance & Accounting</h5>
-                                <div class="read-more-btn">
-                                    <span class="rbt-btn-link">20 Courses<i class="feather-arrow-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- End Category Box Layout  -->
+                    <!-- End Category Box Layout  -->
+                @endforeach
             </div>
 
         </div>
@@ -379,7 +171,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="load-more-btn text-start text-md-end">
-                        <a class="rbt-btn rbt-switch-btn bg-primary-opacity" href="course.html">
+                        <a class="rbt-btn rbt-switch-btn bg-primary-opacity" href="{{ route('view_course') }}">
                             <span data-text="View All Course">View All Course</span>
                         </a>
                     </div>
@@ -665,7 +457,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                         <div class="instagram-grid">
                             <a href="#">
-                                <img src="/e-cademy_assets/images/instagram/instagram-01.jpg" alt="instagram">
+                                <img src="https://www.instagram.com/p/CrAbfFzIYGH/" alt="instagram">
                                 <span class="user-info">
                                     <span class="icon"><i class="icon-instagram"></i></span>
                                     <span class="user-name">@E_cademy</span>

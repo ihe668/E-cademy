@@ -8,7 +8,7 @@ use App\Http\Controllers\Admin\CourseController;
 use App\Http\Controllers\Admin\SettingsController;
 
 Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
-    Route::get('/', [AdminController::class, 'index'])->name('admin.dashboard');
+    // Route::get('/', [AdminController::class, 'index'])->name('admin.dashboard');
     Route::post('/admin.search.course', [AdminController::class, 'search'])->name('admin.search.course');
 
     Route::get('/addcategory/view', [CategoryController::class, 'addcategoryview'])->name('admin.addcategory.view');

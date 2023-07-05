@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.user')
 @section('slot')
 <!-- Start Enrole Course  -->
 <div class="rbt-dashboard-content bg-color-white rbt-shadow-box">
@@ -8,29 +8,7 @@
             </h4>
         </div>
 
-        <!-- Start Call To Action  -->
-        <div class="rbt-callto-action rbt-cta-default style-2">
-            <div class="content-wrapper overflow-hidden pt--30 pb--30 bg-color-primary-opacity">
-                <div class="row gy-5 align-items-end">
-                    <div class="col-lg-8">
-                        <div class="inner">
-                            <div class="content text-left">
-                                <h5 class="mb--5">Notify your all students.</h5>
-                                <p class="b3">Create Announcement</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="call-to-btn text-start text-lg-end position-relative">
-                            <a class="rbt-btn btn-sm rbt-switch-btn rbt-switch-y" href="{{route('admin.addannouncement.view')}}">
-                                <span data-text="Add New Announcement">Add New Announcement</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Call To Action  -->
+
 
         <!-- Start Filter -->
         <div class="rbt-dashboard-filter-wrapper mt--60">
@@ -99,12 +77,7 @@
                         <span class="h6 mb--5">{{$a->title}}</span>
                         <p class="b3">{{$a->content}}</p>
                     </td>
-                    <td>
-                        <div class="rbt-button-group justify-content-end">
-                            
-                            <a class="rbt-btn-link left-icon" href="#"><i class="feather-trash-2"></i> Delete</a>
-                        </div>
-                    </td>
+                   
                 </tr>
                   @endforeach
 

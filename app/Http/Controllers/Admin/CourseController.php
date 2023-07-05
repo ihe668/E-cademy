@@ -25,8 +25,8 @@ class CourseController extends Controller
             'category_id' => 'required',
             'description' => 'required',
             'price' => 'required',
-            'discounted_price' => 'required',
-            'image' => 'required|image'
+            // 'discounted_price' => 'required',
+            // 'image' => 'required|image'
         ]);
         $slug = \Str::random(7) . uniqid() . Auth::user()->id;
 
