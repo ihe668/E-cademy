@@ -37,7 +37,7 @@
                                         <div class="rbt-card variation-01 rbt-hover">
                                             <div class="rbt-card-img">
                                                 <a href="course-details.html">
-                                                    <img src="/e-cademy_assets/images/course/classic-lms-01.jpg"
+                                                    <img src="/storage/Course-image/{{ $c->image }}"
                                                         alt="Card image">
                                                     <div class="rbt-badge-3 bg-white">
                                                         <span>-40%</span>
@@ -78,7 +78,7 @@
                                     <!-- End Single Card  -->
                                 @endforeach
 
-                       
+
                             </div>
                             <div class="rbt-swiper-pagination"></div>
                         </div>

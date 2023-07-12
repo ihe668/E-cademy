@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\AnnouncementController;
+use App\Http\Controllers\Admin\AssignmentController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CoursecontentController;
 use App\Http\Controllers\Admin\CourseController;
@@ -30,4 +31,8 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
     Route::get('/announcements', [AnnouncementController::class, 'announcementsview'])->name('admin.announcement');
     Route::get('/addannouncement/view', [AnnouncementController::class, 'addannouncementview'])->name('admin.addannouncement.view');
     Route::post('/addannouncement', [AnnouncementController::class, 'addannouncement'])->name('admin.addannouncement');
+
+    Route::get('/assignment', [AssignmentController::class, 'assignmentview'])->name('admin.assignments.view');
+    Route::get('/addassignment/view', [AssignmentController::class, 'addassignmentview'])->name('admin.addassignment.view');
+    Route::post('/addassignment', [AssignmentController::class, 'addassignment'])->name('admin.addassignment');
 });

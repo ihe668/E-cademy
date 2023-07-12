@@ -231,7 +231,7 @@
                                     <li>
                                         <a href="#coursecontent">Course Content</a>
                                     </li>
-                                   
+
                                     <li>
                                         <a href="#intructor">Intructor</a>
                                     </li>
@@ -672,6 +672,7 @@
                             </div>
                         </div>
                         <!-- End Edu Review List  -->
+                        
 
                         <div class="about-author-list rbt-shadow-box featured-wrapper mt--30 has-show-more">
                             <div class="section-title">

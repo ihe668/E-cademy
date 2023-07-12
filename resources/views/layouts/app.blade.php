@@ -1708,7 +1708,7 @@
                                                     <li><a href="instructor-quiz-attempts.html"><i
                                                                 class="feather-message-square"></i><span>Quiz
                                                                 Attempts</span></a></li>
-                                                    <li><a href="instructor-assignments.html"><i
+                                                    <li><a href="{{route('admin.assignments.view')}}"><i
                                                                 class="feather-list"></i><span>Assignments</span></a>
                                                     </li>
                                                 </ul>

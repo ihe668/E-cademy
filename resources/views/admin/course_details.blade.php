@@ -123,7 +123,7 @@
                             <li>
                                 <div class="icon-right"><i class="feather-chevron-right"></i></div>
                             </li>
-                            <li class="rbt-breadcrumb-item active">{{$courses->category->name}}</li>
+                            <li class="rbt-breadcrumb-item active">{{ $courses->category->name }}</li>
                         </ul>
                         <h2 class="title">{{ $courses->name }}</h2>
                         <p class="description">{{ $courses->description }}</p>
@@ -180,8 +180,7 @@
                     <div class="course-sidebar sticky-top rbt-shadow-box course-sidebar-top rbt-gradient-border">
                         <div class="inner">
                             <div class="content-item-content">
-                                <div
-                                    class="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
+                                <div class="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
                                     <div class="rbt-price">
                                         <span class="current-price">₦{{ number_format($courses->price, 2) }}</span>
                                         <span class="off-price">₦{{ number_format($courses->discounted_price, 2) }}</span>
@@ -313,72 +312,75 @@
                                 </div>
                                 <div class="rbt-accordion-style rbt-accordion-02 accordion">
                                     @foreach ($content->contents as $cont)
-                                    <div class="accordion" id="accordionExampleb2">
+                                        <div class="accordion" id="accordionExampleb2">
 
-                                        <div class="accordion-item card">
-                                            <h2 class="accordion-header card-header" id="headingTwo1">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseTwo1" aria-expanded="true"
-                                                    aria-controls="collapseTwo1">
-                                                    {{$cont->name}}<span class="rbt-badge-5 ml--10">1hr
-                                                        30min</span>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseTwo1" class="accordion-collapse collapse show"
-                                                aria-labelledby="headingTwo1" data-bs-parent="#accordionExampleb2">
-                                                <div class="accordion-body card-body pr--0">
-                                                    <ul class="rbt-course-main-content liststyle">
-                                                        <li>
-                                                            <a href="#">
-                                                                <div class="course-content-left">
-                                                                    <i class="feather-play-circle"></i> <span
-                                                                        class="text">Course summary:  {{$cont->summary}}</span>
-                                                                </div>
-                                                                <div class="course-content-right">
-                                                                    <span class="min-lable"></span>
-                                                                    <span
-                                                                        class="rbt-badge variation-03 bg-primary-opacity"><i
-                                                                            class="feather-eye"></i> Preview</span>
-                                                                </div>
-                                                            </a>
-                                                        </li>
+                                            <div class="accordion-item card">
+                                                <h2 class="accordion-header card-header" id="headingTwo1">
+                                                    <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo1"
+                                                        aria-expanded="true" aria-controls="collapseTwo1">
+                                                        {{ $cont->name }}<span class="rbt-badge-5 ml--10">1hr
+                                                            30min</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo1" class="accordion-collapse collapse show"
+                                                    aria-labelledby="headingTwo1" data-bs-parent="#accordionExampleb2">
+                                                    <div class="accordion-body card-body pr--0">
+                                                        <ul class="rbt-course-main-content liststyle">
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="course-content-left">
+                                                                        <i class="feather-play-circle"></i> <span
+                                                                            class="text">Course summary:
+                                                                            {{ $cont->summary }}</span>
+                                                                    </div>
+                                                                    <div class="course-content-right">
+                                                                        <span class="min-lable"></span>
+                                                                        <span
+                                                                            class="rbt-badge variation-03 bg-primary-opacity"><i
+                                                                                class="feather-eye"></i> Preview</span>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a href="{{$cont->link}}">
-                                                                <div class="course-content-left">
-                                                                    <i class="feather-play-circle"></i> <span
-                                                                        class="text">Watch video:  {{$cont->link}}</span>
-                                                                </div>
-                                                                <div class="course-content-right">
-                                                                    <span class="min-lable"></span>
-                                                                    <span
-                                                                        class="rbt-badge variation-03 bg-primary-opacity"><i
-                                                                            class="feather-eye"></i> Preview</span>
-                                                                </div>
-                                                            </a>
-                                                        </li>
+                                                            <li>
+                                                                <a href="{{ $cont->link }}">
+                                                                    <div class="course-content-left">
+                                                                        <i class="feather-play-circle"></i> <span
+                                                                            class="text">Watch video:
+                                                                            {{ $cont->link }}</span>
+                                                                    </div>
+                                                                    <div class="course-content-right">
+                                                                        <span class="min-lable"></span>
+                                                                        <span
+                                                                            class="rbt-badge variation-03 bg-primary-opacity"><i
+                                                                                class="feather-eye"></i> Preview</span>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a href="#">
-                                                                <div class="course-content-left">
-                                                                    <i class="feather-file-text"></i> <span
-                                                                        class="text">Course content: {{$cont->content}}</span>
-                                                                </div>
-                                                                <div class="course-content-right">
-                                                                    <span class="course-lock"><i
-                                                                            class="feather-lock"></i></span>
-                                                                </div>
-                                                            </a>
-                                                        </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="course-content-left">
+                                                                        <i class="feather-file-text"></i> <span
+                                                                            class="text">Course content:
+                                                                            {{ $cont->content }}</span>
+                                                                    </div>
+                                                                    <div class="course-content-right">
+                                                                        <span class="course-lock"><i
+                                                                                class="feather-lock"></i></span>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
 
-                                                    </ul>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
+
+
+
                                         </div>
-
-
-
-                                    </div>
                                     @endforeach
 
                                 </div>
@@ -708,7 +710,65 @@
                             </div>
                         </div>
                         <!-- End Edu Review List  -->
+                        <form action="/submit-rating" method="POST">
+                            @csrf
+                            <div class="star-rating">
+                              <input type="radio" id="star5" name="rating" value="5" />
+                              <label for="star5" class="star">&#9733;</label>
+                              <input type="radio" id="star4" name="rating" value="4" />
+                              <label for="star4" class="star">&#9733;</label>
+                              <input type="radio" id="star3" name="rating" value="3" />
+                              <label for="star3" class="star">&#9733;</label>
+                              <input type="radio" id="star2" name="rating" value="2" />
+                              <label for="star2" class="star">&#9733;</label>
+                              <input type="radio" id="star1" name="rating" value="1" />
+                              <label for="star1" class="star">&#9733;</label>
+                            </div>
+                            <button type="submit">Submit</button>
+                          </form>
 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col mt-4">
+                                    <form class="py-2 px-4" action="#" style="box-shadow: 0 0 10px 0 #ddd;"
+                                        method="POST" autocomplete="off">
+                                        @csrf
+                                        <p class="font-weight-bold ">Review</p>
+                                        <div class="form-group row">
+                                            <input type="hidden" name="course_id" value="{{ $courses->id }}">
+                                            <div class="col">
+                                                <div class="rate">
+                                                    <input type="radio" id="star5" class="rate" name="rating"
+                                                        value="5" />
+                                                    <label for="star5" title="text">5 stars</label>
+                                                    <input type="radio" checked id="star4" class="rate"
+                                                        name="rating" value="4" />
+                                                    <label for="star4" title="text">4 stars</label>
+                                                    <input type="radio" id="star3" class="rate" name="rating"
+                                                        value="3" />
+                                                    <label for="star3" title="text">3 stars</label>
+                                                    <input type="radio" id="star2" class="rate" name="rating"
+                                                        value="2">
+                                                    <label for="star2" title="text">2 stars</label>
+                                                    <input type="radio" id="star1" class="rate" name="rating"
+                                                        value="1" />
+                                                    <label for="star1" title="text">1 star</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row mt-4">
+                                            <div class="col">
+                                                <textarea class="form-control" name="comment" rows="6 " placeholder="Comment" maxlength="200"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3 text-right">
+                                            <button class="btn btn-sm py-2 px-3 btn-info">Submit
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <div class="about-author-list rbt-shadow-box featured-wrapper mt--30 has-show-more">
                             <div class="section-title">
                                 <h4 class="rbt-title-style-3">Featured review</h4>
@@ -1048,8 +1108,7 @@
                                                 </a>
                                             </div>
                                             <div class="rbt-author-info">
-                                                By <a href="profile.html">Angela</a> In <a
-                                                    href="#">Development</a>
+                                                By <a href="profile.html">Angela</a> In <a href="#">Development</a>
                                             </div>
                                         </div>
                                         <div class="rbt-card-bottom">
@@ -1274,4 +1333,39 @@
             </div>
         </div>
     </div>
+    <style>
+      .star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.star-rating .star {
+  font-size: 30px;
+  color: #ccc;
+  transition: color 0.2s;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.star-rating .star:last-child {
+  margin-right: 0;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating input[type="radio"] + label:before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+  color: #ffcc00;
+}
+
+    </style>
 @endsection

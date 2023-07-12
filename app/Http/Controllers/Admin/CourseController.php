@@ -3,11 +3,14 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Middleware\User;
 use App\Models\Category;
 use App\Models\Course;
+use App\Models\Coursereview;
 use Illuminate\Http\Request;
 use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Review;
 
 class CourseController extends Controller
 {
@@ -63,13 +66,19 @@ class CourseController extends Controller
         return view('user.course', \compact('courses'));
     }
 
-        public function details(Course $course)
-        {
-            $cou = $course->id;
-            $content = Course::with('contents')->find($course->id);
-            $courses = Course::with('category')->find($course->id);
-            return view('admin.course_details', compact('courses', 'content'));
-        }
+    public function details(Course $course)
+    {
+        // $value = Coursereview::with('review')->get();
+        $value = Coursereview::get();
+        $cou = $course->id;
+        $content = Course::with('contents')->find($course->id);
+        $courses = Course::with('category')->find($course->id);
+
+
+
+
+        return view('admin.course_details', compact('courses', 'content','value'));
+    }
 
     public function usercoursedetailsview(Course $course)
     {

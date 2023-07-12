@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\AnnouncementController;
+use App\Http\Controllers\Admin\AssignmentController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CourseController;
 use App\Http\Controllers\Admin\SettingsController;
@@ -63,6 +64,8 @@ Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/enrollmenthistory', [EnrollmentController::class, 'userenrollmenthistory'])->name('user.enrollmenthistory');
 
     Route::get('/announcements', [AnnouncementController::class, 'userannouncementsview'])->name('user.announcement');
+
+    Route::get('/assignments', [AssignmentController::class, 'userassignmentsview'])->name('user.assignments.view');
 });
 
     Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');

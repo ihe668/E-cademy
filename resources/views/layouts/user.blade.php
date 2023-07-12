@@ -1215,6 +1215,8 @@
                                                                     class="feather-shopping-bag"></i><span>My
                                                                     Enrollment
                                                                     History</span></a></li>
+                                                        <li><a href="{{ route('user.assignments.view') }}"><i
+                                                                    class="feather-shopping-bag"></i><span>Assignments </span></a></li>
                                                     </ul>
                                                 </nav>
 

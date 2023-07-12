@@ -18,6 +18,7 @@
                         <th>Status</th>
                     </tr>
                 </thead>
+                
 
                 <tbody>
                     @foreach ($enrollment_history as $enroll)
