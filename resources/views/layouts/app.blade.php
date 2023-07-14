@@ -1703,7 +1703,7 @@
                                                             href="{{route('admin.announcement')}}"
                                                             class="rbt-cart-sidenav-activation rbt-round-btn">
                                                             <i class="feather-volume-2"></i><span>Announcements</span>
-                                                            </a><span class="rbt-cart-count">4</span>
+                                                            </a><span class=""></span>
                                                     </li>
                                                     <li><a href="instructor-quiz-attempts.html"><i
                                                                 class="feather-message-square"></i><span>Quiz

@@ -6,6 +6,7 @@ use App\Models\Course;
 use App\Models\Enrollment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 use RealRashid\SweetAlert\Facades\Alert;
 use Unicodeveloper\Paystack\Facades\Paystack;
 
