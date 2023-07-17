@@ -1674,9 +1674,9 @@
 
                                                     <li><a href="instructor-reviews.html"><i
                                                                 class="feather-star"></i><span>Reviews</span></a></li>
-                                                    <li><a href="instructor-my-quiz-attempts.html"><i
-                                                                class="feather-help-circle"></i><span>My Quiz
-                                                                Attempts</span></a></li>
+                                                    <li><a href="{{route('admin.setquiz.view')}}"><i
+                                                                class="feather-help-circle"></i><span>Quiz
+                                                                </span></a></li>
                                                     <li><a href="instructor-order-history.html"><i
                                                                 class="feather-shopping-bag"></i><span>Enrollment
                                                                 History</span></a></li>
