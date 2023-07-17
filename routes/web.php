@@ -71,6 +71,7 @@ Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
     Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
     Route::get('/contact_us', [HomeController::class, 'contact'])->name('contact_us');
+    Route::get('/home.course/{category}', [HomeController::class, 'home'])->name('home.course');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

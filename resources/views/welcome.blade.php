@@ -11,9 +11,7 @@
                                 <span class="rbt-new-badge-icon">🏆</span> The Leader in Online Learning
                             </div>
                             <h1 class="title">The Largest <span class="color-primary">Online Learning</span> Platform
-                                for Drive Your Career.</h1>
-                            <p class="description">This template includes all the necessary pages of the onlineLorem.
-                                And you can be build a <strong>education template easily</strong>.
+                                to Drive Your Career.</h1>
                             </p>
                             <div class="slider-btn">
                                 <a class="rbt-btn btn-gradient hover-icon-reverse" href="{{ route('view_course') }}">
@@ -37,8 +35,7 @@
                                         <div class="rbt-card variation-01 rbt-hover">
                                             <div class="rbt-card-img">
                                                 <a href="course-details.html">
-                                                    <img src="/storage/Course-image/{{ $c->image }}"
-                                                        alt="Card image">
+                                                    <img src="/storage/Course-image/{{ $c->image }}" alt="Card image">
                                                     <div class="rbt-badge-3 bg-white">
                                                         <span>-40%</span>
                                                         <span>Off</span>
@@ -50,7 +47,8 @@
                                                     <li><i class="feather-book"></i>12 Lessons</li>
                                                     <li><i class="feather-users"></i>50 Students</li>
                                                 </ul>
-                                                <h4 class="rbt-card-title"><a href="course-details.html">{{$c->name}}</a>
+                                                <h4 class="rbt-card-title"><a
+                                                        href="course-details.html">{{ $c->name }}</a>
                                                 </h4>
                                                 <p class="rbt-card-text">It is a long established fact that a reader
                                                     will be distracted.</p>
@@ -119,7 +117,7 @@
                 @foreach ($category as $cat)
                     <!-- Start Category Box Layout  -->
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <a class="rbt-cat-box rbt-cat-box-1 list-style" href="course-filter-one-toggle.html">
+                        <a class="rbt-cat-box rbt-cat-box-1 list-style" href="{{ route('home.course',$cat) }}">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <img src="/e-cademy_assets/images/category/image/web-design.jpg" alt="Icons Images">

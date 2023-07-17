@@ -16,8 +16,7 @@ class HomeController extends Controller
             $role = Auth::user()->code;
             if ($role == '007') {
                 return view('user.dashboard');
-            }
-            elseif ($role == '008') {
+            } elseif ($role == '008') {
                 return view('admin.dashboard');
             }
         }
@@ -57,5 +56,13 @@ class HomeController extends Controller
         $id = Auth::user()->id;
         $profile = User::find($id);
         return view('contact_us', \compact('profile'));
+    }
+
+    function home(Course $course, Category $category)
+    {
+        $id = $category->id;
+        //getting a particular course from a category
+        $courses = Course::where('category_id', '=', $id)->get()->all();
+        return view('homecourse', compact('courses'));
     }
 }
