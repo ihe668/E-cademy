@@ -713,19 +713,19 @@
                         <form action="/submit-rating" method="POST">
                             @csrf
                             <div class="star-rating">
-                              <input type="radio" id="star5" name="rating" value="5" />
-                              <label for="star5" class="star">&#9733;</label>
-                              <input type="radio" id="star4" name="rating" value="4" />
-                              <label for="star4" class="star">&#9733;</label>
-                              <input type="radio" id="star3" name="rating" value="3" />
-                              <label for="star3" class="star">&#9733;</label>
-                              <input type="radio" id="star2" name="rating" value="2" />
-                              <label for="star2" class="star">&#9733;</label>
-                              <input type="radio" id="star1" name="rating" value="1" />
-                              <label for="star1" class="star">&#9733;</label>
+                              <input type="hidden" name="rating" id="rating-value" value="" />
+                              <div class="stars">
+                                <span class="star" data-value="5">&#9733;</span>
+                                <span class="star" data-value="4">&#9733;</span>
+                                <span class="star" data-value="3">&#9733;</span>
+                                <span class="star" data-value="2">&#9733;</span>
+                                <span class="star" data-value="1">&#9733;</span>
+                              </div>
                             </div>
                             <button type="submit">Submit</button>
                           </form>
+
+
 
                         <div class="container">
                             <div class="row">
@@ -1341,31 +1341,50 @@
   margin-bottom: 10px;
 }
 
+.star-rating .stars {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .star-rating .star {
   font-size: 30px;
   color: #ccc;
   transition: color 0.2s;
   cursor: pointer;
-  margin-right: 5px;
 }
 
-.star-rating .star:last-child {
-  margin-right: 0;
+.star-rating .star:hover,
+.star-rating .star:hover ~ .star {
+  color: #ffcc00;
+}
+
+.star-rating .star::before {
+  content: "\2605";
+  display: inline-block;
+  position: relative;
+  z-index: 1;
 }
 
 .star-rating input[type="radio"] {
   display: none;
 }
 
-.star-rating input[type="radio"] + label:before {
-  content: "";
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.star-rating input[type="radio"]:checked ~ label {
+.star-rating input[type="radio"]:checked ~ .star {
   color: #ffcc00;
 }
 
+
     </style>
+    {{-- <script>
+        const stars = document.querySelectorAll('.star-rating .star');
+        const ratingValue = document.getElementById('rating-value');
+
+        stars.forEach(star => {
+            star.addEventListener('click', () => {
+                ratingValue.value = star.getAttribute('for').slice(-1);
+                stars.forEach(s => s.classList.remove('selected'));
+                star.classList.add('selected');
+            });
+        });
+    </script> --}}
 @endsection

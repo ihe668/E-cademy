@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\AssignmentController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CoursecontentController;
 use App\Http\Controllers\Admin\CourseController;
+use App\Http\Controllers\Admin\QuizController;
 use App\Http\Controllers\Admin\SettingsController;
 
 Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
@@ -35,4 +36,7 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
     Route::get('/assignment', [AssignmentController::class, 'assignmentview'])->name('admin.assignments.view');
     Route::get('/addassignment/view', [AssignmentController::class, 'addassignmentview'])->name('admin.addassignment.view');
     Route::post('/addassignment', [AssignmentController::class, 'addassignment'])->name('admin.addassignment');
+
+    Route::get('/setquiz/view', [QuizController::class, 'setquizview'])->name('admin.setquiz.view');
+    Route::post('/addquiz', [QuizController::class, 'addquestion'])->name('admin.addquestion');
 });

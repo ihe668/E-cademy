@@ -65,14 +65,15 @@
                                                 <div class="rbt-card-bottom">
                                                     <div class="rbt-price">
                                                         @if ($c->discounted_price > 0)
-                                                    @if ($c->discounted_price > 0)
-                                                        <span
-                                                            class="current-price">₦{{ number_format($c->discounted_price, 2) }}</span>
+                                                        @if ($c->discounted_price > 0)
+                                                            <span
+                                                                class="current-price">₦{{ number_format($c->discounted_price, 2) }}</span>
+                                                        @endif
+                                                        <span class="off-price ">₦{{ number_format($c->price, 2) }}</span>
+                                                    @else
+                                                        <span class="current-price ">₦{{ number_format($c->price, 2) }}</span>
                                                     @endif
-                                                    <span class="off-price ">₦{{ number_format($c->price, 2) }}</span>
-                                                @else
-                                                    <span class="current-price ">₦{{ number_format($c->price, 2) }}</span>
-                                                @endif
+
                                                     </div>
                                                     <a class="rbt-btn-link" href="course-details.html">Learn More<i
                                                             class="feather-arrow-right"></i></a>
