@@ -462,7 +462,7 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                         <div class="instagram-grid">
                             <a href="#">
-                                <img src="https://www.instagram.com/p/CrAbfFzIYGH/" alt="instagram">
+                                <img src="/e-cademy_assets/images/instagram/instagram-01.jpg" alt="instagram">
                                 <span class="user-info">
                                     <span class="icon"><i class="icon-instagram"></i></span>
                                     <span class="user-name">@E_cademy</span>
