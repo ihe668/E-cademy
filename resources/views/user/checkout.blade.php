@@ -3,7 +3,7 @@
     <div class="checkout_area bg-color-white rbt-section-gap">
         <div class="container">
             <div class="row g-5 checkout-form">
-                <form action="{{route('pay',$course->id)}}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('pay', $course->id) }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="col-12 mb--60">
 
@@ -88,8 +88,8 @@
                                     </div>
                                     @if ($course->discounted_price > 0)
                                         <div class="col-md-12 my-3">
-                                            <input type="hidden" placeholder="amount*" value="{{ $course->discounted_price * 100 }}"
-                                                name="amount">
+                                            <input type="hidden" placeholder="amount*"
+                                                value="{{ $course->discounted_price * 100 }}" name="amount">
                                         </div>
                                     @else
                                         <div class="col-md-12 my-3">
@@ -104,7 +104,7 @@
                                             name="course_id">
                                     </div>
                                     <div class="col-md-12 my-3">
-                                        <input type="hidden" placeholder="user_id*" value="{{Auth::user()->id}}"
+                                        <input type="hidden" placeholder="user_id*" value="{{ Auth::user()->id }}"
                                             name="user_id">
                                     </div>
 
@@ -112,8 +112,8 @@
                                         <input type="hidden" placeholder="currency*" name="currency" value="NGN">
                                     </div>
                                     <div class="col-md-12 my-3">
-                                        <input type="hidden" placeholder="reference*" value="{{' Paystack::genTranxRef()' }}"
-                                            name="reference">
+                                        <input type="hidden" placeholder="reference*"
+                                            value="{{ Paystack::genTranxRef() }}" name="reference">
                                     </div>
                                     <div class="col-md-12 my-3">
                                         <input type="hidden" placeholder="status*" value="pending" name="status">
@@ -129,7 +129,8 @@
                                         </div>
                                     </div>
                                     <div class="plceholder-button mt--50 ">
-                                        <input type="hidden" name="callback_url" value="{{ route('payfor', $course->id) }}">
+                                        <input type="hidden" name="callback_url"
+                                            value="{{ route('payfor', $course->id) }}">
                                         <button class="rbt-btn btn-gradient hover-icon-reverse" type="submit">
                                             <span class="icon-reverse-wrapper">
                                                 <span class="btn-text">Get Enrolled</span>

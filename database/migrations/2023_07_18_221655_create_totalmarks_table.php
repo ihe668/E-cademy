@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('quizzes', function (Blueprint $table) {
+        Schema::create('totalmarks', function (Blueprint $table) {
             $table->id();
-            $table->string('exam_id');
-            $table->string('question');
-            $table->string('mark')->nullable()->default('0');
-            $table->json('options');
-            $table->unsignedInteger('correct_option');
+            $table->string('user_id');
+            $table->string('quiz_id');
+            $table->string('mark');
             $table->timestamps();
         });
     }
@@ -27,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('quizzes');
+        Schema::dropIfExists('totalmarks');
     }
 };

@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\AnnouncementController;
 use App\Http\Controllers\Admin\AssignmentController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\CourseController;
+use App\Http\Controllers\Admin\QuizController;
 use App\Http\Controllers\Admin\SettingsController;
 use App\Http\Controllers\EnrollmentController;
 use App\Http\Controllers\HomeController;
@@ -66,12 +67,17 @@ Route::prefix('user')->middleware(['auth', 'user'])->group(function () {
     Route::get('/announcements', [AnnouncementController::class, 'userannouncementsview'])->name('user.announcement');
 
     Route::get('/assignments', [AssignmentController::class, 'userassignmentsview'])->name('user.assignments.view');
+
+    Route::get('/quiz', [QuizController::class, 'userquizview'])->name('user.quiz.view');
+    Route::get('/questions/{exam}', [QuizController::class, 'userquestionsview'])->name('user.questions.view');
+    Route::post('/answers', [QuizController::class, 'submit'])->name('user.answers.submit');
+
 });
 
-    Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
-    Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
-    Route::get('/contact_us', [HomeController::class, 'contact'])->name('contact_us');
-    Route::get('/home.course/{category}', [HomeController::class, 'home'])->name('home.course');
+Route::get('/view_course', [HomeController::class, 'view'])->name('view_course');
+Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
+Route::get('/contact_us', [HomeController::class, 'contact'])->name('contact_us');
+Route::get('/home.course/{category}', [HomeController::class, 'home'])->name('home.course');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

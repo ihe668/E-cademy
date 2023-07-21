@@ -1208,9 +1208,9 @@
                                                         <li><a href="student-reviews.html"><i
                                                                     class="feather-star"></i><span>Reviews</span></a>
                                                         </li>
-                                                        <li><a href="student-my-quiz-attempts.html"><i
+                                                        <li><a href="{{route('user.quiz.view')}}"><i
                                                                     class="feather-help-circle"></i><span>My Quiz
-                                                                    Attempts</span></a></li>
+                                                                    </span></a></li>
                                                         <li><a href="{{ route('user.enrollmenthistory') }}"><i
                                                                     class="feather-shopping-bag"></i><span>My
                                                                     Enrollment

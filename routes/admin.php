@@ -37,6 +37,8 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->group(function () {
     Route::get('/addassignment/view', [AssignmentController::class, 'addassignmentview'])->name('admin.addassignment.view');
     Route::post('/addassignment', [AssignmentController::class, 'addassignment'])->name('admin.addassignment');
 
+    Route::get('/setquestion/view/{exam}', [QuizController::class, 'setquestionsview'])->name('admin.setquestion.view');
     Route::get('/setquiz/view', [QuizController::class, 'setquizview'])->name('admin.setquiz.view');
-    Route::post('/addquiz', [QuizController::class, 'addquestion'])->name('admin.addquestion');
+    Route::post('/addquestion', [QuizController::class, 'addquestion'])->name('admin.addquestion');
+    Route::post('/addquiz', [QuizController::class, 'addquiz'])->name('admin.addquiz');
 });
