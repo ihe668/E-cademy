@@ -8,12 +8,15 @@ use App\Http\Controllers\Admin\QuizController;
 use App\Http\Controllers\Admin\SettingsController;
 use App\Http\Controllers\EnrollmentController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\User\UserController;
+use App\Http\Middleware\User;
 use App\Models\Category;
 use App\Models\Course;
 use App\Models\Enrollment;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,8 +35,7 @@ Route::get('/', function () {
 
     $category = Category::with('courses')->get()->all();
     // $courses = Course::with('category')->find($course->id);
-
-    return view('welcome', compact('courses', 'category'));
+    return view('welcome', compact('courses', 'category', ));
 });
 
 
@@ -78,6 +80,8 @@ Route::get('/view_course', [HomeController::class, 'view'])->name('view_course')
 Route::post('/home.search', [HomeController::class, 'search'])->name('home.search');
 Route::get('/contact_us', [HomeController::class, 'contact'])->name('contact_us');
 Route::get('/home.course/{category}', [HomeController::class, 'home'])->name('home.course');
+Route::get('/about_us', [HomeController::class, 'about'])->name('about_us');
+Route::post('/send-email', [MailController::class, 'Sendmail'])->name('send.mail');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

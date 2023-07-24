@@ -1519,31 +1519,19 @@
                             <h5 class="ft-title">Useful Links</h5>
                             <ul class="ft-link">
                                 <li>
-                                    <a href="12-marketplace.html">Marketplace</a>
+                                    <a href="{{ route('view_course') }}">Course</a>
                                 </li>
                                 <li>
-                                    <a href="04-kindergarten.html">kindergarten</a>
+                                    <a href="{{ route('about_us') }}">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="13-university-classic.html">University</a>
-                                </li>
-                                <li>
-                                    <a href="09-gym-coaching.html">GYM Coaching</a>
-                                </li>
-                                <li>
-                                    <a href="faqs.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="about-us-01.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="privacy-policy.html">Privacy policy</a>
+                                    <a href="{{ route('contact_us') }}">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                    {{-- <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                         <div class="footer-widget">
                             <h5 class="ft-title">Our Company</h5>
                             <ul class="ft-link">
@@ -1570,14 +1558,14 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="footer-widget">
                             <h5 class="ft-title">Get Contact</h5>
                             <ul class="ft-link">
-                                <li><span>Phone:</span> <a href="#">(406) 555-0120</a></li>
-                                <li><span>E-mail:</span> <a href="mailto:hr@example.com">admin@example.com</a></li>
+                                <li><span>Phone:</span> <a href="tel(+234)">(406) 555-0120</a></li>
+                                <li><span>E-mail:</span> <a href="mailto:samuelihechukwu03@gmail.com"></a></li>
                             </ul>
 
                             <form class="newsletter-form mt--20" action="#">

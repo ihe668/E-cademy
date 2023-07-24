@@ -227,7 +227,7 @@
                                         <a href="#details">Details</a>
                                     </li>
                                     <li>
-                                        <a href="#intructor">Intructor</a>
+                                        <a href="#intructor">Instructor</a>
                                     </li>
                                     <li>
                                         <a href="#review">Review</a>

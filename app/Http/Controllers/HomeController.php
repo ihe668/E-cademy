@@ -65,4 +65,9 @@ class HomeController extends Controller
         $courses = Course::where('category_id', '=', $id)->get()->all();
         return view('homecourse', compact('courses'));
     }
+
+    function about()
+     {
+        return view('about_us');
+    }
 }
