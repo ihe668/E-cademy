@@ -12,12 +12,13 @@ class HomeController extends Controller
 {
     public function dashboard()
     {
+        $courses = Course::get()->all();
         if (Auth::id()) {
             $role = Auth::user()->code;
             if ($role == '007') {
                 return view('user.dashboard');
             } elseif ($role == '008') {
-                return view('admin.dashboard');
+                return view('admin.dashboard', compact('courses'));
             }
         }
         // if (Auth::id()) {
@@ -53,9 +54,7 @@ class HomeController extends Controller
 
     function contact()
     {
-        $id = Auth::user()->id;
-        $profile = User::find($id);
-        return view('contact_us', \compact('profile'));
+        return view('contact_us', );
     }
 
     function home(Course $course, Category $category)

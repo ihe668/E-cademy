@@ -19,7 +19,7 @@
                         </div>
                         <div class="inner">
                             <h4 class="title">Contact Phone Number</h4>
-                            <p><a href="tel:+444555666777">(+234){{ $profile->phone_number }}</a></p>
+                            <p><a href="tel:+444555666777">(+234)</a></p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="inner">
                             <h4 class="title">Our Email Address</h4>
-                            <p><a href="mailto:admin@gmail.com">{{ $profile->email }}</a></p>
+                            <p><a href="mailto:admin@gmail.com"></a></p>
                         </div>
                     </div>
                 </div>

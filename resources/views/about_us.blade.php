@@ -142,7 +142,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center">
                         <h2 class="title">Why learn with our courses?</h2>
-                        <p class="description mt--30"><strong>Histudy educational platform</strong> ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="description mt--30"><strong>E-cademy educational platform</strong> ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
             </div>
@@ -157,8 +157,8 @@
                                 <img src="/e-cademy_assets/images/icons/001-bulb.png" alt="icons Images">
                             </div>
                             <div class="content">
-                                <h6 class="title"><a href="#">Your Apply</a></h6>
-                                <p class="description">English Learning looking for random paragraphs, you've come to the right place.</p>
+                                <h6 class="title"><a href="#">You Apply</a></h6>
+                                <p class="description">You apply with your course and details in it and reasons why apply for this course.</p>
                             </div>
                             <span class="number-text">1</span>
                         </div>
@@ -175,7 +175,7 @@
                             </div>
                             <div class="content">
                                 <h6 class="title"><a href="#">We Connect</a></h6>
-                                <p class="description">Javascript Learning looking for random paragraphs, you've come to the right place.</p>
+                                <p class="description">We connect you and have a brief disscusion and make sure things go well as planned.</p>
                             </div>
                             <span class="number-text">2</span>
                         </div>
@@ -192,7 +192,7 @@
                             </div>
                             <div class="content">
                                 <h6 class="title"><a href="#">You Get Ready</a></h6>
-                                <p class="description">Angular Learning looking for random paragraphs, you've come to the right place.</p>
+                                <p class="description">You put your things in order and get ready for your course and also make sure your present in courses you applied for.</p>
                             </div>
                             <span class="number-text">3</span>
                         </div>
@@ -209,7 +209,7 @@
                             </div>
                             <div class="content">
                                 <h6 class="title"><a href="#">Completed</a></h6>
-                                <p class="description">Php Learning looking for random paragraphs, you've come to the right place.</p>
+                                <p class="description">As applied for the course, projects and assignment are meant to be done. That qualifies you for your graduation and your certificate is made possible.</p>
                             </div>
                             <span class="number-text">4</span>
                         </div>
@@ -222,220 +222,4 @@
         </div>
     </div>
     <!-- End Service Area -->
-
-    <div class="rbt-team-area bg-gradient-8 rbt-section-gap">
-        <div class="container">
-            <div class="row mb--60 g-5 align-items-end">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="section-title text-start">
-                        <span class="subtitle bg-white-opacity">Our Instructor</span>
-                        <h2 class="title color-white">Expert Instructor</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-                    <div class="read-more-btn text-start text-md-end">
-                        <a class="rbt-btn hover-icon-reverse radius-round btn-white" href="#">
-                            <div class="icon-reverse-wrapper">
-                                <span class="btn-text">BECAME A INSTRUCTOR</span>
-                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                                <span class="btn-icon"><i class="feather-arrow-right"></i></span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5">
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-05.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-09.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-03.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-07.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-2 col-md-3 col-sm-4 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-01.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-2 col-md-3 col-sm-4 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-02.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-2 col-md-3 col-sm-4 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-04.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-2 col-md-3 col-sm-4 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-06.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-2 col-md-3 col-sm-4 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-08.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-                <!-- Start Single Team  -->
-                <div class="col-lg-2 col-md-3 col-sm-4 col-12">
-                    <div class="rbt-team-modal-thumb nav nav-tabs">
-                        <a class="rbt-team-thumbnail" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <div class="thumb">
-                                <img src="/e-cademy_assets/images/team/team-10.jpg" alt="Testimonial Images">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- End Single Team  -->
-
-            </div>
-
-            <div class="rbt-team-modal modal fade rbt-modal-default" id="exampleModal" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="rbt-round-btn" data-bs-dismiss="modal" aria-label="Close">
-                                <i class="feather-x"></i>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="inner">
-                                <div class="row g-5 row--30 align-items-center">
-                                    <div class="col-lg-4">
-                                        <div class="rbt-team-thumbnail">
-                                            <div class="thumb">
-                                                <img class="w-100" src="/e-cademy_assets/images/team/team-09.jpg" alt="Testimonial Images">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8">
-                                        <div class="rbt-team-details">
-                                            <div class="author-info">
-                                                <h4 class="title">Mames Mary</h4>
-                                                <span class="designation theme-gradient">English Teacher</span>
-                                                <span class="team-form">
-                                        <i class="feather-map-pin"></i>
-                                        <span class="location">CO Miego, AD,USA</span>
-                                                </span>
-                                            </div>
-                                            <p class="mb--15">You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.</p>
-
-                                            <p>Run their online leaning management system by histudy education template any where and time.</p>
-                                            <ul class="social-icon social-default mt--20 justify-content-start">
-                                                <li><a href="https://www.facebook.com/">
-                                                        <i class="feather-facebook"></i>
-                                                    </a>
-                                                </li>
-                                                <li><a href="https://www.twitter.com/">
-                                                        <i class="feather-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li><a href="https://www.instagram.com/">
-                                                        <i class="feather-instagram"></i>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.linkdin.com/">
-                                                        <i class="feather-linkedin"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                            <ul class="rbt-information-list mt--25">
-                                                <li>
-                                                    <a href="#"><i class="feather-phone"></i>+1-202-555-0174</a>
-                                                </li>
-                                                <li>
-                                                    <a href="mailto:hello@example.com"><i
-                                                class="feather-mail"></i>example@gmail.com</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="top-circle-shape"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 @endsection

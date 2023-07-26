@@ -1828,25 +1828,13 @@
                             <h5 class="ft-title">Useful Links</h5>
                             <ul class="ft-link">
                                 <li>
-                                    <a href="12-marketplace.html">Marketplace</a>
+                                    <a href="{{ route('view_course') }}">Course</a>
                                 </li>
                                 <li>
-                                    <a href="04-kindergarten.html">kindergarten</a>
+                                    <a href="{{ route('about_us') }}">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="13-university-classic.html">University</a>
-                                </li>
-                                <li>
-                                    <a href="09-gym-coaching.html">GYM Coaching</a>
-                                </li>
-                                <li>
-                                    <a href="faqs.html">FAQ</a>
-                                </li>
-                                <li>
-                                    <a href="about-us-01.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="privacy-policy.html">Privacy policy</a>
+                                    <a href="{{ route('contact_us') }}">Contact</a>
                                 </li>
                             </ul>
                         </div>

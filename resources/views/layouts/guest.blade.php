@@ -1525,7 +1525,7 @@
                                     <a href="{{ route('about_us') }}">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('contact_us') }}">Contact Us</a>
+                                    <a href="{{ route('contact_us') }}">Contact</a>
                                 </li>
                             </ul>
                         </div>

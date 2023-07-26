@@ -131,6 +131,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row gy-5">
                     <div class="col-lg-12">
                         <div class="rbt-dashboard-table table-responsive">
@@ -142,9 +143,10 @@
                                         <th>Rating</th>
                                     </tr>
                                 </thead>
+                                @foreach ($courses as $c)
                                 <tbody>
                                     <tr>
-                                        <th><a href="#">Accounting</a></th>
+                                        <th><a href="#">{{ $c->name }}</a></th>
                                         <td>50</td>
                                         <td>
                                             <div class="rating">
@@ -156,46 +158,8 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <th><a href="#">Marketing</a></th>
-                                        <td>40</td>
-                                        <td>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th><a href="#">Web Design</a></th>
-                                        <td>75</td>
-                                        <td>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th><a href="#">Graphic</a></th>
-                                        <td>20</td>
-                                        <td>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="off fas fa-star"></i>
-                                                <i class="off fas fa-star"></i>
-                                                <i class="off fas fa-star"></i>
-                                            </div>
-                                        </td>
-                                    </tr>
                                 </tbody>
+                                @endforeach
                             </table>
                         </div>
 
@@ -208,7 +172,7 @@
 
             </div>
         </div>
-   
+
 @endsection
 
 

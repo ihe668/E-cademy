@@ -16,7 +16,7 @@ class MailController extends Controller
             'email' => $request->email,
             'message' => $request->message,
         ];
-       
+
         Mail::to('samuelihechukwu03@gmail.com')->send(new MyTestMail($email));
         return back()->with(['success'=> 'message sent successfully']);
     }
