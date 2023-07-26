@@ -54,7 +54,9 @@ class HomeController extends Controller
 
     function contact()
     {
-        return view('contact_us', );
+        // $id = Auth::user()->id;
+        // $profile = User::find($id);
+        return view('contact_us');
     }
 
     function home(Course $course, Category $category)
