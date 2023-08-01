@@ -142,7 +142,7 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center">
                         <h2 class="title">Why learn with our courses?</h2>
-                        <p class="description mt--30"><strong>E-cademy educational platform</strong> ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="description mt--30 text-align-center"><strong>E-cademy educational platform</strong></p>
                     </div>
                 </div>
             </div>

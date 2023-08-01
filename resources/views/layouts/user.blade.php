@@ -1,7 +1,3 @@
-@php
-    $ann = App\Models\Announcements::all()->count();
-@endphp
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -1207,7 +1203,7 @@
                                                                 class=" rbt-round-btn">
                                                                 <i
                                                                     class="feather-volume-2"></i><span>Announcements</span>
-                                                            </a><span class="rbt-cart-coun-alt-left">{{ $ann }}</span>
+                                                            </a><span class="rbt-cart-coun-alt-left"></span>
                                                         </li>
 
                                                         <li><a href="student-reviews.html"><i

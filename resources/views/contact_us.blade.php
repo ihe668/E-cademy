@@ -19,7 +19,7 @@
                         </div>
                         <div class="inner">
                             <h4 class="title">Contact Phone Number</h4>
-                            <p><a href="tel:+444555666777">(+234)</a></p>
+                            <p><a href="tel:+444555666777">(+234) 6348 9325</a></p>
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="inner">
                             <h4 class="title">Our Email Address</h4>
-                            <p><a href="mailto:admin@gmail.com"></a></p>
+                            <p>samuelihechukwu03@gmail.com</p>
                         </div>
                     </div>
                 </div>
