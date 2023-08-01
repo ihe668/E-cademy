@@ -84,7 +84,6 @@ Route::get('/home.course/{category}', [HomeController::class, 'home'])->name('ho
 Route::get('/about_us', [HomeController::class, 'about'])->name('about_us');
 Route::post('/send-email', [MailController::class, 'Sendmail'])->name('send.mail');
 Route::get('/privacy.policy', [HomeController::class, 'policy'])->name('privacy.policy');
-Route::get('/news.letter', [NewsletterController::class, 'store'])->name('news.letter');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
