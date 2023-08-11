@@ -185,8 +185,8 @@
                             <div class="header-info">
                                 <div class="logo">
                                     <a href="index-2.html">
-                                        <img src="/e-cademy_assets/images/logo/whitehat2.jpg" alt="Education Logo Images"
-                                            style="width: 100px;">
+                                        <img src="/e-cademy_assets/images/logo/whitehat2.jpg"
+                                            alt="Education Logo Images" style="width: 100px;">
                                         {{-- <h4>Whitehat</h4> --}}
                                     </a>
                                 </div>
@@ -242,7 +242,7 @@
                             </li>
 
                             <li class="account-access rbt-user-wrapper d-none d-xl-block">
-                                <a href="#"><i class="feather-user"></i>Admin</a>
+                                <a href="{{ route('dashboard') }}"><i class="feather-user"></i>Admin</a>
                                 <div class="rbt-user-menu-list-wrapper">
                                     <div class="inner">
                                         <div class="rbt-admin-profile">
@@ -250,80 +250,21 @@
                                                 <img src="/e-cademy_assets/images/team/avatar.jpg" alt="User Images">
                                             </div>
                                             <div class="admin-info">
-                                                <span class="name">Nipa Bali</span>
-                                                <a class="rbt-btn-link color-primary" href="profile.html">View
+                                                <span class="name">{{ Auth::user()->name }}</span>
+                                                <a class="rbt-btn-link color-primary" href="{{ route('admin.profile') }}">View
                                                     Profile</a>
                                             </div>
                                         </div>
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="{{ route('dashboard') }}">
-                                                    <i class="feather-home"></i>
-                                                    <span>My Dashboard</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="feather-bookmark"></i>
-                                                    <span>Bookmark</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-enrolled-courses.html">
-                                                    <i class="feather-shopping-bag"></i>
-                                                    <span>Enrolled Courses</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-wishlist.html">
-                                                    <i class="feather-heart"></i>
-                                                    <span>Wishlist</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-reviews.html">
-                                                    <i class="feather-star"></i>
-                                                    <span>Reviews</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-my-quiz-attempts.html">
-                                                    <i class="feather-list"></i>
-                                                    <span>My Quiz Attempts</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-order-history.html">
-                                                    <i class="feather-clock"></i>
-                                                    <span>Order History</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="instructor-quiz-attempts.html">
-                                                    <i class="feather-message-square"></i>
-                                                    <span>Question & Answer</span>
-                                                </a>
-                                            </li>
-                                        </ul>
                                         <hr class="mt--10 mb--10">
                                         <ul class="user-list-wrapper">
                                             <li>
-                                                <a href="#">
-                                                    <i class="feather-book-open"></i>
-                                                    <span>Getting Started</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <hr class="mt--10 mb--10">
-                                        <ul class="user-list-wrapper">
-                                            <li>
-                                                <a href="instructor-settings.html">
+                                                <a href="{{ route('admin.settings.view') }}">
                                                     <i class="feather-settings"></i>
                                                     <span>Settings</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index-2.html">
+                                                <a href="{{ route('logout') }}">
                                                     <i class="feather-log-out"></i>
                                                     <span>Logout</span>
                                                 </a>
@@ -333,7 +274,7 @@
                                 </div>
                             </li>
 
-                            <li class="access-icon rbt-user-wrapper d-block d-xl-none">
+                            {{-- <li class="access-icon rbt-user-wrapper d-block d-xl-none">
                                 <a class="rbt-round-btn" href="#"><i class="feather-user"></i></a>
                                 <div class="rbt-user-menu-list-wrapper">
                                     <div class="inner">
@@ -423,7 +364,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </li>
+                            </li> --}}
 
                         </ul>
 
@@ -1628,8 +1569,7 @@
                             </div>
                             <div class="rbt-tutor-information-right">
                                 <div class="tutor-btn">
-                                    <a class="rbt-btn btn-md hover-icon-reverse"
-                                        href="{{ route('create_course') }}">
+                                    <a class="rbt-btn btn-md hover-icon-reverse" href="{{ route('create_course') }}">
                                         <span class="icon-reverse-wrapper">
                                             <span class="btn-text">Create a New Course</span>
                                             <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -1674,9 +1614,9 @@
 
                                                     <li><a href="instructor-reviews.html"><i
                                                                 class="feather-star"></i><span>Reviews</span></a></li>
-                                                    <li><a href="{{route('admin.setquiz.view')}}"><i
+                                                    <li><a href="{{ route('admin.setquiz.view') }}"><i
                                                                 class="feather-help-circle"></i><span>Quiz
-                                                                </span></a></li>
+                                                            </span></a></li>
                                                     <li><a href="instructor-order-history.html"><i
                                                                 class="feather-shopping-bag"></i><span>Enrollment
                                                                 History</span></a></li>
@@ -1700,15 +1640,15 @@
                                                         </a>
                                                     </li> --}}
                                                     <li class="access-icon rbt-mini-cart"><a
-                                                            href="{{route('admin.announcement')}}"
+                                                            href="{{ route('admin.announcement') }}"
                                                             class="rbt-cart-sidenav-activation rbt-round-btn">
                                                             <i class="feather-volume-2"></i><span>Announcements</span>
-                                                            </a><span class=""></span>
+                                                        </a><span class=""></span>
                                                     </li>
                                                     <li><a href="instructor-quiz-attempts.html"><i
                                                                 class="feather-message-square"></i><span>Quiz
                                                                 Attempts</span></a></li>
-                                                    <li><a href="{{route('admin.assignments.view')}}"><i
+                                                    <li><a href="{{ route('admin.assignments.view') }}"><i
                                                                 class="feather-list"></i><span>Assignments</span></a>
                                                     </li>
                                                 </ul>
@@ -1811,8 +1751,7 @@
                             </ul>
 
                             <div class="contact-btn mt--30">
-                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
-                                    href="#">
+                                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="#">
                                     <div class="icon-reverse-wrapper">
                                         <span class="btn-text">Contact With Us</span>
                                         <span class="btn-icon"><i class="feather-arrow-right"></i></span>

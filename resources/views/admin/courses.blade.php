@@ -142,10 +142,10 @@
 
                                             </div>
                                             <br>
-                                            <a class="rbt-btn-link" href="{{ route('course_details', $c) }}">Learn
-                                                More<i class="feather-arrow-right"></i></a>
+                                            <a class="rbt-btn-link" href="{{ route('admin.edit.course',$c) }}">
+                                                Edit<i class="feather-arrow-right"></i></a>
 
-                                            <a class="rbt-btn-link " href="course-details.html">Delete<i
+                                            <a class="rbt-btn-link " href="{{ route('admin.delete.course',$c) }}">Delete<i
                                                     class="fa feather-delete"></i></a>
                                         </div>
                                     </div>

@@ -241,8 +241,8 @@
                                         <span class="current-price">₦{{ number_format($c->price) }}</span>
                                         <span class="off-price">₦{{ number_format($c->discounted_price) }}</span>
                                     </div>
-                                    <a class="rbt-btn-link" href="{{ route('course_details', $c) }}">Learn
-                                        More<i class="feather-arrow-right"></i></a>
+                                    <a class="rbt-btn-link" href="{{ route('course_details', $c) }}">Details
+                                        <i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>

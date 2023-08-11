@@ -18,7 +18,7 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="counter without-icon color-primary"><span
-                                            class="odometer" data-count="30">00</span>
+                                            class="odometer" data-count="{{ $enrollment_history->count() }}">00</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">Enrolled Courses</span>
                                 </div>
@@ -37,7 +37,7 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="counter without-icon color-secondary"><span
-                                            class="odometer" data-count="10">00</span>
+                                            class="odometer" data-count="{{ $courses->count() }}">00</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">ACTIVE COURSES</span>
                                 </div>
@@ -47,7 +47,7 @@
                     </div>
                     <!-- End Single Card  -->
 
-                    <!-- Start Single Card  -->
+                    {{-- <!-- Start Single Card  -->
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-violet-opacity">
                             <div class="inner">
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="counter without-icon color-violet"><span class="odometer"
-                                            data-count="7">00</span>
+                                            data-count="0">00</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">Completed
                                         Courses</span>
@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="counter without-icon color-pink"><span class="odometer"
-                                            data-count="160">00</span>
+                                            data-count="2">2</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">Total Students</span>
                                 </div>
@@ -93,7 +93,7 @@
                                 </div>
                                 <div class="content">
                                     <h3 class="counter without-icon color-coral"><span class="odometer"
-                                            data-count="20">00</span>
+                                            data-count="3">00</span>
                                     </h3>
                                     <span class="rbt-title-style-2 d-block">Total Courses</span>
                                 </div>
@@ -117,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Card  -->
+                    <!-- End Single Card  --> --}}
 
                 </div>
             </div>

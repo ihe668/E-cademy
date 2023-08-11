@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Totalmarks extends Model
 {
     use HasFactory;
+    // protected $safeguard = [];
 }

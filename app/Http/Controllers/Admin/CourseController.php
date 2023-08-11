@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Review;
+use Spatie\FlareClient\View;
 
 class CourseController extends Controller
 {
@@ -77,7 +78,7 @@ class CourseController extends Controller
 
 
 
-        return view('admin.course_details', compact('courses', 'content','value'));
+        return view('admin.course_details', compact('courses', 'content', 'value'));
     }
 
     public function usercoursedetailsview(Course $course)
@@ -86,5 +87,32 @@ class CourseController extends Controller
         $content = Course::with('contents')->find($course->id);
         $courses = Course::with('category')->find($course->id);
         return view('user.coursedetails', \compact('courses', 'content'));
+    }
+    function edit(Course $course)
+    {
+        return view('admin.editcourse', compact('course'));
+    }
+
+    function update(Request $request,Course $course)
+    {
+        $course->name = $request->name;
+        $course->update();
+        Alert::success('Success','Course Updated Successfully');
+        return redirect()->route('admin.courses.view');
+    }
+    function delete($id)
+    {
+        $course = Course::find($id);
+        $course->delete();
+        Alert::success('Success','Course Deleted Successfully');
+        return redirect()->route('app.course.view');
+    }
+
+    function home(Course $course, Category $category)
+    {
+        $id = $category->id;
+        //getting a particular course from a category
+        $courses = Course::where('category_id', '=', $id)->get()->all();
+        return view('admin.appcourseview', compact('courses'));
     }
 }
