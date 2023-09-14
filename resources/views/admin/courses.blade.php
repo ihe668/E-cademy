@@ -20,8 +20,8 @@
 
 
                     <li role="presentation">
-                        <a href="#" class="tab-button " id="home-tab-4" data-bs-toggle="tab"
-                            data-bs-target="#home-4" role="tab" aria-controls="" aria-selected="true">
+                        <a href="#" class="tab-button " id="home-tab-4" data-bs-toggle="tab" data-bs-target="#home-4"
+                            role="tab" aria-controls="" aria-selected="true">
                             <span class="title">Enrolled Courses</span>
                         </a>
                     </li>
@@ -139,13 +139,12 @@
                                                     <span
                                                         class="off-price">₦{{ number_format($c->discounted_price, 2) }}</span>
                                                 @endif
-
                                             </div>
                                             <br>
-                                            <a class="rbt-btn-link" href="{{ route('admin.edit.course',$c) }}">
-                                                Edit<i class="feather-arrow-right"></i></a>
+                                            <a class="rbt-btn-link" href="{{ route('admin.edit.course', $c) }}">
+                                                Edit<i class="fas fa-edit"></i></a>
 
-                                            <a class="rbt-btn-link " href="{{ route('admin.delete.course',$c) }}">Delete<i
+                                            <a class="rbt-btn-link " href="{{ route('admin.delete.course', $c) }}">Delete<i
                                                     class="fa feather-delete"></i></a>
                                         </div>
                                     </div>

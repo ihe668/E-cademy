@@ -1,53 +1,50 @@
 @extends('layouts.app')
 @section('slot')
+    <div class="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
+        <div class="content">
+            <div class="section-title">
+                <h4 class="rbt-title-style-3">Dashboard</h4>
+            </div>
+            <div class="row g-5">
 
-        <div class="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
-            <div class="content">
-                <div class="section-title">
-                    <h4 class="rbt-title-style-3">Dashboard</h4>
+                <!-- Start Single Card  -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-primary-opacity">
+                        <div class="inner">
+                            <div class="rbt-round-icon bg-primary-opacity">
+                                <i class="feather-book-open"></i>
+                            </div>
+                            <div class="content">
+                                <h3 class="counter without-icon color-primary"><span class="odometer"
+                                        data-count="{{ $enrollment_history->count() }}">00</span>
+                                </h3>
+                                <span class="rbt-title-style-2 d-block">Enrolled Courses</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-5">
+                <!-- End Single Card  -->
 
-                    <!-- Start Single Card  -->
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <div
-                            class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-primary-opacity">
-                            <div class="inner">
-                                <div class="rbt-round-icon bg-primary-opacity">
-                                    <i class="feather-book-open"></i>
-                                </div>
-                                <div class="content">
-                                    <h3 class="counter without-icon color-primary"><span
-                                            class="odometer" data-count="{{ $enrollment_history->count() }}">00</span>
-                                    </h3>
-                                    <span class="rbt-title-style-2 d-block">Enrolled Courses</span>
-                                </div>
+                <!-- Start Single Card  -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-secondary-opacity">
+                        <div class="inner">
+                            <div class="rbt-round-icon bg-secondary-opacity">
+                                <i class="feather-monitor"></i>
+                            </div>
+                            <div class="content">
+                                <h3 class="counter without-icon color-secondary"><span class="odometer"
+                                        data-count="{{ $courses->count() }}">00</span>
+                                </h3>
+                                <span class="rbt-title-style-2 d-block">ACTIVE COURSES</span>
                             </div>
                         </div>
                     </div>
-                    <!-- End Single Card  -->
 
-                    <!-- Start Single Card  -->
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                        <div
-                            class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-secondary-opacity">
-                            <div class="inner">
-                                <div class="rbt-round-icon bg-secondary-opacity">
-                                    <i class="feather-monitor"></i>
-                                </div>
-                                <div class="content">
-                                    <h3 class="counter without-icon color-secondary"><span
-                                            class="odometer" data-count="{{ $courses->count() }}">00</span>
-                                    </h3>
-                                    <span class="rbt-title-style-2 d-block">ACTIVE COURSES</span>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <!-- End Single Card  -->
 
-                    </div>
-                    <!-- End Single Card  -->
-
-                    {{-- <!-- Start Single Card  -->
+                {{-- <!-- Start Single Card  -->
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                         <div class="rbt-counterup variation-01 rbt-hover-03 rbt-border-dashed bg-violet-opacity">
                             <div class="inner">
@@ -119,31 +116,31 @@
                     </div>
                     <!-- End Single Card  --> --}}
 
-                </div>
             </div>
         </div>
-        <div class="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
-            <div class="content">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <h4 class="rbt-title-style-3">My Courses</h4>
-                        </div>
+    </div>
+    <div class="rbt-dashboard-content bg-color-white rbt-shadow-box mb--60">
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h4 class="rbt-title-style-3">My Courses</h4>
                     </div>
                 </div>
+            </div>
 
-                <div class="row gy-5">
-                    <div class="col-lg-12">
-                        <div class="rbt-dashboard-table table-responsive">
-                            <table class="rbt-table table table-borderless">
-                                <thead>
-                                    <tr>
-                                        <th>Course Name</th>
-                                        <th>Enrolled</th>
-                                        <th>Rating</th>
-                                    </tr>
-                                </thead>
-                                @foreach ($courses as $c)
+            <div class="row gy-5">
+                <div class="col-lg-12">
+                    <div class="rbt-dashboard-table table-responsive">
+                        <table class="rbt-table table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Course Name</th>
+                                    <th>Enrolled</th>
+                                    <th>Rating</th>
+                                </tr>
+                            </thead>
+                            @foreach ($courses as $c)
                                 <tbody>
                                     <tr>
                                         <th><a href="#">{{ $c->name }}</a></th>
@@ -159,20 +156,16 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                                @endforeach
-                            </table>
-                        </div>
+                            @endforeach
+                        </table>
+                    </div>
 
-                        <div class="load-more-btn text-center">
-                            <a class="rbt-btn-link" href="#">Browse All Course<i
-                                    class="feather-arrow-right"></i></a>
-                        </div>
+                    <div class="load-more-btn text-center">
+                        <a class="rbt-btn-link" href="#">Browse All Course<i class="feather-arrow-right"></i></a>
                     </div>
                 </div>
-
             </div>
+
         </div>
-
+    </div>
 @endsection
-
-
